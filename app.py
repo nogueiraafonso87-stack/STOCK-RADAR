@@ -80,7 +80,10 @@ with st.sidebar:
             st.stop()
         st.caption(f"{len(matches):,} resultados")
         choices={item["symbol"]:item for item in matches}
-        xtb_symbol=st.selectbox("Selecionar ação XTB",list(choices),format_func=lambda symbol:f'{choices[symbol].get("companyName") or symbol} — {symbol}')
+        xtb_symbol=st.selectbox("Selecionar ação XTB",list(choices),format_func=lambda symbol:f'{choices[symbol].get("companyName") or symbol} — {symbol}',index=None,placeholder="Escolhe uma empresa")
+        if xtb_symbol is None:
+            st.info("Pesquisa e seleciona uma ação para abrir a análise.")
+            st.stop()
         selected_xtb=choices[xtb_symbol]
         ticker=yahoo_symbol(xtb_symbol)
         if ticker is None:
