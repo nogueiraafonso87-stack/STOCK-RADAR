@@ -79,7 +79,7 @@ def search_xtb(items,query,country="Todos"):
     results=[item for item in candidates if rank(item)<99]
     return sorted(results,key=lambda item:(rank(item),not item["symbol"].endswith(".US"),(item.get("companyName") or "").casefold(),item["symbol"])),False
 
-@st.dialog("Pesquisar ações",width="large")
+@st.dialog("Pesquisar ações",width="large",on_dismiss="rerun")
 def stock_search():
     try:
         catalog=xtb_catalog()
