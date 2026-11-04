@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import requests
 import os
+import altair as alt
 
 st.set_page_config(page_title="STOCK RADAR",page_icon="📈",layout="wide")
 st.title("📈 STOCK RADAR")
@@ -80,7 +81,7 @@ b.metric("Capitalização",big(info.get("marketCap")))
 c.metric("PER TTM",num(info.get("trailingPE")))
 d.metric("P/S TTM",num(info.get("priceToSalesTrailing12Months")))
 
-historico,fundamentais,tecnica,avaliacao,risco,resumo=st.tabs(["Histórico e volumes","Fundamentais","Análise técnica","Avaliação","Risco Kraken","Resumo"])
+historico,fundamentais,tecnica,avaliacao,resumo=st.tabs(["Histórico e volumes","Fundamentais","Análise técnica","Avaliação","Resumo"])
 with historico:
     st.line_chart(close)
     periods={"1 semana":5,"1 mês":21,"3 meses":63,"6 meses":126,"1 ano":252,"2 anos":504,"3 anos":756,"5 anos":1260}
@@ -117,12 +118,34 @@ with fundamentais:
     st.dataframe(pd.DataFrame(metrics.items(),columns=["Indicador","Valor"]),hide_index=True)
     for title,df in [("Resultados",financials),("Balanço",balance),("Cash flow",cashflow)]:
         with st.expander(title):
-            if df is not None and not df.empty:st.dataframe(df)
+            if df is not None and not df.empty:
+                priority=["Total Revenue","Cost Of Revenue","Gross Profit","Operating Income","EBIT","EBITDA","Net Income","Diluted EPS","Total Assets","Total Liabilities Net Minority Interest","Stockholders Equity","Operating Cash Flow","Capital Expenditure","Free Cash Flow"]
+                ordered=[row for row in priority if row in df.index]
+                ordered+= [row for row in df.index if row not in ordered]
+                display=df.loc[ordered].copy()
+                display.columns=[col.strftime("%Y-%m-%d") if hasattr(col,"strftime") else str(col) for col in display.columns]
+                display.index.name="Indicador"
+                st.dataframe(display.style.format(precision=2,thousands=" ",na_rep="N/D"))
+                st.caption("Valores originais do fornecedor, na moeda da empresa (exceto rácios e valores por ação). 0 é um zero reportado; células vazias indicam dados indisponíveis. Rubricas técnicas, como Tax Effect Of Unusual Items, podem ser zero sem que as receitas ou os lucros sejam zero.")
             else:st.write("N/D")
+def labelled_lines(frame,labels,colors,y_label):
+    data=frame.copy()
+    data.index.name="Data"
+    data=data.reset_index().melt("Data",var_name="Indicador",value_name="Valor").dropna()
+    chart=alt.Chart(data).mark_line().encode(
+        x=alt.X("Data:T",title="Data"),
+        y=alt.Y("Valor:Q",title=y_label,scale=alt.Scale(zero=False)),
+        color=alt.Color("Indicador:N",scale=alt.Scale(domain=labels,range=colors),legend=alt.Legend(title="Legenda",orient="top")),
+        tooltip=[alt.Tooltip("Data:T",title="Data"),"Indicador:N",alt.Tooltip("Valor:Q",format=",.2f")]
+    ).properties(height=380).interactive()
+    st.altair_chart(chart,use_container_width=True)
+
 with tecnica:
     df=pd.DataFrame({"Fecho":close})
     for n in (20,50,200):df[f"SMA {n}"]=close.rolling(n).mean()
-    st.line_chart(df)
+    st.subheader("Preço de fecho e médias móveis")
+    labelled_lines(df,["Fecho","SMA 20","SMA 50","SMA 200"],["#1565c0","#f59e0b","#16a34a","#dc2626"],"Preço")
+    st.caption("Azul: fecho diário · Laranja: média de 20 sessões · Verde: média de 50 sessões · Vermelho: média de 200 sessões. SMA significa média móvel simples.")
     delta=close.diff()
     up=delta.clip(lower=0).ewm(alpha=1/14,adjust=False).mean()
     down=(-delta.clip(upper=0)).ewm(alpha=1/14,adjust=False).mean()
@@ -130,7 +153,9 @@ with tecnica:
     macd=close.ewm(span=12,adjust=False).mean()-close.ewm(span=26,adjust=False).mean()
     signal=macd.ewm(span=9,adjust=False).mean()
     st.metric("RSI 14",num(rsi.iloc[-1]))
-    st.line_chart(pd.DataFrame({"MACD":macd,"Sinal":signal}))
+    st.subheader("MACD e linha de sinal")
+    labelled_lines(pd.DataFrame({"MACD":macd,"Sinal":signal}),["MACD","Sinal"],["#1565c0","#dc2626"],"MACD")
+    st.caption("Azul: MACD (média exponencial de 12 sessões menos a de 26) · Vermelho: sinal (média exponencial de 9 sessões do MACD).")
     st.caption("Indicadores sobre fechos diários, não dados intradiários.")
 with avaliacao:
     sector=(info.get("sector") or "").lower()
@@ -151,15 +176,6 @@ with avaliacao:
         st.metric("Preço implícito",num(target),f"{(target/last-1)*100:+.1f}%")
         st.caption("Cenário matemático, não preço-alvo nem previsão.")
     else:st.write("EPS positivo indisponível. Avaliação por PER não aplicável.")
-with risco:
-    eur=st.number_input("Exposição em EUR",0.0,100000.0,400.0,50.0)
-    fx=st.number_input("EUR/USD hipotético",0.1,3.0,1.16,0.01)
-    limit=st.number_input("Drawdown restante em USD",0.0,5000.0,150.0,10.0)
-    drop=st.slider("Queda hipotética (%)",0,70,15)
-    loss=eur*fx*drop/100
-    st.metric("Perda hipotética em USD",num(loss))
-    st.metric("Drawdown remanescente",num(limit-loss))
-    st.caption("Simulação simplificada. Não substitui regras da plataforma, câmbio real, comissões, perdas de outras posições nem liquidação intradiária.")
 with resumo:
     st.write("**Contexto:**",(info.get("longBusinessSummary") or "Descrição indisponível.")[:1300])
     st.write("**Preço e risco:**",f"Fecho {num(last)}; variação 1 ano {changes['1 ano']}; drawdown histórico de fechos {(last/peak-1)*100:.1f}%.")
