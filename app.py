@@ -104,7 +104,7 @@ with st.sidebar:
             st.stop()
         st.caption(f"{len(matches):,} resultados")
         choices={item["symbol"]:item for item in matches}
-        xtb_symbol=st.selectbox("Resultados da pesquisa",list(choices),format_func=lambda symbol:f'{yahoo_symbol(symbol) or symbol} · {choices[symbol].get("companyName") or symbol} · {choices[symbol].get("stockMarket") or choices[symbol].get("instrumentCountryName","")} [{symbol}]',index=0 if exact_match else None,placeholder="Seleciona um resultado",key=f"xtb_search_result:{country}:{query}")
+        xtb_symbol=st.selectbox("Resultados da pesquisa",list(choices),format_func=lambda symbol:f'{yahoo_symbol(symbol) or symbol} · {choices[symbol].get("companyName") or symbol} · {choices[symbol].get("stockMarket") or choices[symbol].get("instrumentCountryName","")} [{symbol}]',index=0 if exact_match else None,placeholder="Seleciona um resultado",key=f"xtb_search_result_v2:{country}:{query}")
         if xtb_symbol is None:
             st.info("Escreve um ticker (ex.: SE) para abrir diretamente a ação, ou pesquisa pelo nome e escolhe um resultado.")
             st.stop()
