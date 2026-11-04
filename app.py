@@ -27,10 +27,26 @@ with st.sidebar:
 @st.cache_data(ttl=600)
 def load(symbol):
     t=yf.Ticker(symbol)
-    return t.info,t.history(period="10y",auto_adjust=True),t.financials,t.balance_sheet,t.cashflow
+    hist=t.history(period="10y",auto_adjust=True)
+    unavailable=[]
+    def optional(name,empty):
+        try:
+            value=getattr(t,name)
+            if value is None or (isinstance(value,dict) and not value) or (isinstance(value,pd.DataFrame) and value.empty):
+                unavailable.append(name)
+                return empty
+            return value
+        except Exception:
+            unavailable.append(name)
+            return empty
+    info=optional("info",{})
+    financials=optional("financials",pd.DataFrame())
+    balance=optional("balance_sheet",pd.DataFrame())
+    cashflow=optional("cashflow",pd.DataFrame())
+    return info,hist,financials,balance,cashflow,unavailable
 
 try:
-    info,hist,financials,balance,cashflow=load(ticker)
+    info,hist,financials,balance,cashflow,unavailable=load(ticker)
 except Exception as e:
     st.error(f"Erro ao obter dados: {e}")
     st.stop()
@@ -52,6 +68,8 @@ def pct(v):
     try:return num(float(v)*100)+"%"
     except (ValueError,TypeError):return "N/D"
 
+if unavailable:
+    st.warning("O fornecedor não disponibilizou alguns dados fundamentais nesta consulta. Os campos em falta aparecem como N/D; o histórico e a análise técnica continuam disponíveis. Tenta Atualizar mais tarde.")
 close=hist["Close"]
 last=float(close.iloc[-1])
 st.subheader(f'{info.get("longName",ticker)} ({ticker})')
@@ -116,8 +134,11 @@ with tecnica:
     st.caption("Indicadores sobre fechos diários, não dados intradiários.")
 with avaliacao:
     sector=(info.get("sector") or "").lower()
-    prerevenue=not info.get("totalRevenue") or info.get("totalRevenue",0)<1e7
-    if prerevenue:
+    revenue=info.get("totalRevenue")
+    prerevenue=revenue is not None and revenue<1e7
+    if revenue is None:
+        st.info("Receitas indisponíveis nesta consulta. Não é possível classificar a empresa pela receita nem concluir que não tem receitas.")
+    elif prerevenue:
         st.warning("Empresa sem receitas relevantes: PER e P/S podem não ser úteis. Analisar caixa, consumo de caixa, contratos, execução e diluição.")
     elif sector=="financial services":
         st.info("Serviços financeiros: considerar P/B, ROE, qualidade de crédito, capital e regulação; P/S isolado pode ser enganador.")
@@ -140,7 +161,7 @@ with risco:
     st.metric("Drawdown remanescente",num(limit-loss))
     st.caption("Simulação simplificada. Não substitui regras da plataforma, câmbio real, comissões, perdas de outras posições nem liquidação intradiária.")
 with resumo:
-    st.write("**Contexto:**",info.get("longBusinessSummary","Descrição indisponível.")[:1300])
+    st.write("**Contexto:**",(info.get("longBusinessSummary") or "Descrição indisponível.")[:1300])
     st.write("**Preço e risco:**",f"Fecho {num(last)}; variação 1 ano {changes['1 ano']}; drawdown histórico de fechos {(last/peak-1)*100:.1f}%.")
     st.write("**Valuation:**",f"PER {num(info.get('trailingPE'))}; P/S {num(info.get('priceToSalesTrailing12Months'))}; margem operacional {pct(info.get('operatingMargins'))}.")
     st.warning("Resumo quantitativo automático, não investigação qualitativa por IA. Verificar relatórios oficiais, notícias, diluição, guidance e riscos antes de investir.")
