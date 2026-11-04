@@ -102,11 +102,18 @@ def stock_search():
             company=item.get("companyName") or symbol
             market=item.get("stockMarket") or item.get("instrumentCountryName") or ""
             with st.container(border=True):
-                name,exchange,action=st.columns([5,2,1.3],vertical_alignment="center")
+                name,exchange,favorite,action=st.columns([4.5,1.8,2.2,1.2],vertical_alignment="center")
                 with name:
                     st.markdown(f":blue[**{symbol}**]  \n{company}")
                 with exchange:
                     st.caption(f'{market} · {item.get("currencyCode","")}  \n{item["symbol"]}')
+                with favorite:
+                    favorite_symbol=yahoo_symbol(item["symbol"])
+                    saved=favorite_symbol in st.session_state.tickers
+                    if st.button("★ Nos favoritos" if saved else "☆ Adicionar aos favoritos",key=f'favorite_stock_{item["symbol"]}',disabled=saved or favorite_symbol is None,use_container_width=True):
+                        st.session_state.tickers.append(favorite_symbol)
+                        st.toast(f"{favorite_symbol} adicionado aos favoritos",icon="⭐")
+                        st.rerun(scope="fragment")
                 with action:
                     if st.button("Abrir",key=f'open_stock_{item["symbol"]}',use_container_width=True):
                         st.session_state.selected_xtb=item
