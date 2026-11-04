@@ -44,7 +44,7 @@ def xtb_catalog():
 def yahoo_symbol(xtb_symbol):
     base,market=xtb_symbol.rsplit(".",1)
     suffixes={"US":"","DE":".DE","FR":".PA","NL":".AS","BE":".BR","ES":".MC","PT":".LS","IT":".MI","UK":".L","PL":".WA","CH":".SW","SE":".ST","DK":".CO","FI":".HE","NO":".OL","CZ":".PR"}
-    overrides={"BRKB.US":"BRK-B","BRKA.US":"BRK-A","BF.B.US":"BF-B"}
+    overrides={"SE1.US":"SE","BRKB.US":"BRK-B","BRKA.US":"BRK-A","BF.B.US":"BF-B"}
     if xtb_symbol in overrides:
         return overrides[xtb_symbol]
     if market not in suffixes:
@@ -61,7 +61,7 @@ def search_xtb(items,query,country="Todos"):
     query=query.strip().casefold()
     if not query:
         return candidates,False
-    exact=[item for item in candidates if query in (item["symbol"].casefold(),item["symbol"].rsplit(".",1)[0].casefold())]
+    exact=[item for item in candidates if query in (item["symbol"].casefold(),item["symbol"].rsplit(".",1)[0].casefold(),(yahoo_symbol(item["symbol"]) or "").casefold())]
     if exact:
         return sorted(exact,key=lambda item:(not item["symbol"].endswith(".US"),item["symbol"])),True
     def rank(item):
@@ -104,7 +104,7 @@ with st.sidebar:
             st.stop()
         st.caption(f"{len(matches):,} resultados")
         choices={item["symbol"]:item for item in matches}
-        xtb_symbol=st.selectbox("Resultados da pesquisa",list(choices),format_func=lambda symbol:f'{symbol} · {choices[symbol].get("companyName") or symbol} · {choices[symbol].get("stockMarket") or choices[symbol].get("instrumentCountryName","")}',index=0 if exact_match else None,placeholder="Seleciona um resultado",key=f"xtb_search_result:{country}:{query}")
+        xtb_symbol=st.selectbox("Resultados da pesquisa",list(choices),format_func=lambda symbol:f'{yahoo_symbol(symbol) or symbol} · {choices[symbol].get("companyName") or symbol} · {choices[symbol].get("stockMarket") or choices[symbol].get("instrumentCountryName","")} [{symbol}]',index=0 if exact_match else None,placeholder="Seleciona um resultado",key=f"xtb_search_result:{country}:{query}")
         if xtb_symbol is None:
             st.info("Escreve um ticker (ex.: SE) para abrir diretamente a ação, ou pesquisa pelo nome e escolhe um resultado.")
             st.stop()
