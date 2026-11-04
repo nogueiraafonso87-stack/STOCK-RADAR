@@ -55,6 +55,30 @@ def yahoo_symbol(xtb_symbol):
         base=base.replace(" ","-").replace(".","-")
     return base+suffixes[market]
 
+def search_xtb(items,query,country="Todos"):
+    import re
+    candidates=[item for item in items if country=="Todos" or (item.get("instrumentCountryName") or "Outro")==country]
+    query=query.strip().casefold()
+    if not query:
+        return candidates,False
+    exact=[item for item in candidates if query in (item["symbol"].casefold(),item["symbol"].rsplit(".",1)[0].casefold())]
+    if exact:
+        return sorted(exact,key=lambda item:(not item["symbol"].endswith(".US"),item["symbol"])),True
+    def rank(item):
+        symbol=item["symbol"].rsplit(".",1)[0].casefold()
+        name=(item.get("companyName") or "").casefold()
+        if symbol.startswith(query):
+            return 0
+        if name.startswith(query):
+            return 1
+        if any(word.startswith(query) for word in re.split(r"[^\w]+",name)):
+            return 2
+        if len(query)>=3 and query in name:
+            return 3
+        return 99
+    results=[item for item in candidates if rank(item)<99]
+    return sorted(results,key=lambda item:(rank(item),not item["symbol"].endswith(".US"),(item.get("companyName") or "").casefold(),item["symbol"])),False
+
 selected_xtb=None
 with st.sidebar:
     st.header("Ações")
@@ -73,16 +97,16 @@ with st.sidebar:
         st.caption(f"{len(catalog):,} ações · catálogo XTB Portugal · atualização diária")
         countries=sorted({item.get("instrumentCountryName") or "Outro" for item in catalog})
         country=st.selectbox("País / mercado",["Todos"]+countries)
-        query=st.text_input("Pesquisar empresa ou símbolo",placeholder="Ex.: Nike, Rivian, NKE.US").strip().casefold()
-        matches=[item for item in catalog if (country=="Todos" or (item.get("instrumentCountryName") or "Outro")==country) and (not query or query in (str(item.get("companyName",""))+" "+item["symbol"]).casefold())]
+        query=st.text_input("Pesquisar empresa ou símbolo",placeholder="Ticker ou empresa: SE, Nike, Rivian").strip().casefold()
+        matches,exact_match=search_xtb(catalog,query,country)
         if not matches:
             st.info("Nenhuma ação encontrada. Tenta outro nome ou país.")
             st.stop()
         st.caption(f"{len(matches):,} resultados")
         choices={item["symbol"]:item for item in matches}
-        xtb_symbol=st.selectbox("Selecionar ação XTB",list(choices),format_func=lambda symbol:f'{choices[symbol].get("companyName") or symbol} — {symbol}',index=None,placeholder="Escolhe uma empresa")
+        xtb_symbol=st.selectbox("Resultados da pesquisa",list(choices),format_func=lambda symbol:f'{symbol} · {choices[symbol].get("companyName") or symbol} · {choices[symbol].get("stockMarket") or choices[symbol].get("instrumentCountryName","")}',index=0 if exact_match else None,placeholder="Seleciona um resultado",key="xtb_search_result")
         if xtb_symbol is None:
-            st.info("Pesquisa e seleciona uma ação para abrir a análise.")
+            st.info("Escreve um ticker (ex.: SE) para abrir diretamente a ação, ou pesquisa pelo nome e escolhe um resultado.")
             st.stop()
         selected_xtb=choices[xtb_symbol]
         ticker=yahoo_symbol(xtb_symbol)
