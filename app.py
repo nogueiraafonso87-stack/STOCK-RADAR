@@ -9,8 +9,8 @@ import altair as alt
 st.set_page_config(page_title="STOCK RADAR",page_icon="📈",layout="wide")
 st.title("📈 STOCK RADAR")
 st.caption("Análise de ações • dados de mercado sujeitos a atraso e disponibilidade da fonte")
-DEFAULT_TICKERS=["NFLX","SE","LULU","OKLO","AEVA","FIG","RIVN","KULR","NKE"]
-WATCHLIST_VERSION=2
+DEFAULT_TICKERS=["NFLX","SE","LULU","OKLO","AEVA","FIG","RIVN","KULR","NKE","ASTS"]
+WATCHLIST_VERSION=3
 if "tickers" not in st.session_state:
     st.session_state.tickers=DEFAULT_TICKERS.copy()
 if st.session_state.get("watchlist_version",0)<WATCHLIST_VERSION:
