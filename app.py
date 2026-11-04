@@ -9,8 +9,13 @@ import altair as alt
 st.set_page_config(page_title="STOCK RADAR",page_icon="📈",layout="wide")
 st.title("📈 STOCK RADAR")
 st.caption("Análise de ações • dados de mercado sujeitos a atraso e disponibilidade da fonte")
+DEFAULT_TICKERS=["NFLX","SE","LULU","OKLO","AEVA","FIG","RIVN","KULR","NKE"]
+WATCHLIST_VERSION=2
 if "tickers" not in st.session_state:
-    st.session_state.tickers=["NFLX","SE","LULU","OKLO","AEVA"]
+    st.session_state.tickers=DEFAULT_TICKERS.copy()
+if st.session_state.get("watchlist_version",0)<WATCHLIST_VERSION:
+    st.session_state.tickers=list(dict.fromkeys(st.session_state.tickers+DEFAULT_TICKERS))
+    st.session_state.watchlist_version=WATCHLIST_VERSION
 with st.sidebar:
     st.header("Ações")
     symbol=st.text_input("Adicionar ticker",placeholder="Ex.: ADUR").strip().upper()
@@ -126,7 +131,7 @@ with fundamentais:
                 display.columns=[col.strftime("%Y-%m-%d") if hasattr(col,"strftime") else str(col) for col in display.columns]
                 display.index.name="Indicador"
                 st.dataframe(display.style.format(precision=2,thousands=" ",na_rep="N/D"))
-                st.caption("Valores originais do fornecedor, na moeda da empresa (exceto rácios e valores por ação). 0 é um zero reportado; células vazias indicam dados indisponíveis. Rubricas técnicas, como Tax Effect Of Unusual Items, podem ser zero sem que as receitas ou os lucros sejam zero.")
+                st.caption("Valores originais do fornecedor, na moeda da empresa (exceto rácios e valores por ação). 0 é o valor devolvido pelo Yahoo Finance, não uma validação independente dos relatórios oficiais; N/D indica dados indisponíveis. Rubricas técnicas, como Tax Effect Of Unusual Items, podem ser zero sem que as receitas ou os lucros sejam zero.")
             else:st.write("N/D")
 def labelled_lines(frame,labels,colors,y_label):
     data=frame.copy()
