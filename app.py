@@ -233,12 +233,7 @@ with historico:
     st.write("Volume da última sessão:",big(v.iloc[-1]),"| Média 20 sessões:",big(v.tail(20).mean()),"| Volume relativo:",num(v.iloc[-1]/v.tail(20).mean()) if v.tail(20).mean()>0 else "N/D")
     peak=float(close.max())
     st.metric("Queda desde máximo de fecho disponível",f"{(last/peak-1)*100:.1f}%")
-    earlier=close.iloc[:-21]
-    comparable=earlier[(earlier>=last*0.99)&(earlier<=last*1.01)]
-    if not comparable.empty:
-        st.info(f"Fecho anterior próximo do atual (±1%): {comparable.index[-1].date()}. Esta data não significa necessariamente que seja um mínimo plurianual.")
-    else: st.info("Não foi encontrado um fecho anterior próximo do atual (±1%) no histórico disponível.")
-    st.caption("Preços ajustados por desdobramentos e outros ajustes do fornecedor. Comparações históricas não são prova de subavaliação.")
+
 with fundamentais:
     metrics={
         "Receitas TTM":big(info.get("totalRevenue")),
