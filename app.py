@@ -16,13 +16,84 @@ if "tickers" not in st.session_state:
 if st.session_state.get("watchlist_version",0)<WATCHLIST_VERSION:
     st.session_state.tickers=list(dict.fromkeys(st.session_state.tickers+DEFAULT_TICKERS))
     st.session_state.watchlist_version=WATCHLIST_VERSION
+XTB_CATALOG_URL="https://www.xtb.com/web-api/v3/languages/pt/branches/pt/instrument-specification"
+
+@st.cache_data(ttl=86400,show_spinner="A carregar catálogo oficial da XTB...")
+def xtb_catalog():
+    from concurrent.futures import ThreadPoolExecutor
+    import math
+    def page(number):
+        response=requests.get(XTB_CATALOG_URL,params={"typeSlug":"cashstocks","pageSize":1000,"page":number},timeout=30)
+        response.raise_for_status()
+        return response.json()
+    first=page(1)
+    total=int(first["instrumentCounts"]["cashstocks"])
+    items=first["items"]
+    size=len(items)
+    if not size:
+        raise ValueError("Catálogo vazio")
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for result in pool.map(page,range(2,math.ceil(total/size)+1)):
+            items.extend(result["items"])
+    items=[item for item in items if item.get("typeSlug")=="cashstocks"]
+    unique={item["symbol"]:item for item in items}
+    if len(unique)!=total:
+        raise ValueError("O catálogo mudou durante a consulta. Tenta novamente.")
+    return sorted(unique.values(),key=lambda item:(item.get("companyName") or item["symbol"]).casefold())
+
+def yahoo_symbol(xtb_symbol):
+    base,market=xtb_symbol.rsplit(".",1)
+    suffixes={"US":"","DE":".DE","FR":".PA","NL":".AS","BE":".BR","ES":".MC","PT":".LS","IT":".MI","UK":".L","PL":".WA","CH":".SW","SE":".ST","DK":".CO","FI":".HE","NO":".OL","CZ":".PR"}
+    overrides={"BRKB.US":"BRK-B","BRKA.US":"BRK-A","BF.B.US":"BF-B"}
+    if xtb_symbol in overrides:
+        return overrides[xtb_symbol]
+    if market not in suffixes:
+        return None
+    if market=="US":
+        base=base.replace(".","-")
+    elif market in ("SE","DK"):
+        base=base.replace(" ","-").replace(".","-")
+    return base+suffixes[market]
+
+selected_xtb=None
 with st.sidebar:
     st.header("Ações")
     symbol=st.text_input("Adicionar ticker",placeholder="Ex.: ADUR").strip().upper()
     if st.button("Adicionar") and symbol and symbol not in st.session_state.tickers:
         st.session_state.tickers.append(symbol)
-    ticker=st.selectbox("Selecionar",st.session_state.tickers)
-    if st.button("Remover") and len(st.session_state.tickers)>1:
+    universe=st.radio("Lista de ações",["Favoritos","Catálogo XTB"],horizontal=True)
+    if universe=="Favoritos":
+        ticker=st.selectbox("Selecionar",st.session_state.tickers)
+    else:
+        try:
+            catalog=xtb_catalog()
+        except Exception:
+            st.error("Não foi possível carregar o catálogo da XTB. Os favoritos continuam disponíveis.")
+            st.stop()
+        st.caption(f"{len(catalog):,} ações · catálogo XTB Portugal · atualização diária")
+        countries=sorted({item.get("instrumentCountryName") or "Outro" for item in catalog})
+        country=st.selectbox("País / mercado",["Todos"]+countries)
+        query=st.text_input("Pesquisar empresa ou símbolo",placeholder="Ex.: Nike, Rivian, NKE.US").strip().casefold()
+        matches=[item for item in catalog if (country=="Todos" or (item.get("instrumentCountryName") or "Outro")==country) and (not query or query in (str(item.get("companyName",""))+" "+item["symbol"]).casefold())]
+        if not matches:
+            st.info("Nenhuma ação encontrada. Tenta outro nome ou país.")
+            st.stop()
+        st.caption(f"{len(matches):,} resultados")
+        choices={item["symbol"]:item for item in matches}
+        xtb_symbol=st.selectbox("Selecionar ação XTB",list(choices),format_func=lambda symbol:f'{choices[symbol].get("companyName") or symbol} — {symbol}')
+        selected_xtb=choices[xtb_symbol]
+        ticker=yahoo_symbol(xtb_symbol)
+        if ticker is None:
+            st.warning("Este mercado ainda não tem correspondência automática. Indica o símbolo Yahoo Finance para analisar esta cotação.")
+            ticker=st.text_input("Símbolo Yahoo Finance",key="xtb_manual_symbol").strip().upper()
+            if not ticker:
+                st.stop()
+        if selected_xtb.get("closeOnly"):
+            st.warning("Na XTB, esta ação está apenas disponível para fechar posições.")
+        st.caption("Catálogo de ações reais. Dados de análise fornecidos pelo Yahoo Finance; algumas cotações podem não estar disponíveis.")
+        if st.button("Guardar nos favoritos") and ticker not in st.session_state.tickers:
+            st.session_state.tickers.append(ticker)
+    if st.button("Remover",disabled=ticker not in st.session_state.tickers) and len(st.session_state.tickers)>1:
         st.session_state.tickers.remove(ticker)
         st.rerun()
     if st.button("Atualizar"):
