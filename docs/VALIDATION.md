@@ -1,5 +1,20 @@
 # Validação — 12 de novembro de 2026
 
+## Revalidação após correção dos erros
+
+- Código publicado no commit `99a98faf5fa4acf4f89f6a8a5ce2e3f042cbe959`.
+- **36 testes passaram localmente e no GitHub Actions.** Foi testada a aplicação inteira com Yahoo indisponível e dados guardados: sem exceções, com os cinco separadores e valores restaurados.
+- Recolha real de mercado e fundamentais Yahoo concluída para as 19 ações, sem erros, nos dois ambientes. Cópias locais datadas atualizadas e publicadas.
+- Execução GitHub Actions concluída com sucesso: https://github.com/nogueiraafonso87-stack/STOCK-RADAR/actions/runs/43231047929 . Relatórios, histórico e artefactos guardados.
+- O estado de dados é **degraded**: mercado `ok`; SEC `configuration_required`. Isto não valida a recolha SEC. O workflow deixa prosseguir o mercado, mas comunica a configuração em falta no resumo e no dashboard. Falhas HTTP reais continuam a fazer falhar o job.
+- A SEC requer um contacto válido no secret `SEC_USER_AGENT`. O fallback com URL do projeto foi removido; a ausência de configuração é detetada antes de qualquer pedido. O contacto privado não é incluído nos relatórios. Configurar o contacto não garante por si só acesso posterior a partir do runner.
+
+## Publicação e reinício pendente
+
+A aplicação pública foi observada a carregar os gráficos e os cinco separadores, com os fundamentais Netflix disponíveis. O painel de monitorização continuava a usar o módulo Python antigo em memória, embora o GitHub já contivesse a versão corrigida e os dados automáticos novos. Foi preparada a opção **Reboot app** para carregar todos os módulos. A revisão automática de aprovação bloqueou a confirmação porque o reinício interrompe utilizadores ativos e exige autorização explícita. **O reinício não foi executado.** Captura do estado: `reboot-pending.jpg`. A validação integral da nova interface pública fica pendente dessa autorização.
+
+## Registo anterior (antes destas correções)
+
 ## Resultado observado
 
 - Aplicação pública reativada e operacional: https://stock-radar-afonso.streamlit.app/ . Reiniciada após corrigir incompatibilidade de instalação pandas 2.2.3 / Python 3.14. A publicação final foi observada com os gráficos e os cinco separadores existentes.
