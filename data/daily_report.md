@@ -1,6 +1,6 @@
 # STOCK-RADAR — Monitorização diária
 
-Execução UTC: 2026-11-12T13:46:15.842185+00:00
+Execução UTC: 2026-11-12T13:50:25.717262+00:00
 
 Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.
 

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T13:46:15.829751+00:00",
+  "generated_at_utc": "2026-11-12T13:50:25.714312+00:00",
   "events": [
     {
       "id": "5c99aea56151abd3c119f1fb",
@@ -32,6 +32,11 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "ASTS Short Interest At 2-Year Highs Ahead Of Blacklift Event – Retail Calls ASTS The ‘Biggest Stock Of The Next 5 Years’",
+            "published_at": "2026-11-12T13:40:27Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/asts-short-interest-at-2-year-highs-ahead-of-blacklift-event-retail-calls-asts-the-biggest-stock-of-the-next-5-years/cNGzxcYR9aK"
+          },
+          {
             "title": "AST SpaceMobile sends strong signal to SpaceX investors",
             "published_at": "2026-11-12T12:03:00Z",
             "url": "https://www.thestreet.com/investing/stocks/ast-spacemobile-starlink-wireless-plans"
@@ -50,11 +55,6 @@
             "title": "Rocket Lab Soars 6% as Morgan Stanley Looks Past “Q3 Margin Noise” to Neutron",
             "published_at": "2026-11-11T19:06:56Z",
             "url": "https://www.tikr.com/blog/rocket-lab-soars-6-as-morgan-stanley-looks-past-q3-margin-noise-to-neutron?ref=yahoofinance&tlnk=yf-261111-mqrqhgqr"
-          },
-          {
-            "title": "Elon Musk's SpaceX Could Be Making AST SpaceMobile More Valuable, Analysts Say",
-            "published_at": "2026-11-11T19:00:09Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63161442/spacex-ast-spacemobile?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
           }
         ]
       }
