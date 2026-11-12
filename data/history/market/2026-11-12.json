@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:09:10.952491+00:00",
+  "generated_at_utc": "2026-11-12T12:11:05.729571+00:00",
   "stocks": {
     "NFLX": {
       "asof": "2026-11-11",
@@ -127,7 +127,7 @@
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:09:08.906593+00:00",
+          "detected_at": "2026-11-12T12:11:04.394000+00:00",
           "details": {
             "change_pct": 8.696943973315907,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
@@ -182,7 +182,7 @@
           "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:09:09.479967+00:00",
+          "detected_at": "2026-11-12T12:11:04.760354+00:00",
           "details": {
             "change_pct": 15.604306629031273,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
@@ -237,7 +237,7 @@
           "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:09:09.805344+00:00",
+          "detected_at": "2026-11-12T12:11:04.885724+00:00",
           "details": {
             "change_pct": 5.413387785384227,
             "context": "Sem notícia próxima disponível; causa não confirmada.",
