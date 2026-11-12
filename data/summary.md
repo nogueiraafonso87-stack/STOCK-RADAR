@@ -26,7 +26,7 @@ Data: 2026-11-12 (UTC)
 
 ## Estado das fontes
 
-- market: consulta com dados; execução 2026-11-12T12:03:34.524075+00:00; falhas: 0.
-- sec: consulta com dados; execução 2026-11-12T12:04:08.010324+00:00; falhas: 0.
+- market: consulta com dados; execução 2026-11-12T12:05:53.302167+00:00; falhas: 0.
+- sec: indisponível; execução 2026-11-12T12:05:53.692393+00:00; falhas: 1.
 
 Guidance e consenso: N/D quando não há extração ou fonte validada. Documentos SEC classificados automaticamente exigem revisão. Notícias associadas não demonstram a causa de um movimento.
