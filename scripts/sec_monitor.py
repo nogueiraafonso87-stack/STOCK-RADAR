@@ -2,6 +2,8 @@
 import argparse
 import json
 import os
+import math
+import re
 import time
 from datetime import date, timedelta
 import requests
@@ -44,6 +46,12 @@ def metric(facts, tags, unit, duration):
     for namespace in ('us-gaap','ifrs-full','dei'):
         for tag in tags:
             for item in facts.get('facts',{}).get(namespace,{}).get(tag,{}).get('units',{}).get(unit,[]):
+                if not isinstance(item.get('val'),(int,float)) or not math.isfinite(item['val']): continue
+                try:
+                    end=date.fromisoformat(item['end'])
+                    start=date.fromisoformat(item['start']) if item.get('start') else None
+                except (ValueError,KeyError,TypeError): continue
+                if end>date.today() or (start and start>end): continue
                 allowed=('10-K','10-K/A','20-F','20-F/A','40-F') if duration is True else ('10-Q','10-Q/A','10-K','10-K/A','20-F','20-F/A','40-F','6-K')
                 if item.get('form') not in allowed:
                     continue
@@ -54,13 +62,13 @@ def metric(facts, tags, unit, duration):
                         if not 70<=days<=110: continue
                     elif not 330<=days<=380: continue
                 elif item.get('start'): continue
-                rows.append(dict(item,tag=tag,unit=unit))
+                rows.append(dict(item,tag=tag,unit=unit,namespace=namespace,priority=tags.index(tag)))
     if not rows: return None
     # Prefer first available taxonomy tag at the latest period.
-    rows.sort(key=lambda x:(x['end'],x.get('filed','')),reverse=True)
+    rows.sort(key=lambda x:(x['end'],x.get('filed',''),-x['priority']),reverse=True)
     latest=rows[0]
-    prior=[r for r in rows if r['tag']==latest['tag'] and 330<=(date.fromisoformat(latest['end'])-date.fromisoformat(r['end'])).days<=400]
-    result={k:latest.get(k) for k in ('val','start','end','filed','accn','tag','unit')}
+    prior=[r for r in rows if r['tag']==latest['tag'] and r['namespace']==latest['namespace'] and (not duration or abs((date.fromisoformat(latest['end'])-date.fromisoformat(latest['start'])).days-(date.fromisoformat(r['end'])-date.fromisoformat(r['start'])).days)<=14) and 330<=(date.fromisoformat(latest['end'])-date.fromisoformat(r['end'])).days<=400]
+    result={k:latest.get(k) for k in ('val','start','end','filed','accn','tag','unit','namespace')}
     result['previous']=({k:prior[0].get(k) for k in ('val','start','end','accn')} if prior else None)
     p=result['previous']
     result['yoy_pct']=100*(latest['val']/p['val']-1) if p and p['val']>0 else None
@@ -128,8 +136,39 @@ def metric_alerts(ticker, metrics, source_url):
     return alerts
 
 
+def safe_error(exc):
+    # InvalidHeader may include the private SEC contact. Never store raw exception strings.
+    response=getattr(exc,'response',None)
+    status=getattr(response,'status_code',None)
+    return f'HTTP {status}' if status else f'Falha de consulta ({type(exc).__name__})'
+
+
+def configure_session():
+    agent=os.getenv('SEC_USER_AGENT','').strip()
+    if not agent or '\n' in agent or '\r' in agent or not re.search(r'[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+',agent):
+        raise ValueError('Configurar SEC_USER_AGENT como secret de Actions, com nome do projeto e contacto válido. O contacto não é publicado no código ou nos relatórios.')
+    SESSION.headers.update({'User-Agent':agent,'Accept-Encoding':'gzip, deflate'})
+    return agent
+
+
+def filing_rows(recent):
+    # Optional SEC columns can be missing or shorter than the mandatory columns.
+    for i,accession in enumerate(recent.get('accessionNumber',[])):
+        def cell(name,default=''):
+            values=recent.get(name) or []
+            return values[i] if i<len(values) and values[i] is not None else default
+        if not all(cell(k) for k in ('filingDate','form','primaryDocument')):
+            raise ValueError('Documento SEC sem os campos obrigatórios')
+        yield accession,cell('form'),cell('filingDate'),cell('primaryDocument'),cell('items')
+
+
 def main(symbols=None):
-    agent=os.getenv('SEC_USER_AGENT','').strip() or 'STOCK-RADAR/1.0 (project contact: https://github.com/nogueiraafonso87-stack/STOCK-RADAR/issues)'
+    old_status=read('sec_status.json',{})
+    try:
+        agent=configure_session()
+    except ValueError:
+        write('sec_status.json',dict(generated_at_utc=now(),ok=False,state='configuration_required',successes=0,errors={'configuration':'SEC_USER_AGENT não configurado com contacto válido. Definir o secret nas definições do repositório.'},last_success_at_utc=old_status.get('last_success_at_utc') or read('sec_events.json',{}).get('generated_at_utc')))
+        raise SystemExit(2)
     SESSION.headers.update({'User-Agent':agent,'Accept-Encoding':'gzip, deflate'})
     old=read('sec_events.json',{'events':[],'companies':{}})
     events=[]
@@ -142,22 +181,23 @@ def main(symbols=None):
         try:
             mapping.update({r['ticker'].upper():str(r['cik_str']).zfill(10) for r in get_json('https://www.sec.gov/files/company_tickers.json').values()})
         except Exception as exc:
-            errors['mapping']='Atualização do mapa indisponível; a usar CIK oficiais previamente verificados: '+str(exc)[:150]
+            errors['mapping']='Atualização do mapa indisponível; a usar CIK oficiais previamente verificados: '+safe_error(exc)
     cutoff=str(date.today()-timedelta(days=45))
     successes=0
     titles={'earnings':'Relatório ou comunicado financeiro — rever resultados e guidance','risk':'Documento com informação de risco financeiro — requer revisão','dilution':'Documento a rever para possível diluição; não confirma emissão','contracts':'Acordo ou comunicação relevante — termos e impacto por confirmar'}
+    blocked=False
     for ticker in symbols or watchlist():
+        if blocked:
+            errors[ticker]='Consulta não executada: acesso SEC indisponível nesta execução.'
+            continue
         try:
             cik=mapping.get(ticker)
             if not cik: raise ValueError('Símbolo não encontrado no mapa oficial SEC')
             submissions=get_json(f'https://data.sec.gov/submissions/CIK{cik}.json')
             recent=submissions.get('filings',{}).get('recent',{})
-            for i,accession in enumerate(recent.get('accessionNumber',[])):
-                day=recent['filingDate'][i]
+            for accession,form,day,document,items in filing_rows(recent):
                 if day<cutoff: continue
-                form=recent['form'][i]
-                items=(recent.get('items') or ['']*len(recent['form']))[i]
-                url=f'https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace("-", "")}/{recent["primaryDocument"][i]}'
+                url=f'https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace("-", "")}/{document}'
                 for category in classify(form,items):
                     e=event(ticker,category,day,titles[category],url,accession,
                             details={'form':form,'items':items,'accession':accession,'note':'Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade.'})
@@ -171,12 +211,14 @@ def main(symbols=None):
                 companies[ticker]=dict(updated_at=now(),source_url=source,metrics=metrics)
                 events.extend(metric_alerts(ticker,metrics,source))
             except Exception as exc:
-                errors[ticker+':facts']=str(exc)[:200]
+                errors[ticker+':facts']=safe_error(exc)
+                blocked=getattr(getattr(exc,'response',None),'status_code',None)==403
             print(f'OK SEC {ticker}',flush=True)
         except Exception as exc:
-            errors[ticker]=str(exc)[:200]
-            print(f'ERROR SEC {ticker}: {exc}',flush=True)
-    write('sec_status.json',dict(generated_at_utc=now(),ok=successes>0,successes=successes,errors=errors))
+            errors[ticker]=safe_error(exc)
+            blocked=getattr(getattr(exc,'response',None),'status_code',None)==403
+            print(f'ERROR SEC {ticker}: {errors[ticker]}',flush=True)
+    write('sec_status.json',dict(generated_at_utc=now(),ok=successes>0,state='partial' if successes and errors else ('ok' if successes else 'unavailable'),successes=successes,errors=errors,last_success_at_utc=now() if successes else old_status.get('last_success_at_utc') or old.get('generated_at_utc')))
     if not successes: raise SystemExit('Nenhuma empresa consultada; relatório anterior preservado.')
     history=merge_events(events)
     payload=dict(generated_at_utc=now(),events=[e for e in history if e['category'] not in ('volume','movement')],companies=companies,errors=errors)

@@ -10,6 +10,7 @@ on:
       - 'tests/**'
       - 'requirements.txt'
       - 'watchlist.json'
+      - 'sec_tickers.json'
       - '.github/workflows/daily_monitor.yml'
 permissions:
   contents: write
@@ -40,6 +41,10 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/sec_monitor.py
+      - name: Check data collection health
+        id: health
+        continue-on-error: true
+        run: python scripts/check_health.py
       - name: Build daily Portuguese summary
         run: python scripts/build_summary.py
       - name: Save reports and history
@@ -60,7 +65,7 @@ jobs:
           path: data/
           retention-days: 30
       - name: Report collection failures
-        if: steps.market.outcome == 'failure' || steps.sec.outcome == 'failure'
+        if: steps.health.outcome == 'failure'
         run: |
-          echo 'A monitor failed. Reports preserve prior data and expose the failing source.'
+          echo 'Data collection failed. See health.json and the workflow summary.'
           exit 1

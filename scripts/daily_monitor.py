@@ -1,11 +1,15 @@
 """Daily completed-session market monitor; Yahoo data is secondary and may be delayed."""
 import argparse
 import math
+import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import pandas as pd
 import yfinance as yf
-from common import event, merge_events, now, read, watchlist, write
+from common import DATA, ROOT, event, merge_events, now, read, watchlist, write
+
+sys.path.insert(0,str(ROOT))
+from market_data import save_cache
 
 
 def analyze(symbol, hist, clock=None):
@@ -17,7 +21,7 @@ def analyze(symbol, hist, clock=None):
     if len(hist) < 21:
         raise ValueError('São necessárias 21 sessões completas válidas')
     close, volume = hist['Close'].astype(float), hist['Volume'].astype(float)
-    if (close <= 0).any() or (volume < 0).any():
+    if not all(math.isfinite(x) for x in close) or not all(math.isfinite(x) for x in volume) or (close <= 0).any() or (volume < 0).any():
         raise ValueError('Preços ou volumes inválidos')
     change = 100 * (close.iloc[-1]/close.iloc[-2]-1)
     avg = float(volume.iloc[-21:-1].mean())
@@ -48,9 +52,22 @@ def analyze(symbol, hist, clock=None):
 def main(symbols=None):
     previous=read('latest.json',{}).get('stocks',{})
     stocks,errors,events={}, {}, []
+    warnings={}
     for symbol in symbols or watchlist():
         try:
-            item,alerts=analyze(symbol,yf.Ticker(symbol).history(period='1y',interval='1d',auto_adjust=True))
+            provider=yf.Ticker(symbol)
+            history=provider.history(period='1y',interval='1d',auto_adjust=True)
+            item,alerts=analyze(symbol,history)
+            try:
+                info=provider.info
+                if not isinstance(info,dict): info={}
+                if not info.get('marketCap'): warnings[symbol]='Fundamentais Yahoo parciais ou indisponíveis; valores anteriores válidos preservados.'
+            except Exception:
+                info={};warnings[symbol]='Fundamentais Yahoo indisponíveis; valores anteriores válidos preservados.'
+            try:
+                save_cache(symbol,history.loc[pd.to_datetime(history.index).date<=pd.Timestamp(item['asof']).date()],info,DATA/'market_cache')
+            except Exception:
+                warnings[symbol]='Não foi possível atualizar a cópia local; os preços recolhidos continuam disponíveis.'
             if any(e['category']=='movement' for e in alerts):
                 try:
                     articles=[]
@@ -76,18 +93,20 @@ def main(symbols=None):
                 stocks[symbol]={**previous[symbol], 'stale':True}
             print(f'ERROR {symbol}: {exc}',flush=True)
     successes=len(stocks)-sum(bool(x.get('stale')) for x in stocks.values())
-    write('market_status.json',dict(generated_at_utc=now(),ok=successes>0,successes=successes,errors=errors))
+    last_success=now() if successes else read('market_status.json',{}).get('last_success_at_utc')
+    write('market_status.json',dict(generated_at_utc=now(),ok=successes>0,successes=successes,errors=errors,warnings=warnings,last_success_at_utc=last_success))
     if successes==0:
         raise SystemExit('Sem dados novos utilizáveis; relatório anterior preservado.')
+    if symbols:
+        stocks={**{s:v for s,v in previous.items() if s not in symbols},**stocks}
     payload=dict(generated_at_utc=now(),stocks=stocks,errors=errors)
     write('latest.json',payload)
     write(f'history/market/{now()[:10]}.json',payload)
     merge_events(events)
-    lines=['# STOCK-RADAR — Monitorização diária','',f'Execução UTC: {now()}','', 'Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.','', '| Ação | Sessão | Fecho | Variação | Volume relativo |','|---|---|---:|---:|---:|']
+    lines=['# STOCK-RADAR — Monitorização diária','',f'Execução UTC: {now()}','', 'Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.','', '| Ação | Sessão | Fecho | Variação | Volume relativo | Estado |','|---|---|---:|---:|---:|---|']
     for symbol,item in stocks.items():
         rv=item.get('relative_volume_20d')
-        lines.append(f'| {symbol} | {item["asof"]} | {item["close"]:.2f} | {item["change_pct"]:+.2f}% | '+(f'{rv:.2f}×' if rv is not None else 'N/D')+' |')
-    from common import DATA
+        lines.append(f'| {symbol} | {item["asof"]} | {item["close"]:.2f} | {item["change_pct"]:+.2f}% | '+(f'{rv:.2f}×' if rv is not None else 'N/D')+' | '+('Último dado válido — falha na recolha' if item.get('stale') else 'Recolhido')+' |')
     (DATA/'daily_report.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 
 if __name__=='__main__':

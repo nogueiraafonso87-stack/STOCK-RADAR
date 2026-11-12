@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-11-12T13:47:50.243234+00:00",
+  "state": "degraded",
+  "sources": {
+    "market": {
+      "state": "ok",
+      "last_attempt_at_utc": "2026-11-12T13:46:15.817241+00:00",
+      "last_success_at_utc": "2026-11-12T13:46:15.817226+00:00",
+      "successes": 19,
+      "errors": 0
+    },
+    "sec": {
+      "state": "configuration_required",
+      "last_attempt_at_utc": "2026-11-12T13:45:44.353362+00:00",
+      "last_success_at_utc": "2026-11-12T12:07:18.180668+00:00",
+      "successes": 0,
+      "errors": 1
+    }
+  }
+}

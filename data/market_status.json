@@ -1,6 +1,8 @@
 {
-  "generated_at_utc": "2026-11-12T12:11:05.729165+00:00",
+  "generated_at_utc": "2026-11-12T13:46:15.817241+00:00",
   "ok": true,
   "successes": 19,
-  "errors": {}
+  "errors": {},
+  "warnings": {},
+  "last_success_at_utc": "2026-11-12T13:46:15.817226+00:00"
 }

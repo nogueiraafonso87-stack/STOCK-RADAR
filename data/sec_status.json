@@ -1,26 +1,10 @@
 {
-  "generated_at_utc": "2026-11-12T12:11:08.671714+00:00",
+  "generated_at_utc": "2026-11-12T13:45:44.353362+00:00",
   "ok": false,
+  "state": "configuration_required",
   "successes": 0,
   "errors": {
-    "NFLX": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001065280.json",
-    "SE": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001703399.json",
-    "NKE": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0000320187.json",
-    "AEVA": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001789029.json",
-    "KULR": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001662684.json",
-    "OKLO": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001849056.json",
-    "FIG": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001579878.json",
-    "RIVN": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001874178.json",
-    "BIDU": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001329099.json",
-    "ASTS": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001780312.json",
-    "AAOI": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001158114.json",
-    "ADUR": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001863934.json",
-    "LULU": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001397187.json",
-    "SOFI": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001818874.json",
-    "UBER": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001543151.json",
-    "SYF": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001601712.json",
-    "CROX": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001334036.json",
-    "PYPL": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001633917.json",
-    "DECK": "403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0000910521.json"
-  }
+    "configuration": "SEC_USER_AGENT não configurado com contacto válido. Definir o secret nas definições do repositório."
+  },
+  "last_success_at_utc": "2026-11-12T12:07:18.180668+00:00"
 }

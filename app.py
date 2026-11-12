@@ -171,27 +171,11 @@ if not ticker:
 
 @st.cache_data(ttl=600)
 def load(symbol):
-    t=yf.Ticker(symbol)
-    hist=t.history(period="10y",auto_adjust=True)
-    unavailable=[]
-    def optional(name,empty):
-        try:
-            value=getattr(t,name)
-            if value is None or (isinstance(value,dict) and not value) or (isinstance(value,pd.DataFrame) and value.empty):
-                unavailable.append(name)
-                return empty
-            return value
-        except Exception:
-            unavailable.append(name)
-            return empty
-    info=optional("info",{})
-    financials=optional("financials",pd.DataFrame())
-    balance=optional("balance_sheet",pd.DataFrame())
-    cashflow=optional("cashflow",pd.DataFrame())
-    return info,hist,financials,balance,cashflow,unavailable
+    from market_data import load_data
+    return load_data(symbol)
 
 try:
-    info,hist,financials,balance,cashflow,unavailable=load(ticker)
+    info,hist,financials,balance,cashflow,unavailable,provenance=load(ticker)
 except Exception as e:
     st.error(f"Erro ao obter dados: {e}")
     st.stop()
@@ -200,7 +184,7 @@ if hist.empty:
     st.stop()
 
 def num(v,d=2):
-    try: return f"{float(v):,.{d}f}"
+    try: return f"{float(v):,.{d}f}" if np.isfinite(float(v)) else "N/D"
     except (ValueError,TypeError): return "N/D"
 def big(v):
     try:
@@ -213,6 +197,12 @@ def pct(v):
     try:return num(float(v)*100)+"%"
     except (ValueError,TypeError):return "N/D"
 
+if provenance:
+    st.info("A fonte está parcialmente indisponível. São apresentados alguns dados guardados da última recolha válida (até 7 dias).")
+    if provenance.get('history'):
+        st.caption('Histórico guardado em UTC: '+provenance['history']+'; poderá ter um intervalo mais curto que o habitual.')
+    if provenance.get('info'):
+        st.caption('Fundamentais guardados — recolhas UTC: '+', '.join(sorted(set(provenance['info'].values()))))
 if unavailable:
     st.warning("O fornecedor não disponibilizou alguns dados fundamentais nesta consulta. Os campos em falta aparecem como N/D; o histórico e a análise técnica continuam disponíveis. Tenta Atualizar mais tarde.")
 close=hist["Close"]
@@ -285,10 +275,8 @@ with tecnica:
     st.subheader("Preço de fecho e médias móveis")
     labelled_lines(df,["Fecho","SMA 20","SMA 50","SMA 200"],["#1565c0","#f59e0b","#16a34a","#dc2626"],"Preço")
     st.caption("Azul: fecho diário · Laranja: média de 20 sessões · Verde: média de 50 sessões · Vermelho: média de 200 sessões. SMA significa média móvel simples.")
-    delta=close.diff()
-    up=delta.clip(lower=0).ewm(alpha=1/14,adjust=False).mean()
-    down=(-delta.clip(upper=0)).ewm(alpha=1/14,adjust=False).mean()
-    rsi=100-100/(1+up/down.replace(0,np.nan))
+    from indicators import rsi as calculate_rsi
+    rsi=calculate_rsi(close)
     macd=close.ewm(span=12,adjust=False).mean()-close.ewm(span=26,adjust=False).mean()
     signal=macd.ewm(span=9,adjust=False).mean()
     st.metric("RSI 14",num(rsi.iloc[-1]))

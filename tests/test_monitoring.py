@@ -78,6 +78,7 @@ def test_risk_and_shares_do_not_claim_confirmed_dilution():
 
 def test_sec_pipeline_preserves_events_on_repeat(tmp_path,monkeypatch):
     import sec_monitor
+    monkeypatch.setenv('SEC_USER_AGENT','TestSuite test@example.invalid')
     monkeypatch.setattr(common,'DATA',tmp_path)
     today=datetime.now().date().isoformat()
     def get(url):
