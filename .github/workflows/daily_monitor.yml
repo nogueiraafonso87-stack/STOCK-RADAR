@@ -27,11 +27,14 @@ jobs:
         run: pip install "yfinance>=0.2.40" "pandas>=2.1"
       - name: Run daily monitor
         run: python scripts/daily_monitor.py
+      - name: Scan SEC filings for fundamental events
+        run: python scripts/sec_monitor.py
+        continue-on-error: true
       - name: Save daily snapshot to repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/daily_report.md
+          git add data/latest.json data/daily_report.md data/sec_events.json
           if ! git diff --cached --quiet; then
             git commit -m "data: update daily market monitoring"
             git push
