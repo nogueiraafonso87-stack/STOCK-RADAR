@@ -1,0 +1,38 @@
+name: STOCK-RADAR daily market monitor
+
+on:
+  schedule:
+    # 23:15 UTC on weekdays: after US regular market close, including DST changes.
+    - cron: "15 23 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-radar-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install monitor dependencies
+        run: pip install "yfinance>=0.2.40" "pandas>=2.1"
+      - name: Run daily monitor
+        run: python scripts/daily_monitor.py
+      - name: Save daily snapshot to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/daily_report.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update daily market monitoring"
+            git push
+          fi
