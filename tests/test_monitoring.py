@@ -110,3 +110,16 @@ def test_quarter_metrics_exclude_ytd_and_annual():
     facts={'facts':{'us-gaap':{'Revenues':{'units':{'USD':rows}}}}}
     result=metric(facts,['Revenues'],'USD','quarter')
     assert result['val']==120 and result['yoy_pct']==pytest.approx(20)
+
+
+def test_banking_revenue_does_not_use_partial_contract_revenue():
+    row=dict(start='2026-07-01',end='2026-09-30',val=100,form='10-Q',filed='2026-11-01',accn='a')
+    facts={'facts':{'us-gaap':{'RevenueFromContractWithCustomerExcludingAssessedTax':{'units':{'USD':[row]}}}}}
+    metrics=extract_metrics(facts,financial=True)
+    assert metrics['quarterly_revenue'] is None
+
+
+def test_stale_earnings_are_not_new_financial_alerts():
+    from sec_monitor import metric_alerts
+    metrics={'quarterly_revenue':dict(val=100,unit='USD',end='2018-09-30',filed='2018-11-01',accn='old',stale=True)}
+    assert not metric_alerts('X',metrics,'https://data.sec.gov/test')

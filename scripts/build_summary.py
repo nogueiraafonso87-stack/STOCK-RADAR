@@ -1,16 +1,17 @@
 """Portuguese daily digest, including collection failures rather than fabricated news."""
+from datetime import date, timedelta
 from common import CATEGORIES, DATA, now, read, write
 
 def main():
     day=now()[:10]
     events=read('events.json',{'events':[]})['events']
     # Prefer today's first detections, including filings published earlier.
-    rows=[e for e in events if e['detected_at'][:10]==day]
+    rows=[e for e in events if e['detected_at'][:10]==day and e['date']>=str(date.today()-timedelta(days=7))]
     rows.sort(key=lambda e:e['date'],reverse=True)
     rows.sort(key=lambda e:({'alta':0,'média':1,'baixa':2}.get(e['relevance'],3)))
     lines=['# Resumo diário — STOCK-RADAR', '', f'Data: {day} (UTC)', '']
     if not rows: lines.append('Sem novos acontecimentos recolhidos nesta data. Consultar o estado das fontes abaixo; isto não garante ausência de notícias.')
-    if len(rows)>20: lines.append(f'{len(rows)} acontecimentos detetados; apresentam-se os 20 prioritários. Histórico completo no painel de alertas.')
+    if len(rows)>20: lines.append(f'{len(rows)} acontecimentos recentes detetados; apresentam-se os 20 prioritários. Histórico completo no painel de alertas.')
     for e in rows[:20]:
         lines.append(f'- **{e["ticker"]} · {CATEGORIES[e["category"]]}** ({e["date"]}): {e["title"]}. Estado: {e["status"]}. [Fonte]({e["source_url"]})')
     lines+=['','## Estado das fontes','']

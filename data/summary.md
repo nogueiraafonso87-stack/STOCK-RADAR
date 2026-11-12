@@ -2,7 +2,7 @@
 
 Data: 2026-11-12 (UTC)
 
-161 acontecimentos detetados; apresentam-se os 20 prioritários. Histórico completo no painel de alertas.
+48 acontecimentos recentes detetados; apresentam-se os 20 prioritários. Histórico completo no painel de alertas.
 - **AAOI · Movimentos relevantes** (2026-11-11): Variação diária +15.60%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/AAOI/history/)
 - **ASTS · Risco financeiro** (2026-11-09): Aumento da dívida de longo prazo não corrente: +485.4% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json)
 - **AEVA · Risco financeiro** (2026-11-06): Redução da caixa: -55.9% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json)
@@ -11,22 +11,22 @@ Data: 2026-11-12 (UTC)
 - **SOFI · Diluição** (2026-11-05): Alteração do número de ações; verificar emissões e desdobramentos: +7.6% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json)
 - **AAOI · Risco financeiro** (2026-11-05): Aumento da componente corrente da dívida de longo prazo: +114.4% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json)
 - **AAOI · Diluição** (2026-11-05): Alteração do número de ações; verificar emissões e desdobramentos: +32.9% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json)
-- **UBER · Risco financeiro** (2026-11-04): Aumento da dívida de longo prazo não corrente: +47.6% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json)
-- **RIVN · Diluição** (2026-10-29): Alteração do número de ações; verificar emissões e desdobramentos: +19.1% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json)
-- **NFLX · Diluição** (2026-10-21): Alteração do número de ações; verificar emissões e desdobramentos: +869.1% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json)
-- **KULR · Risco financeiro** (2026-03-31): Redução da caixa: -55.4% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json)
-- **KULR · Risco financeiro** (2026-03-31): Consumo anual de caixa operacional aumentou mais de 25%. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json)
-- **AEVA · Diluição** (2026-03-20): Alteração do número de ações; verificar emissões e desdobramentos: +15.0% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json)
-- **OKLO · Diluição** (2026-03-17): Alteração do número de ações; verificar emissões e desdobramentos: +24.9% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json)
-- **OKLO · Risco financeiro** (2026-03-17): Consumo anual de caixa operacional aumentou mais de 25%. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json)
-- **BIDU · Risco financeiro** (2026-03-17): Aumento da componente corrente da dívida de longo prazo: +571.0% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json)
-- **ASTS · Risco financeiro** (2026-03-02): Aumento da componente corrente da dívida de longo prazo: +311.1% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json)
-- **ASTS · Risco financeiro** (2026-03-02): Aumento da dívida de longo prazo não corrente: +1319.0% face ao período anual comparável. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json)
-- **AAOI · Diluição** (2026-02-26): Alteração do número de ações; verificar emissões e desdobramentos: +51.5% face ao período anual comparável. Estado: requer revisão. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json)
+- **ADUR · Movimentos relevantes** (2026-11-11): Variação diária +5.41%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/ADUR/history/)
+- **ASTS · Movimentos relevantes** (2026-11-11): Variação diária +8.70%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/ASTS/history/)
+- **KULR · Resultados financeiros** (2026-11-10): Relatório ou comunicado financeiro — rever resultados e guidance. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1662684/000110465926124826/tm2629340d2_8k.htm)
+- **KULR · Risco financeiro** (2026-11-10): Documento com informação de risco financeiro — requer revisão. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm)
+- **KULR · Diluição** (2026-11-10): Documento a rever para possível diluição; não confirma emissão. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm)
+- **SE · Resultados financeiros** (2026-11-10): Relatório ou comunicado financeiro — rever resultados e guidance. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1703399/000119312526455420/d17880d6k.htm)
+- **SYF · Contratos e projetos** (2026-11-10): Acordo ou comunicação relevante — termos e impacto por confirmar. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1601712/000160171226000045/syf-20261110.htm)
+- **KULR · Resultados financeiros** (2026-11-10): EPS diluído trimestral: 0.10 USD/shares (fim 2026-09-30); comparação homóloga N/D. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json)
+- **KULR · Resultados financeiros** (2026-11-10): Receita trimestral: 7,396,716.00 USD (fim 2026-09-30); variação homóloga +197.3%. Estado: confirmado. [Fonte](https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json)
+- **KULR · Resultados financeiros** (2026-11-10): Relatório ou comunicado financeiro — rever resultados e guidance. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm)
+- **SE · Contratos e projetos** (2026-11-10): Acordo ou comunicação relevante — termos e impacto por confirmar. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1703399/000119312526455420/d17880d6k.htm)
+- **KULR · Contratos e projetos** (2026-11-10): Acordo ou comunicação relevante — termos e impacto por confirmar. Estado: requer revisão. [Fonte](https://www.sec.gov/Archives/edgar/data/1662684/000110465926125320/tm2629340d1_8k.htm)
 
 ## Estado das fontes
 
-- market: consulta com dados; execução 2026-11-12T12:05:53.302167+00:00; falhas: 0.
-- sec: indisponível; execução 2026-11-12T12:05:53.692393+00:00; falhas: 1.
+- market: consulta com dados; execução 2026-11-12T12:03:34.524075+00:00; falhas: 0.
+- sec: consulta com dados; execução 2026-11-12T12:07:18.175298+00:00; falhas: 0.
 
 Guidance e consenso: N/D quando não há extração ou fonte validada. Documentos SEC classificados automaticamente exigem revisão. Notícias associadas não demonstram a causa de um movimento.

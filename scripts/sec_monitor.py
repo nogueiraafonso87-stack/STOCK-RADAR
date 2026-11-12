@@ -1,12 +1,13 @@
 """SEC official submissions and XBRL, with explicitly unverified document candidates."""
 import argparse
+import json
 import os
 import time
 from datetime import date, timedelta
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from common import event, merge_events, now, read, watchlist, write
+from common import ROOT, event, merge_events, now, read, watchlist, write
 
 SESSION=requests.Session()
 SESSION.mount('https://',HTTPAdapter(max_retries=Retry(total=3,backoff_factor=1,status_forcelist=[429,500,502,503,504])))
@@ -66,7 +67,7 @@ def metric(facts, tags, unit, duration):
     return result
 
 
-def extract_metrics(facts):
+def extract_metrics(facts, financial=False):
     specs={
         'revenue':(['RevenueFromContractWithCustomerExcludingAssessedTax','Revenues','SalesRevenueNet','Revenue'],'USD',True),
         'eps':(['EarningsPerShareDiluted','DilutedEarningsLossPerShare'],'USD/shares',True),
@@ -74,6 +75,8 @@ def extract_metrics(facts):
         'operating_cashflow':(['NetCashProvidedByUsedInOperatingActivities','CashFlowsFromUsedInOperatingActivities'],'USD',True),
         'debt_long_term':(['LongTermDebtCurrent','LongTermDebtNoncurrent'],'USD',False),
         'shares':(['CommonStockSharesOutstanding','EntityCommonStockSharesOutstanding'],'shares',False)}
+    if financial:
+        specs['revenue']=(['RevenuesNetOfInterestExpense','Revenues'],'USD',True)
     values={k:metric(facts,*v) for k,v in specs.items()}
     # Long-term debt components are kept separate; a single tag is never total debt.
     values['debt_current']=metric(facts,['LongTermDebtCurrent'],'USD',False)
@@ -86,6 +89,10 @@ def extract_metrics(facts):
     values['quarterly_revenue']=metric(facts,specs['revenue'][0],'USD','quarter')
     values['quarterly_eps']=metric(facts,specs['eps'][0],'USD/shares','quarter')
     values['method']='Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.'
+    for key,value in values.items():
+        if isinstance(value,dict) and value.get('end'):
+            value['stale']=(date.today()-date.fromisoformat(value['end'])).days>550
+    values['financial_sector']=financial
     values['guidance']='N/D — exige leitura do comunicado oficial; não extraído automaticamente.'
     values['analyst_consensus']='N/D — sem fonte de consenso validada; beat/miss não calculado.'
     return values
@@ -95,7 +102,7 @@ def metric_alerts(ticker, metrics, source_url):
     alerts=[]
     for key,label in (('quarterly_revenue','Receita trimestral'),('quarterly_eps','EPS diluído trimestral')):
         m=metrics.get(key)
-        if m:
+        if m and not m.get('stale') and m.get('filed','')>=str(date.today()-timedelta(days=45)):
             comparison=f'; variação homóloga {m["yoy_pct"]:+.1f}%' if m.get('yoy_pct') is not None else '; comparação homóloga N/D'
             alerts.append(event(ticker,'earnings',m['filed'],f'{label}: {m["val"]:,.2f} {m["unit"]} (fim {m["end"]})'+comparison,source_url,str(m['accn'])+key,details=m))
     for key,label,category,threshold in (
@@ -104,7 +111,8 @@ def metric_alerts(ticker, metrics, source_url):
         ('debt_noncurrent','Aumento da dívida de longo prazo não corrente','risk',20),
         ('shares','Alteração do número de ações; verificar emissões e desdobramentos','dilution',2)):
         m=metrics.get(key)
-        if not m or m.get('yoy_pct') is None: continue
+        if not m or m.get('stale') or m.get('yoy_pct') is None: continue
+        if metrics.get('financial_sector') and category=='risk': continue
         change=m['yoy_pct']
         if (threshold<0 and change<threshold) or (threshold>0 and change>threshold):
             e=event(ticker,category,m['filed'],f'{label}: {change:+.1f}% face ao período anual comparável',source_url,str(m['accn'])+key,details={'metric':key,**m})
@@ -112,7 +120,7 @@ def metric_alerts(ticker, metrics, source_url):
             if category=='dilution': e['status']='requer revisão'
             alerts.append(e)
     cashflow=metrics.get('operating_cashflow')
-    if cashflow and cashflow['val']<0:
+    if cashflow and not cashflow.get('stale') and not metrics.get('financial_sector') and cashflow['val']<0:
         previous=cashflow.get('previous')
         if previous and previous['val']<0 and abs(cashflow['val'])>abs(previous['val'])*1.25:
             e=event(ticker,'risk',cashflow['filed'],'Consumo anual de caixa operacional aumentou mais de 25%',source_url,str(cashflow['accn'])+'burn',details=cashflow)
@@ -127,11 +135,14 @@ def main(symbols=None):
     events=[]
     companies=dict(old.get('companies',{}))
     errors={}
-    try:
-        mapping={r['ticker'].upper():str(r['cik_str']).zfill(10) for r in get_json('https://www.sec.gov/files/company_tickers.json').values()}
-    except Exception as exc:
-        write('sec_status.json',dict(generated_at_utc=now(),ok=False,errors={'mapping':str(exc)[:200]}))
-        raise
+    mapping_file=ROOT/'sec_tickers.json'
+    mapping=json.loads(mapping_file.read_text())['mapping'] if mapping_file.exists() else {}
+    missing=set(symbols or watchlist())-mapping.keys()
+    if missing:
+        try:
+            mapping.update({r['ticker'].upper():str(r['cik_str']).zfill(10) for r in get_json('https://www.sec.gov/files/company_tickers.json').values()})
+        except Exception as exc:
+            errors['mapping']='Atualização do mapa indisponível; a usar CIK oficiais previamente verificados: '+str(exc)[:150]
     cutoff=str(date.today()-timedelta(days=45))
     successes=0
     titles={'earnings':'Relatório ou comunicado financeiro — rever resultados e guidance','risk':'Documento com informação de risco financeiro — requer revisão','dilution':'Documento a rever para possível diluição; não confirma emissão','contracts':'Acordo ou comunicação relevante — termos e impacto por confirmar'}
@@ -155,7 +166,7 @@ def main(symbols=None):
             successes+=1
             try:
                 facts=get_json(f'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json')
-                metrics=extract_metrics(facts)
+                metrics=extract_metrics(facts,financial=str(submissions.get('sic',''))[:2] in {'60','61','62','63','64','67'})
                 source=f'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json'
                 companies[ticker]=dict(updated_at=now(),source_url=source,metrics=metrics)
                 events.extend(metric_alerts(ticker,metrics,source))

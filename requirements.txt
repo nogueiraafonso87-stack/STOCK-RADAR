@@ -1,6 +1,7 @@
 streamlit==1.67.0
-pandas==2.2.3
+pandas>=2.2.3,<4
 numpy>=1.26,<3
 yfinance==1.8.0
 requests>=2.31,<3
 altair==6.3.0
+pyarrow>=12,<25

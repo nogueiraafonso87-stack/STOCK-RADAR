@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:04:08.018024+00:00",
+  "generated_at_utc": "2026-11-12T12:07:18.180668+00:00",
   "events": [
     {
       "id": "ead0b9106002956bd67cb372",
@@ -110,7 +110,8 @@
           "end": "2025-09-30",
           "accn": "0001104659-26-124824"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -137,7 +138,8 @@
           "end": "2025-09-30",
           "accn": "0001104659-26-124824"
         },
-        "yoy_pct": 197.2673422989852
+        "yoy_pct": 197.2673422989852,
+        "stale": false
       }
     },
     {
@@ -267,7 +269,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-25-274391"
         },
-        "yoy_pct": 485.3705699885899
+        "yoy_pct": 485.3705699885899,
+        "stale": false
       }
     },
     {
@@ -380,7 +383,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-25-270405"
         },
-        "yoy_pct": -55.940290667133596
+        "yoy_pct": -55.940290667133596,
+        "stale": false
       }
     },
     {
@@ -408,7 +412,8 @@
           "end": "2025-11-07",
           "accn": "0001628280-25-051349"
         },
-        "yoy_pct": 24.9876792893563
+        "yoy_pct": 24.9876792893563,
+        "stale": false
       }
     },
     {
@@ -435,7 +440,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-071319"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -462,7 +468,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-26-451930"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -523,7 +530,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-26-451930"
         },
-        "yoy_pct": 86.33696563285834
+        "yoy_pct": 86.33696563285834,
+        "stale": false
       }
     },
     {
@@ -584,7 +592,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-071319"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -629,7 +638,8 @@
           "end": "2025-10-31",
           "accn": "0001193125-25-270405"
         },
-        "yoy_pct": 16.338849919676978
+        "yoy_pct": 16.338849919676978,
+        "stale": false
       }
     },
     {
@@ -657,7 +667,8 @@
           "end": "2025-10-31",
           "accn": "0001818874-25-000210"
         },
-        "yoy_pct": 7.623946506929946
+        "yoy_pct": 7.623946506929946,
+        "stale": false
       }
     },
     {
@@ -701,7 +712,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-26-035282"
         },
-        "yoy_pct": 127.49304560397876
+        "yoy_pct": 127.49304560397876,
+        "stale": false
       }
     },
     {
@@ -729,7 +741,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-25-033627"
         },
-        "yoy_pct": 114.41847165630139
+        "yoy_pct": 114.41847165630139,
+        "stale": false
       }
     },
     {
@@ -754,26 +767,27 @@
       "ticker": "SOFI",
       "category": "earnings",
       "date": "2026-11-05",
-      "title": "Receita trimestral: 163,396,000.00 USD (fim 2026-09-30); variação homóloga +4.2%",
+      "title": "Receita trimestral: 1,385,099,000.00 USD (fim 2026-09-30); variação homóloga +44.0%",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:05.332803+00:00",
+      "detected_at": "2026-11-12T12:07:15.387187+00:00",
       "details": {
-        "val": 163396000,
+        "val": 1385099000,
         "start": "2026-07-01",
         "end": "2026-09-30",
         "filed": "2026-11-05",
         "accn": "0001818874-26-000070",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "tag": "RevenuesNetOfInterestExpense",
         "unit": "USD",
         "previous": {
-          "val": 156791000,
+          "val": 961600000,
           "start": "2025-07-01",
           "end": "2025-09-30",
           "accn": "0001818874-26-000070"
         },
-        "yoy_pct": 4.2126142444400605
+        "yoy_pct": 44.04107737104825,
+        "stale": false
       }
     },
     {
@@ -819,7 +833,7 @@
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:05.332811+00:00",
+      "detected_at": "2026-11-12T12:07:15.387197+00:00",
       "details": {
         "val": 0.18,
         "start": "2026-07-01",
@@ -834,7 +848,8 @@
           "end": "2025-09-30",
           "accn": "0001818874-26-000070"
         },
-        "yoy_pct": 63.636363636363626
+        "yoy_pct": 63.636363636363626,
+        "stale": false
       }
     },
     {
@@ -912,7 +927,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-26-035282"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -940,7 +956,8 @@
           "end": "2025-11-03",
           "accn": "0001437749-25-033627"
         },
-        "yoy_pct": 32.94205693140191
+        "yoy_pct": 32.94205693140191,
+        "stale": false
       }
     },
     {
@@ -1069,7 +1086,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-26-000041"
         },
-        "yoy_pct": 9.645800846513698
+        "yoy_pct": 9.645800846513698,
+        "stale": false
       }
     },
     {
@@ -1147,7 +1165,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-070272"
         },
-        "yoy_pct": 42.76205169728602
+        "yoy_pct": 42.76205169728602,
+        "stale": false
       }
     },
     {
@@ -1174,7 +1193,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-070272"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -1218,7 +1238,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-26-000041"
         },
-        "yoy_pct": -91.96141479099678
+        "yoy_pct": -91.96141479099678,
+        "stale": false
       }
     },
     {
@@ -1246,7 +1267,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-25-000033"
         },
-        "yoy_pct": 47.56476683937825
+        "yoy_pct": 47.56476683937825,
+        "stale": false
       }
     },
     {
@@ -1392,7 +1414,8 @@
           "end": "2025-09-30",
           "accn": "0001334036-26-000060"
         },
-        "yoy_pct": 4.6453832727258115
+        "yoy_pct": 4.6453832727258115,
+        "stale": false
       }
     },
     {
@@ -1419,7 +1442,8 @@
           "end": "2025-09-30",
           "accn": "0001334036-26-000060"
         },
-        "yoy_pct": 67.40740740740738
+        "yoy_pct": 67.40740740740738,
+        "stale": false
       }
     },
     {
@@ -1480,7 +1504,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-068116"
         },
-        "yoy_pct": 26.923076923076916
+        "yoy_pct": 26.923076923076916,
+        "stale": false
       }
     },
     {
@@ -1542,7 +1567,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-25-000052"
         },
-        "yoy_pct": 19.08646003262642
+        "yoy_pct": 19.08646003262642,
+        "stale": false
       }
     },
     {
@@ -1603,7 +1629,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-26-000066"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -1664,7 +1691,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-068116"
         },
-        "yoy_pct": 3.4744625534651075
+        "yoy_pct": 3.4744625534651075,
+        "stale": false
       }
     },
     {
@@ -1691,7 +1719,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-26-000066"
         },
-        "yoy_pct": 38.3183568677792
+        "yoy_pct": 38.3183568677792,
+        "stale": false
       }
     },
     {
@@ -1803,7 +1832,8 @@
           "end": "2025-09-30",
           "accn": "0001633917-26-000088"
         },
-        "yoy_pct": -3.8461538461538547
+        "yoy_pct": -3.8461538461538547,
+        "stale": false
       }
     },
     {
@@ -1864,7 +1894,8 @@
           "end": "2025-09-30",
           "accn": "0001633917-26-000088"
         },
-        "yoy_pct": 1.984079838422237
+        "yoy_pct": 1.984079838422237,
+        "stale": false
       }
     },
     {
@@ -1910,7 +1941,7 @@
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001601712.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:06.374986+00:00",
+      "detected_at": "2026-11-12T12:07:16.518069+00:00",
       "details": {
         "val": 2.68,
         "start": "2026-07-01",
@@ -1925,7 +1956,8 @@
           "end": "2025-09-30",
           "accn": "0001601712-26-000043"
         },
-        "yoy_pct": -6.293706293706281
+        "yoy_pct": -6.293706293706281,
+        "stale": false
       }
     },
     {
@@ -2037,7 +2069,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-26-000291"
         },
-        "yoy_pct": 47.457627118644076
+        "yoy_pct": 47.457627118644076,
+        "stale": false
       }
     },
     {
@@ -2065,7 +2098,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-25-000406"
         },
-        "yoy_pct": 869.0848617183885
+        "yoy_pct": 869.0848617183885,
+        "stale": false
       }
     },
     {
@@ -2092,7 +2126,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-26-000291"
         },
-        "yoy_pct": 11.849110540665864
+        "yoy_pct": 11.849110540665864,
+        "stale": false
       }
     },
     {
@@ -2476,7 +2511,8 @@
           "end": "2025-08-31",
           "accn": "0000320187-26-000193"
         },
-        "yoy_pct": -4.3259385665529
+        "yoy_pct": -4.3259385665529,
+        "stale": false
       }
     },
     {
@@ -2503,7 +2539,8 @@
           "end": "2025-08-31",
           "accn": "0000320187-26-000193"
         },
-        "yoy_pct": -2.0408163265306145
+        "yoy_pct": -2.0408163265306145,
+        "stale": false
       }
     },
     {
@@ -2694,60 +2731,6 @@
       }
     },
     {
-      "id": "6ec2933436a90c88b026af03",
-      "ticker": "LULU",
-      "category": "earnings",
-      "date": "2026-09-03",
-      "title": "Receita trimestral: 2,415,631,000.00 USD (fim 2026-08-02); variação homóloga -4.3%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:04.957220+00:00",
-      "details": {
-        "val": 2415631000,
-        "start": "2026-05-04",
-        "end": "2026-08-02",
-        "filed": "2026-09-03",
-        "accn": "0001397187-26-000127",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-        "unit": "USD",
-        "previous": {
-          "val": 2525219000,
-          "start": "2025-05-05",
-          "end": "2025-08-03",
-          "accn": "0001397187-26-000127"
-        },
-        "yoy_pct": -4.339742414420289
-      }
-    },
-    {
-      "id": "2574f6202aef8de334b2d8a7",
-      "ticker": "LULU",
-      "category": "earnings",
-      "date": "2026-09-03",
-      "title": "EPS diluído trimestral: 2.92 USD/shares (fim 2026-08-02); variação homóloga -5.8%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:04.957227+00:00",
-      "details": {
-        "val": 2.92,
-        "start": "2026-05-04",
-        "end": "2026-08-02",
-        "filed": "2026-09-03",
-        "accn": "0001397187-26-000127",
-        "tag": "EarningsPerShareDiluted",
-        "unit": "USD/shares",
-        "previous": {
-          "val": 3.1,
-          "start": "2025-05-05",
-          "end": "2025-08-03",
-          "accn": "0001397187-26-000127"
-        },
-        "yoy_pct": -5.8064516129032295
-      }
-    },
-    {
       "id": "e0ace9cb7b102b0968d73971",
       "ticker": "KULR",
       "category": "risk",
@@ -2799,7 +2782,8 @@
           "end": "2024-12-31",
           "accn": "0001104659-26-037918"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -2882,7 +2866,8 @@
           "end": "2024-12-31",
           "accn": "0001628280-26-018698"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -2910,7 +2895,8 @@
           "end": "2024-12-31",
           "accn": "0001193125-25-066199"
         },
-        "yoy_pct": 570.9677419354839
+        "yoy_pct": 570.9677419354839,
+        "stale": false
       }
     },
     {
@@ -3049,7 +3035,8 @@
           "end": "2024-12-31",
           "accn": "0001437749-26-005875"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -3218,82 +3205,11 @@
         },
         "yoy_pct": -32.395164336985275
       }
-    },
-    {
-      "id": "aa8b49631c842f18ed5a9310",
-      "ticker": "ASTS",
-      "category": "earnings",
-      "date": "2024-11-14",
-      "title": "Receita trimestral: 1,100,000.00 USD (fim 2024-09-30); comparação homóloga N/D",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:03.456328+00:00",
-      "details": {
-        "val": 1100000,
-        "start": "2024-07-01",
-        "end": "2024-09-30",
-        "filed": "2024-11-14",
-        "accn": "0000950170-24-127101",
-        "tag": "Revenues",
-        "unit": "USD",
-        "previous": null,
-        "yoy_pct": null
-      }
-    },
-    {
-      "id": "2b2f9d6da167ab7cfc05880d",
-      "ticker": "ASTS",
-      "category": "earnings",
-      "date": "2022-11-14",
-      "title": "EPS diluído trimestral: -0.18 USD/shares (fim 2022-09-30); variação homóloga -357.1%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:03.456340+00:00",
-      "details": {
-        "val": -0.18,
-        "start": "2022-07-01",
-        "end": "2022-09-30",
-        "filed": "2022-11-14",
-        "accn": "0000950170-22-025059",
-        "tag": "EarningsPerShareDiluted",
-        "unit": "USD/shares",
-        "previous": {
-          "val": 0.07,
-          "start": "2021-07-01",
-          "end": "2021-09-30",
-          "accn": "0000950170-22-025059"
-        },
-        "yoy_pct": -357.1428571428571
-      }
-    },
-    {
-      "id": "770c1a91522f09c8070db438",
-      "ticker": "BIDU",
-      "category": "earnings",
-      "date": "2018-11-07",
-      "title": "Receita trimestral: 4,106,000,000.00 USD (fim 2018-09-30); comparação homóloga N/D",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:02.910570+00:00",
-      "details": {
-        "val": 4106000000,
-        "start": "2018-07-01",
-        "end": "2018-09-30",
-        "filed": "2018-11-07",
-        "accn": "0001193125-18-320960",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-        "unit": "USD",
-        "previous": null,
-        "yoy_pct": null
-      }
     }
   ],
   "companies": {
     "NFLX": {
-      "updated_at": "2026-11-12T12:03:59.038593+00:00",
+      "updated_at": "2026-11-12T12:07:08.217163+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
       "metrics": {
         "revenue": {
@@ -3310,7 +3226,8 @@
             "end": "2024-12-31",
             "accn": "0001065280-26-000034"
           },
-          "yoy_pct": 15.851068919677536
+          "yoy_pct": 15.851068919677536,
+          "stale": false
         },
         "eps": {
           "val": 2.53,
@@ -3326,7 +3243,8 @@
             "end": "2024-12-31",
             "accn": "0001065280-26-000034"
           },
-          "yoy_pct": 27.777777777777768
+          "yoy_pct": 27.777777777777768,
+          "stale": false
         },
         "cash": {
           "val": 8194275000,
@@ -3342,7 +3260,8 @@
             "end": "2025-09-30",
             "accn": "0001065280-25-000406"
           },
-          "yoy_pct": -11.768905171122634
+          "yoy_pct": -11.768905171122634,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 10149273000,
@@ -3358,7 +3277,8 @@
             "end": "2024-12-31",
             "accn": "0001065280-26-000034"
           },
-          "yoy_pct": 37.87217966670306
+          "yoy_pct": 37.87217966670306,
+          "stale": false
         },
         "shares": {
           "val": 4106325903,
@@ -3374,7 +3294,8 @@
             "end": "2025-09-30",
             "accn": "0001065280-25-000406"
           },
-          "yoy_pct": 869.0848617183885
+          "yoy_pct": 869.0848617183885,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": {
@@ -3391,7 +3312,8 @@
             "end": "2025-09-30",
             "accn": "0001065280-25-000406"
           },
-          "yoy_pct": -12.483022218042983
+          "yoy_pct": -12.483022218042983,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -3408,7 +3330,8 @@
             "end": "2025-09-30",
             "accn": "0001065280-26-000291"
           },
-          "yoy_pct": 11.849110540665864
+          "yoy_pct": 11.849110540665864,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.87,
@@ -3424,15 +3347,17 @@
             "end": "2025-09-30",
             "accn": "0001065280-26-000291"
           },
-          "yoy_pct": 47.457627118644076
+          "yoy_pct": 47.457627118644076,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "AEVA": {
-      "updated_at": "2026-11-12T12:04:00.510150+00:00",
+      "updated_at": "2026-11-12T12:07:09.798572+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
       "metrics": {
         "revenue": {
@@ -3449,7 +3374,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-26-116518"
           },
-          "yoy_pct": 99.43739658025372
+          "yoy_pct": 99.43739658025372,
+          "stale": false
         },
         "eps": {
           "val": -2.55,
@@ -3465,7 +3391,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-26-116518"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 20130000,
@@ -3481,7 +3408,8 @@
             "end": "2025-09-30",
             "accn": "0001193125-25-270405"
           },
-          "yoy_pct": -55.940290667133596
+          "yoy_pct": -55.940290667133596,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -115077000,
@@ -3497,7 +3425,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-26-116518"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 69896274,
@@ -3513,7 +3442,8 @@
             "end": "2025-10-31",
             "accn": "0001193125-25-270405"
           },
-          "yoy_pct": 16.338849919676978
+          "yoy_pct": 16.338849919676978,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -3532,7 +3462,8 @@
             "end": "2025-09-30",
             "accn": "0001193125-26-451930"
           },
-          "yoy_pct": 86.33696563285834
+          "yoy_pct": 86.33696563285834,
+          "stale": false
         },
         "quarterly_eps": {
           "val": -0.54,
@@ -3548,15 +3479,17 @@
             "end": "2025-09-30",
             "accn": "0001193125-26-451930"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "SE": {
-      "updated_at": "2026-11-12T12:03:59.557601+00:00",
+      "updated_at": "2026-11-12T12:07:08.592776+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001703399.json",
       "metrics": {
         "revenue": {
@@ -3573,7 +3506,8 @@
             "end": "2024-12-31",
             "accn": "0001140361-26-015366"
           },
-          "yoy_pct": 33.199333250665
+          "yoy_pct": 33.199333250665,
+          "stale": false
         },
         "eps": {
           "val": 2.52,
@@ -3589,7 +3523,8 @@
             "end": "2024-12-31",
             "accn": "0001140361-26-015366"
           },
-          "yoy_pct": 240.54054054054052
+          "yoy_pct": 240.54054054054052,
+          "stale": false
         },
         "cash": {
           "val": 4158920000,
@@ -3605,7 +3540,8 @@
             "end": "2024-12-31",
             "accn": "0001140361-26-015366"
           },
-          "yoy_pct": 72.91706598291252
+          "yoy_pct": 72.91706598291252,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 5024523000,
@@ -3621,7 +3557,8 @@
             "end": "2024-12-31",
             "accn": "0001140361-26-015366"
           },
-          "yoy_pct": 53.30726608124683
+          "yoy_pct": 53.30726608124683,
+          "stale": false
         },
         "shares": {
           "val": 0,
@@ -3637,7 +3574,8 @@
             "end": "2016-12-31",
             "accn": "0001193125-18-113294"
           },
-          "yoy_pct": -100.0
+          "yoy_pct": -100.0,
+          "stale": true
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -3645,12 +3583,13 @@
         "quarterly_revenue": null,
         "quarterly_eps": null,
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "NKE": {
-      "updated_at": "2026-11-12T12:03:59.964337+00:00",
+      "updated_at": "2026-11-12T12:07:08.963126+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
       "metrics": {
         "revenue": {
@@ -3667,7 +3606,8 @@
             "end": "2025-05-31",
             "accn": "0000320187-26-000088"
           },
-          "yoy_pct": 0.19218726381480256
+          "yoy_pct": 0.19218726381480256,
+          "stale": false
         },
         "eps": {
           "val": 2.1,
@@ -3683,7 +3623,8 @@
             "end": "2025-05-31",
             "accn": "0000320187-26-000088"
           },
-          "yoy_pct": -2.777777777777779
+          "yoy_pct": -2.777777777777779,
+          "stale": false
         },
         "cash": {
           "val": 6903000000,
@@ -3699,7 +3640,8 @@
             "end": "2025-08-31",
             "accn": "0000320187-25-000097"
           },
-          "yoy_pct": -1.7226651480637845
+          "yoy_pct": -1.7226651480637845,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 2868000000,
@@ -3715,7 +3657,8 @@
             "end": "2025-05-31",
             "accn": "0000320187-26-000088"
           },
-          "yoy_pct": -22.444564629529474
+          "yoy_pct": -22.444564629529474,
+          "stale": false
         },
         "shares": {
           "val": 855351589,
@@ -3731,7 +3674,8 @@
             "end": "2014-07-18",
             "accn": "0000320187-14-000097"
           },
-          "yoy_pct": -1.490952934868306
+          "yoy_pct": -1.490952934868306,
+          "stale": true
         },
         "debt_current": {
           "val": 2000000000,
@@ -3742,7 +3686,8 @@
           "tag": "LongTermDebtCurrent",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 5893000000,
@@ -3758,7 +3703,8 @@
             "end": "2025-08-31",
             "accn": "0000320187-25-000097"
           },
-          "yoy_pct": -26.30065032516258
+          "yoy_pct": -26.30065032516258,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -3775,7 +3721,8 @@
             "end": "2025-08-31",
             "accn": "0000320187-26-000193"
           },
-          "yoy_pct": -4.3259385665529
+          "yoy_pct": -4.3259385665529,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.48,
@@ -3791,15 +3738,17 @@
             "end": "2025-08-31",
             "accn": "0000320187-26-000193"
           },
-          "yoy_pct": -2.0408163265306145
+          "yoy_pct": -2.0408163265306145,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "KULR": {
-      "updated_at": "2026-11-12T12:04:00.993976+00:00",
+      "updated_at": "2026-11-12T12:07:10.726819+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json",
       "metrics": {
         "revenue": {
@@ -3816,7 +3765,8 @@
             "end": "2024-12-31",
             "accn": "0001104659-26-037918"
           },
-          "yoy_pct": 50.59774261765866
+          "yoy_pct": 50.59774261765866,
+          "stale": false
         },
         "eps": {
           "val": -1.56,
@@ -3832,7 +3782,8 @@
             "end": "2024-12-31",
             "accn": "0001104659-26-037918"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 54460036,
@@ -3848,7 +3799,8 @@
             "end": "2025-09-30",
             "accn": "0001104659-25-113662"
           },
-          "yoy_pct": 164.51554054487252
+          "yoy_pct": 164.51554054487252,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -44883648,
@@ -3864,7 +3816,8 @@
             "end": "2024-12-31",
             "accn": "0001104659-26-037918"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 46280543,
@@ -3880,7 +3833,8 @@
             "end": "2025-11-14",
             "accn": "0001104659-25-113662"
           },
-          "yoy_pct": 1.3270513342041435
+          "yoy_pct": 1.3270513342041435,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -3899,7 +3853,8 @@
             "end": "2025-09-30",
             "accn": "0001104659-26-124824"
           },
-          "yoy_pct": 197.2673422989852
+          "yoy_pct": 197.2673422989852,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.1,
@@ -3915,15 +3870,17 @@
             "end": "2025-09-30",
             "accn": "0001104659-26-124824"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "OKLO": {
-      "updated_at": "2026-11-12T12:04:01.473641+00:00",
+      "updated_at": "2026-11-12T12:07:11.185500+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
       "metrics": {
         "revenue": null,
@@ -3941,7 +3898,8 @@
             "end": "2024-12-31",
             "accn": "0001628280-26-018698"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 1550061000,
@@ -3957,7 +3915,8 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-071319"
           },
-          "yoy_pct": 278.02585595099026
+          "yoy_pct": 278.02585595099026,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -82174000,
@@ -3973,7 +3932,8 @@
             "end": "2024-12-31",
             "accn": "0001628280-26-018698"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 195289593,
@@ -3989,7 +3949,8 @@
             "end": "2025-11-07",
             "accn": "0001628280-25-051349"
           },
-          "yoy_pct": 24.9876792893563
+          "yoy_pct": 24.9876792893563,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": {
@@ -4001,7 +3962,8 @@
           "tag": "LongTermDebtNoncurrent",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -4018,7 +3980,8 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-071319"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "quarterly_eps": {
           "val": -0.22,
@@ -4034,15 +3997,17 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-071319"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "FIG": {
-      "updated_at": "2026-11-12T12:04:01.981725+00:00",
+      "updated_at": "2026-11-12T12:07:11.588426+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001579878.json",
       "metrics": {
         "revenue": {
@@ -4059,7 +4024,8 @@
             "end": "2024-12-31",
             "accn": "0001628280-26-009228"
           },
-          "yoy_pct": 40.95760943430737
+          "yoy_pct": 40.95760943430737,
+          "stale": false
         },
         "eps": {
           "val": -3.71,
@@ -4075,7 +4041,8 @@
             "end": "2024-12-31",
             "accn": "0001628280-26-009228"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 508034000,
@@ -4091,7 +4058,8 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-070272"
           },
-          "yoy_pct": 49.2089225663392
+          "yoy_pct": 49.2089225663392,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 250681000,
@@ -4107,7 +4075,8 @@
             "end": "2024-12-31",
             "accn": "0001628280-26-009228"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": null,
         "debt_current": null,
@@ -4127,7 +4096,8 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-070272"
           },
-          "yoy_pct": 42.76205169728602
+          "yoy_pct": 42.76205169728602,
+          "stale": false
         },
         "quarterly_eps": {
           "val": -0.15,
@@ -4143,15 +4113,17 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-070272"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "RIVN": {
-      "updated_at": "2026-11-12T12:04:02.497224+00:00",
+      "updated_at": "2026-11-12T12:07:12.078694+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
       "metrics": {
         "revenue": {
@@ -4168,7 +4140,8 @@
             "end": "2024-12-31",
             "accn": "0001874178-26-000008"
           },
-          "yoy_pct": 8.390342052313882
+          "yoy_pct": 8.390342052313882,
+          "stale": false
         },
         "eps": {
           "val": -3.07,
@@ -4184,7 +4157,8 @@
             "end": "2024-12-31",
             "accn": "0001874178-26-000008"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 3509000000,
@@ -4200,7 +4174,8 @@
             "end": "2025-09-30",
             "accn": "0001874178-25-000052"
           },
-          "yoy_pct": -20.98626435487503
+          "yoy_pct": -20.98626435487503,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -779000000,
@@ -4216,7 +4191,8 @@
             "end": "2024-12-31",
             "accn": "0001874178-26-000008"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 1460000000,
@@ -4232,7 +4208,8 @@
             "end": "2025-09-30",
             "accn": "0001874178-25-000052"
           },
-          "yoy_pct": 19.08646003262642
+          "yoy_pct": 19.08646003262642,
+          "stale": false
         },
         "debt_current": {
           "val": 0,
@@ -4248,7 +4225,8 @@
             "end": "2023-06-30",
             "accn": "0001874178-23-000041"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": true
         },
         "debt_noncurrent": {
           "val": 4446000000,
@@ -4264,7 +4242,8 @@
             "end": "2025-09-30",
             "accn": "0001874178-25-000052"
           },
-          "yoy_pct": 0.18026137899955774
+          "yoy_pct": 0.18026137899955774,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -4281,7 +4260,8 @@
             "end": "2025-09-30",
             "accn": "0001874178-26-000066"
           },
-          "yoy_pct": 38.3183568677792
+          "yoy_pct": 38.3183568677792,
+          "stale": false
         },
         "quarterly_eps": {
           "val": -0.63,
@@ -4297,15 +4277,17 @@
             "end": "2025-09-30",
             "accn": "0001874178-26-000066"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "BIDU": {
-      "updated_at": "2026-11-12T12:04:02.910527+00:00",
+      "updated_at": "2026-11-12T12:07:12.700925+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json",
       "metrics": {
         "revenue": {
@@ -4322,7 +4304,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-25-066199"
           },
-          "yoy_pct": 1.2062726176115701
+          "yoy_pct": 1.2062726176115701,
+          "stale": false
         },
         "eps": {
           "val": 15.3,
@@ -4338,7 +4321,8 @@
             "end": "2009-12-31",
             "accn": "0000950123-10-028511"
           },
-          "yoy_pct": 144.40894568690098
+          "yoy_pct": 144.40894568690098,
+          "stale": true
         },
         "cash": {
           "val": 3519000000,
@@ -4354,7 +4338,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-25-066199"
           },
-          "yoy_pct": 3.4391534391534417
+          "yoy_pct": 3.4391534391534417,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -431000000,
@@ -4370,7 +4355,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-25-066199"
           },
-          "yoy_pct": -114.81608800275009
+          "yoy_pct": -114.81608800275009,
+          "stale": false
         },
         "shares": null,
         "debt_current": {
@@ -4387,7 +4373,8 @@
             "end": "2024-12-31",
             "accn": "0001193125-25-066199"
           },
-          "yoy_pct": 570.9677419354839
+          "yoy_pct": 570.9677419354839,
+          "stale": false
         },
         "debt_noncurrent": null,
         "runway_months": 97.97679814385151,
@@ -4400,16 +4387,18 @@
           "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": true
         },
         "quarterly_eps": null,
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "ASTS": {
-      "updated_at": "2026-11-12T12:04:03.456256+00:00",
+      "updated_at": "2026-11-12T12:07:13.255993+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
       "metrics": {
         "revenue": {
@@ -4421,7 +4410,8 @@
           "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": true
         },
         "eps": null,
         "cash": {
@@ -4438,7 +4428,8 @@
             "end": "2025-09-30",
             "accn": "0001193125-25-274391"
           },
-          "yoy_pct": 132.41325536709843
+          "yoy_pct": 132.41325536709843,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -71517000,
@@ -4454,7 +4445,8 @@
             "end": "2024-12-31",
             "accn": "0001780312-26-000006"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": null,
         "debt_current": {
@@ -4471,7 +4463,8 @@
             "end": "2025-09-30",
             "accn": "0001193125-25-274391"
           },
-          "yoy_pct": -1.7771319995529278
+          "yoy_pct": -1.7771319995529278,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 4083709000,
@@ -4487,7 +4480,8 @@
             "end": "2025-09-30",
             "accn": "0001193125-25-274391"
           },
-          "yoy_pct": 485.3705699885899
+          "yoy_pct": 485.3705699885899,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -4499,7 +4493,8 @@
           "tag": "Revenues",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": true
         },
         "quarterly_eps": {
           "val": -0.18,
@@ -4515,15 +4510,17 @@
             "end": "2021-09-30",
             "accn": "0000950170-22-025059"
           },
-          "yoy_pct": -357.1428571428571
+          "yoy_pct": -357.1428571428571,
+          "stale": true
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "AAOI": {
-      "updated_at": "2026-11-12T12:04:04.087341+00:00",
+      "updated_at": "2026-11-12T12:07:13.731611+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
       "metrics": {
         "revenue": {
@@ -4540,7 +4537,8 @@
             "end": "2024-12-31",
             "accn": "0001437749-26-005875"
           },
-          "yoy_pct": 82.75018547109659
+          "yoy_pct": 82.75018547109659,
+          "stale": false
         },
         "eps": {
           "val": -0.64,
@@ -4556,7 +4554,8 @@
             "end": "2024-12-31",
             "accn": "0001437749-26-005875"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "cash": {
           "val": 605413000,
@@ -4572,7 +4571,8 @@
             "end": "2025-09-30",
             "accn": "0001437749-25-033627"
           },
-          "yoy_pct": 342.0331335197611
+          "yoy_pct": 342.0331335197611,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -174428000,
@@ -4588,7 +4588,8 @@
             "end": "2024-12-31",
             "accn": "0001437749-26-005875"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 90770732,
@@ -4604,7 +4605,8 @@
             "end": "2025-11-03",
             "accn": "0001437749-25-033627"
           },
-          "yoy_pct": 32.94205693140191
+          "yoy_pct": 32.94205693140191,
+          "stale": false
         },
         "debt_current": {
           "val": 59990000,
@@ -4620,7 +4622,8 @@
             "end": "2025-09-30",
             "accn": "0001437749-25-033627"
           },
-          "yoy_pct": 114.41847165630139
+          "yoy_pct": 114.41847165630139,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 36586000,
@@ -4636,7 +4639,8 @@
             "end": "2025-09-30",
             "accn": "0001437749-25-033627"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -4653,7 +4657,8 @@
             "end": "2025-09-30",
             "accn": "0001437749-26-035282"
           },
-          "yoy_pct": 127.49304560397876
+          "yoy_pct": 127.49304560397876,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.07,
@@ -4669,15 +4674,17 @@
             "end": "2025-09-30",
             "accn": "0001437749-26-035282"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "ADUR": {
-      "updated_at": "2026-11-12T12:04:04.552175+00:00",
+      "updated_at": "2026-11-12T12:07:14.318180+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001863934.json",
       "metrics": {
         "revenue": null,
@@ -4693,7 +4700,8 @@
           "tag": "EntityCommonStockSharesOutstanding",
           "unit": "shares",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -4701,12 +4709,13 @@
         "quarterly_revenue": null,
         "quarterly_eps": null,
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "LULU": {
-      "updated_at": "2026-11-12T12:04:04.957176+00:00",
+      "updated_at": "2026-11-12T12:07:14.726344+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
       "metrics": {
         "revenue": {
@@ -4723,7 +4732,8 @@
             "end": "2025-02-02",
             "accn": "0001397187-26-000020"
           },
-          "yoy_pct": 4.858971266492285
+          "yoy_pct": 4.858971266492285,
+          "stale": false
         },
         "eps": {
           "val": 13.26,
@@ -4739,7 +4749,8 @@
             "end": "2025-02-02",
             "accn": "0001397187-26-000020"
           },
-          "yoy_pct": -9.426229508196727
+          "yoy_pct": -9.426229508196727,
+          "stale": false
         },
         "cash": {
           "val": 881320000,
@@ -4755,7 +4766,8 @@
             "end": "2018-01-28",
             "accn": "0001397187-19-000011"
           },
-          "yoy_pct": -11.022805630685884
+          "yoy_pct": -11.022805630685884,
+          "stale": true
         },
         "operating_cashflow": {
           "val": 1602477000,
@@ -4771,7 +4783,8 @@
             "end": "2025-02-02",
             "accn": "0001397187-26-000020"
           },
-          "yoy_pct": -29.490569200774587
+          "yoy_pct": -29.490569200774587,
+          "stale": false
         },
         "shares": {
           "val": 105594064,
@@ -4787,7 +4800,8 @@
             "end": "2025-08-29",
             "accn": "0001397187-25-000039"
           },
-          "yoy_pct": -6.939412265733013
+          "yoy_pct": -6.939412265733013,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -4806,7 +4820,8 @@
             "end": "2025-08-03",
             "accn": "0001397187-26-000127"
           },
-          "yoy_pct": -4.339742414420289
+          "yoy_pct": -4.339742414420289,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 2.92,
@@ -4822,32 +4837,35 @@
             "end": "2025-08-03",
             "accn": "0001397187-26-000127"
           },
-          "yoy_pct": -5.8064516129032295
+          "yoy_pct": -5.8064516129032295,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "SOFI": {
-      "updated_at": "2026-11-12T12:04:05.332759+00:00",
+      "updated_at": "2026-11-12T12:07:15.387140+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
       "metrics": {
         "revenue": {
-          "val": 619353000,
+          "val": 3613354000,
           "start": "2025-01-01",
           "end": "2025-12-31",
           "filed": "2026-02-17",
           "accn": "0001818874-26-000013",
-          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "tag": "RevenuesNetOfInterestExpense",
           "unit": "USD",
           "previous": {
-            "val": 503123000,
+            "val": 2674859000,
             "start": "2024-01-01",
             "end": "2024-12-31",
             "accn": "0001818874-26-000013"
           },
-          "yoy_pct": 23.101706739703822
+          "yoy_pct": 35.085774614661936,
+          "stale": false
         },
         "eps": {
           "val": 0.39,
@@ -4863,7 +4881,8 @@
             "end": "2024-12-31",
             "accn": "0001818874-26-000013"
           },
-          "yoy_pct": 0.0
+          "yoy_pct": 0.0,
+          "stale": false
         },
         "cash": {
           "val": 2809582000,
@@ -4879,7 +4898,8 @@
             "end": "2025-09-30",
             "accn": "0001818874-26-000070"
           },
-          "yoy_pct": -13.454152061807246
+          "yoy_pct": -13.454152061807246,
+          "stale": false
         },
         "operating_cashflow": {
           "val": -3742458000,
@@ -4895,7 +4915,8 @@
             "end": "2024-12-31",
             "accn": "0001818874-26-000013"
           },
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "shares": {
           "val": 1297840447,
@@ -4911,26 +4932,28 @@
             "end": "2025-10-31",
             "accn": "0001818874-25-000210"
           },
-          "yoy_pct": 7.623946506929946
+          "yoy_pct": 7.623946506929946,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
         "runway_months": null,
         "quarterly_revenue": {
-          "val": 163396000,
+          "val": 1385099000,
           "start": "2026-07-01",
           "end": "2026-09-30",
           "filed": "2026-11-05",
           "accn": "0001818874-26-000070",
-          "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "tag": "RevenuesNetOfInterestExpense",
           "unit": "USD",
           "previous": {
-            "val": 156791000,
+            "val": 961600000,
             "start": "2025-07-01",
             "end": "2025-09-30",
             "accn": "0001818874-26-000070"
           },
-          "yoy_pct": 4.2126142444400605
+          "yoy_pct": 44.04107737104825,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.18,
@@ -4946,15 +4969,17 @@
             "end": "2025-09-30",
             "accn": "0001818874-26-000070"
           },
-          "yoy_pct": 63.636363636363626
+          "yoy_pct": 63.636363636363626,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": true,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "UBER": {
-      "updated_at": "2026-11-12T12:04:05.726764+00:00",
+      "updated_at": "2026-11-12T12:07:15.914445+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
       "metrics": {
         "revenue": {
@@ -4971,7 +4996,8 @@
             "end": "2024-12-31",
             "accn": "0001543151-26-000015"
           },
-          "yoy_pct": 18.27959434262585
+          "yoy_pct": 18.27959434262585,
+          "stale": false
         },
         "eps": {
           "val": 4.73,
@@ -4987,7 +5013,8 @@
             "end": "2024-12-31",
             "accn": "0001543151-26-000015"
           },
-          "yoy_pct": 3.7280701754386136
+          "yoy_pct": 3.7280701754386136,
+          "stale": false
         },
         "cash": {
           "val": 9558000000,
@@ -5003,7 +5030,8 @@
             "end": "2025-09-30",
             "accn": "0001543151-26-000041"
           },
-          "yoy_pct": 13.353889943074005
+          "yoy_pct": 13.353889943074005,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 10099000000,
@@ -5019,7 +5047,8 @@
             "end": "2024-12-31",
             "accn": "0001543151-26-000015"
           },
-          "yoy_pct": 41.502031665966086
+          "yoy_pct": 41.502031665966086,
+          "stale": false
         },
         "shares": {
           "val": 2041898070,
@@ -5035,7 +5064,8 @@
             "end": "2025-10-30",
             "accn": "0001543151-25-000033"
           },
-          "yoy_pct": -1.7293187802320475
+          "yoy_pct": -1.7293187802320475,
+          "stale": false
         },
         "debt_current": {
           "val": 0,
@@ -5051,7 +5081,8 @@
             "end": "2024-12-31",
             "accn": "0001543151-26-000015"
           },
-          "yoy_pct": -100.0
+          "yoy_pct": -100.0,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 15664000000,
@@ -5067,7 +5098,8 @@
             "end": "2025-09-30",
             "accn": "0001543151-25-000033"
           },
-          "yoy_pct": 47.56476683937825
+          "yoy_pct": 47.56476683937825,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -5084,7 +5116,8 @@
             "end": "2025-09-30",
             "accn": "0001543151-26-000041"
           },
-          "yoy_pct": 9.645800846513698
+          "yoy_pct": 9.645800846513698,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 0.25,
@@ -5100,15 +5133,17 @@
             "end": "2025-09-30",
             "accn": "0001543151-26-000041"
           },
-          "yoy_pct": -91.96141479099678
+          "yoy_pct": -91.96141479099678,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "SYF": {
-      "updated_at": "2026-11-12T12:04:06.374939+00:00",
+      "updated_at": "2026-11-12T12:07:16.517983+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001601712.json",
       "metrics": {
         "revenue": null,
@@ -5126,7 +5161,8 @@
             "end": "2024-12-31",
             "accn": "0001601712-26-000006"
           },
-          "yoy_pct": 8.538011695906423
+          "yoy_pct": 8.538011695906423,
+          "stale": false
         },
         "cash": {
           "val": 15901000000,
@@ -5142,7 +5178,8 @@
             "end": "2025-09-30",
             "accn": "0001601712-26-000043"
           },
-          "yoy_pct": -2.1175746383502614
+          "yoy_pct": -2.1175746383502614,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 9851000000,
@@ -5158,7 +5195,8 @@
             "end": "2024-12-31",
             "accn": "0001601712-26-000006"
           },
-          "yoy_pct": 0.030463038180350566
+          "yoy_pct": 0.030463038180350566,
+          "stale": false
         },
         "shares": {
           "val": 311404854,
@@ -5174,7 +5212,8 @@
             "end": "2025-10-17",
             "accn": "0001601712-25-000259"
           },
-          "yoy_pct": -13.539743824752982
+          "yoy_pct": -13.539743824752982,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -5194,15 +5233,17 @@
             "end": "2025-09-30",
             "accn": "0001601712-26-000043"
           },
-          "yoy_pct": -6.293706293706281
+          "yoy_pct": -6.293706293706281,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": true,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "CROX": {
-      "updated_at": "2026-11-12T12:04:07.007556+00:00",
+      "updated_at": "2026-11-12T12:07:17.187302+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
       "metrics": {
         "revenue": {
@@ -5219,7 +5260,8 @@
             "end": "2024-12-31",
             "accn": "0001334036-26-000006"
           },
-          "yoy_pct": -1.4982784461062493
+          "yoy_pct": -1.4982784461062493,
+          "stale": false
         },
         "eps": {
           "val": -1.5,
@@ -5235,7 +5277,8 @@
             "end": "2024-12-31",
             "accn": "0001334036-26-000006"
           },
-          "yoy_pct": -109.44584382871537
+          "yoy_pct": -109.44584382871537,
+          "stale": false
         },
         "cash": {
           "val": 163457000,
@@ -5251,7 +5294,8 @@
             "end": "2025-09-30",
             "accn": "0001334036-25-000101"
           },
-          "yoy_pct": 6.161589920114308
+          "yoy_pct": 6.161589920114308,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 710431000,
@@ -5267,7 +5311,8 @@
             "end": "2024-12-31",
             "accn": "0001334036-26-000006"
           },
-          "yoy_pct": -28.419040671606453
+          "yoy_pct": -28.419040671606453,
+          "stale": false
         },
         "shares": {
           "val": 45725039,
@@ -5283,7 +5328,8 @@
             "end": "2025-10-23",
             "accn": "0001334036-25-000101"
           },
-          "yoy_pct": -11.924375723493208
+          "yoy_pct": -11.924375723493208,
+          "stale": false
         },
         "debt_current": {
           "val": 5550000,
@@ -5294,7 +5340,8 @@
           "tag": "LongTermDebtCurrent",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 1289044000,
@@ -5310,7 +5357,8 @@
             "end": "2025-09-30",
             "accn": "0001334036-25-000101"
           },
-          "yoy_pct": -2.2339055501032212
+          "yoy_pct": -2.2339055501032212,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -5327,7 +5375,8 @@
             "end": "2025-09-30",
             "accn": "0001334036-26-000060"
           },
-          "yoy_pct": 4.6453832727258115
+          "yoy_pct": 4.6453832727258115,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 4.52,
@@ -5343,15 +5392,17 @@
             "end": "2025-09-30",
             "accn": "0001334036-26-000060"
           },
-          "yoy_pct": 67.40740740740738
+          "yoy_pct": 67.40740740740738,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "PYPL": {
-      "updated_at": "2026-11-12T12:04:07.622652+00:00",
+      "updated_at": "2026-11-12T12:07:17.720976+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633917.json",
       "metrics": {
         "revenue": {
@@ -5368,7 +5419,8 @@
             "end": "2024-12-31",
             "accn": "0001633917-26-000024"
           },
-          "yoy_pct": 4.324307324590371
+          "yoy_pct": 4.324307324590371,
+          "stale": false
         },
         "eps": {
           "val": 5.41,
@@ -5384,7 +5436,8 @@
             "end": "2024-12-31",
             "accn": "0001633917-26-000024"
           },
-          "yoy_pct": 35.58897243107768
+          "yoy_pct": 35.58897243107768,
+          "stale": false
         },
         "cash": {
           "val": 7160000000,
@@ -5400,7 +5453,8 @@
             "end": "2025-09-30",
             "accn": "0001633917-26-000088"
           },
-          "yoy_pct": -20.400222345747643
+          "yoy_pct": -20.400222345747643,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 6416000000,
@@ -5416,7 +5470,8 @@
             "end": "2024-12-31",
             "accn": "0001633917-26-000024"
           },
-          "yoy_pct": -13.879194630872483
+          "yoy_pct": -13.879194630872483,
+          "stale": false
         },
         "shares": {
           "val": 830658298,
@@ -5432,7 +5487,8 @@
             "end": "2025-10-22",
             "accn": "0001633917-25-000196"
           },
-          "yoy_pct": -11.221443471940251
+          "yoy_pct": -11.221443471940251,
+          "stale": false
         },
         "debt_current": {
           "val": 2333000000,
@@ -5443,7 +5499,8 @@
           "tag": "LongTermDebtCurrent",
           "unit": "USD",
           "previous": null,
-          "yoy_pct": null
+          "yoy_pct": null,
+          "stale": false
         },
         "debt_noncurrent": {
           "val": 10939000000,
@@ -5459,7 +5516,8 @@
             "end": "2025-09-30",
             "accn": "0001633917-25-000196"
           },
-          "yoy_pct": -2.988648456899612
+          "yoy_pct": -2.988648456899612,
+          "stale": false
         },
         "runway_months": null,
         "quarterly_revenue": {
@@ -5476,7 +5534,8 @@
             "end": "2025-09-30",
             "accn": "0001633917-26-000088"
           },
-          "yoy_pct": 1.984079838422237
+          "yoy_pct": 1.984079838422237,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 1.25,
@@ -5492,15 +5551,17 @@
             "end": "2025-09-30",
             "accn": "0001633917-26-000088"
           },
-          "yoy_pct": -3.8461538461538547
+          "yoy_pct": -3.8461538461538547,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }
     },
     "DECK": {
-      "updated_at": "2026-11-12T12:04:08.010192+00:00",
+      "updated_at": "2026-11-12T12:07:18.174902+00:00",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000910521.json",
       "metrics": {
         "revenue": {
@@ -5517,7 +5578,8 @@
             "end": "2025-03-31",
             "accn": "0001628280-26-037664"
           },
-          "yoy_pct": 9.761770470706498
+          "yoy_pct": 9.761770470706498,
+          "stale": false
         },
         "eps": {
           "val": 7.02,
@@ -5533,7 +5595,8 @@
             "end": "2025-03-31",
             "accn": "0001628280-26-037664"
           },
-          "yoy_pct": 10.90047393364928
+          "yoy_pct": 10.90047393364928,
+          "stale": false
         },
         "cash": {
           "val": 1209722000,
@@ -5549,7 +5612,8 @@
             "end": "2025-09-30",
             "accn": "0000910521-25-000044"
           },
-          "yoy_pct": -14.475789318894094
+          "yoy_pct": -14.475789318894094,
+          "stale": false
         },
         "operating_cashflow": {
           "val": 1181955000,
@@ -5565,7 +5629,8 @@
             "end": "2025-03-31",
             "accn": "0001628280-26-037664"
           },
-          "yoy_pct": 13.157393374774905
+          "yoy_pct": 13.157393374774905,
+          "stale": false
         },
         "shares": {
           "val": 133479987,
@@ -5581,7 +5646,8 @@
             "end": "2025-10-09",
             "accn": "0000910521-25-000044"
           },
-          "yoy_pct": -8.415287010552197
+          "yoy_pct": -8.415287010552197,
+          "stale": false
         },
         "debt_current": null,
         "debt_noncurrent": null,
@@ -5600,7 +5666,8 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-068116"
           },
-          "yoy_pct": 3.4744625534651075
+          "yoy_pct": 3.4744625534651075,
+          "stale": false
         },
         "quarterly_eps": {
           "val": 2.31,
@@ -5616,9 +5683,11 @@
             "end": "2025-09-30",
             "accn": "0001628280-26-068116"
           },
-          "yoy_pct": 26.923076923076916
+          "yoy_pct": 26.923076923076916,
+          "stale": false
         },
         "method": "Receita, EPS e fluxo anual USD; receita e EPS trimestrais separados; balanço da última divulgação disponível. Comparação anual de períodos equivalentes; autonomia indicativa = caixa / consumo operacional anual × 12. Exclui investimentos, novo financiamento e caixa restrita; não é previsão.",
+        "financial_sector": false,
         "guidance": "N/D — exige leitura do comunicado oficial; não extraído automaticamente.",
         "analyst_consensus": "N/D — sem fonte de consenso validada; beat/miss não calculado."
       }

@@ -1,7 +1,6 @@
 {
-  "generated_at_utc": "2026-11-12T12:05:53.692393+00:00",
-  "ok": false,
-  "errors": {
-    "mapping": "403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
-  }
+  "generated_at_utc": "2026-11-12T12:07:18.175298+00:00",
+  "ok": true,
+  "successes": 19,
+  "errors": {}
 }

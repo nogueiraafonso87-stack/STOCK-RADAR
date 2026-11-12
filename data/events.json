@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:05:53.304782+00:00",
+  "generated_at_utc": "2026-11-12T12:07:18.177344+00:00",
   "events": [
     {
       "id": "5c99aea56151abd3c119f1fb",
@@ -210,7 +210,8 @@
           "end": "2025-09-30",
           "accn": "0001104659-26-124824"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -237,7 +238,8 @@
           "end": "2025-09-30",
           "accn": "0001104659-26-124824"
         },
-        "yoy_pct": 197.2673422989852
+        "yoy_pct": 197.2673422989852,
+        "stale": false
       }
     },
     {
@@ -367,7 +369,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-25-274391"
         },
-        "yoy_pct": 485.3705699885899
+        "yoy_pct": 485.3705699885899,
+        "stale": false
       }
     },
     {
@@ -480,7 +483,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-25-270405"
         },
-        "yoy_pct": -55.940290667133596
+        "yoy_pct": -55.940290667133596,
+        "stale": false
       }
     },
     {
@@ -508,7 +512,8 @@
           "end": "2025-11-07",
           "accn": "0001628280-25-051349"
         },
-        "yoy_pct": 24.9876792893563
+        "yoy_pct": 24.9876792893563,
+        "stale": false
       }
     },
     {
@@ -535,7 +540,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-071319"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -562,7 +568,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-26-451930"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -623,7 +630,8 @@
           "end": "2025-09-30",
           "accn": "0001193125-26-451930"
         },
-        "yoy_pct": 86.33696563285834
+        "yoy_pct": 86.33696563285834,
+        "stale": false
       }
     },
     {
@@ -684,7 +692,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-071319"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -729,7 +738,8 @@
           "end": "2025-10-31",
           "accn": "0001193125-25-270405"
         },
-        "yoy_pct": 16.338849919676978
+        "yoy_pct": 16.338849919676978,
+        "stale": false
       }
     },
     {
@@ -757,7 +767,8 @@
           "end": "2025-10-31",
           "accn": "0001818874-25-000210"
         },
-        "yoy_pct": 7.623946506929946
+        "yoy_pct": 7.623946506929946,
+        "stale": false
       }
     },
     {
@@ -801,7 +812,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-26-035282"
         },
-        "yoy_pct": 127.49304560397876
+        "yoy_pct": 127.49304560397876,
+        "stale": false
       }
     },
     {
@@ -829,7 +841,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-25-033627"
         },
-        "yoy_pct": 114.41847165630139
+        "yoy_pct": 114.41847165630139,
+        "stale": false
       }
     },
     {
@@ -854,26 +867,27 @@
       "ticker": "SOFI",
       "category": "earnings",
       "date": "2026-11-05",
-      "title": "Receita trimestral: 163,396,000.00 USD (fim 2026-09-30); variação homóloga +4.2%",
+      "title": "Receita trimestral: 1,385,099,000.00 USD (fim 2026-09-30); variação homóloga +44.0%",
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:05.332803+00:00",
+      "detected_at": "2026-11-12T12:07:15.387187+00:00",
       "details": {
-        "val": 163396000,
+        "val": 1385099000,
         "start": "2026-07-01",
         "end": "2026-09-30",
         "filed": "2026-11-05",
         "accn": "0001818874-26-000070",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "tag": "RevenuesNetOfInterestExpense",
         "unit": "USD",
         "previous": {
-          "val": 156791000,
+          "val": 961600000,
           "start": "2025-07-01",
           "end": "2025-09-30",
           "accn": "0001818874-26-000070"
         },
-        "yoy_pct": 4.2126142444400605
+        "yoy_pct": 44.04107737104825,
+        "stale": false
       }
     },
     {
@@ -919,7 +933,7 @@
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:05.332811+00:00",
+      "detected_at": "2026-11-12T12:07:15.387197+00:00",
       "details": {
         "val": 0.18,
         "start": "2026-07-01",
@@ -934,7 +948,8 @@
           "end": "2025-09-30",
           "accn": "0001818874-26-000070"
         },
-        "yoy_pct": 63.636363636363626
+        "yoy_pct": 63.636363636363626,
+        "stale": false
       }
     },
     {
@@ -1012,7 +1027,8 @@
           "end": "2025-09-30",
           "accn": "0001437749-26-035282"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -1040,7 +1056,8 @@
           "end": "2025-11-03",
           "accn": "0001437749-25-033627"
         },
-        "yoy_pct": 32.94205693140191
+        "yoy_pct": 32.94205693140191,
+        "stale": false
       }
     },
     {
@@ -1169,7 +1186,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-26-000041"
         },
-        "yoy_pct": 9.645800846513698
+        "yoy_pct": 9.645800846513698,
+        "stale": false
       }
     },
     {
@@ -1247,7 +1265,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-070272"
         },
-        "yoy_pct": 42.76205169728602
+        "yoy_pct": 42.76205169728602,
+        "stale": false
       }
     },
     {
@@ -1274,7 +1293,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-070272"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -1318,7 +1338,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-26-000041"
         },
-        "yoy_pct": -91.96141479099678
+        "yoy_pct": -91.96141479099678,
+        "stale": false
       }
     },
     {
@@ -1346,7 +1367,8 @@
           "end": "2025-09-30",
           "accn": "0001543151-25-000033"
         },
-        "yoy_pct": 47.56476683937825
+        "yoy_pct": 47.56476683937825,
+        "stale": false
       }
     },
     {
@@ -1492,7 +1514,8 @@
           "end": "2025-09-30",
           "accn": "0001334036-26-000060"
         },
-        "yoy_pct": 4.6453832727258115
+        "yoy_pct": 4.6453832727258115,
+        "stale": false
       }
     },
     {
@@ -1519,7 +1542,8 @@
           "end": "2025-09-30",
           "accn": "0001334036-26-000060"
         },
-        "yoy_pct": 67.40740740740738
+        "yoy_pct": 67.40740740740738,
+        "stale": false
       }
     },
     {
@@ -1580,7 +1604,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-068116"
         },
-        "yoy_pct": 26.923076923076916
+        "yoy_pct": 26.923076923076916,
+        "stale": false
       }
     },
     {
@@ -1642,7 +1667,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-25-000052"
         },
-        "yoy_pct": 19.08646003262642
+        "yoy_pct": 19.08646003262642,
+        "stale": false
       }
     },
     {
@@ -1703,7 +1729,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-26-000066"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -1764,7 +1791,8 @@
           "end": "2025-09-30",
           "accn": "0001628280-26-068116"
         },
-        "yoy_pct": 3.4744625534651075
+        "yoy_pct": 3.4744625534651075,
+        "stale": false
       }
     },
     {
@@ -1791,7 +1819,8 @@
           "end": "2025-09-30",
           "accn": "0001874178-26-000066"
         },
-        "yoy_pct": 38.3183568677792
+        "yoy_pct": 38.3183568677792,
+        "stale": false
       }
     },
     {
@@ -1903,7 +1932,8 @@
           "end": "2025-09-30",
           "accn": "0001633917-26-000088"
         },
-        "yoy_pct": -3.8461538461538547
+        "yoy_pct": -3.8461538461538547,
+        "stale": false
       }
     },
     {
@@ -1964,7 +1994,8 @@
           "end": "2025-09-30",
           "accn": "0001633917-26-000088"
         },
-        "yoy_pct": 1.984079838422237
+        "yoy_pct": 1.984079838422237,
+        "stale": false
       }
     },
     {
@@ -2010,7 +2041,7 @@
       "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001601712.json",
       "relevance": "média",
       "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:06.374986+00:00",
+      "detected_at": "2026-11-12T12:07:16.518069+00:00",
       "details": {
         "val": 2.68,
         "start": "2026-07-01",
@@ -2025,7 +2056,8 @@
           "end": "2025-09-30",
           "accn": "0001601712-26-000043"
         },
-        "yoy_pct": -6.293706293706281
+        "yoy_pct": -6.293706293706281,
+        "stale": false
       }
     },
     {
@@ -2137,7 +2169,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-26-000291"
         },
-        "yoy_pct": 47.457627118644076
+        "yoy_pct": 47.457627118644076,
+        "stale": false
       }
     },
     {
@@ -2165,7 +2198,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-25-000406"
         },
-        "yoy_pct": 869.0848617183885
+        "yoy_pct": 869.0848617183885,
+        "stale": false
       }
     },
     {
@@ -2192,7 +2226,8 @@
           "end": "2025-09-30",
           "accn": "0001065280-26-000291"
         },
-        "yoy_pct": 11.849110540665864
+        "yoy_pct": 11.849110540665864,
+        "stale": false
       }
     },
     {
@@ -2576,7 +2611,8 @@
           "end": "2025-08-31",
           "accn": "0000320187-26-000193"
         },
-        "yoy_pct": -4.3259385665529
+        "yoy_pct": -4.3259385665529,
+        "stale": false
       }
     },
     {
@@ -2603,7 +2639,8 @@
           "end": "2025-08-31",
           "accn": "0000320187-26-000193"
         },
-        "yoy_pct": -2.0408163265306145
+        "yoy_pct": -2.0408163265306145,
+        "stale": false
       }
     },
     {
@@ -2794,60 +2831,6 @@
       }
     },
     {
-      "id": "6ec2933436a90c88b026af03",
-      "ticker": "LULU",
-      "category": "earnings",
-      "date": "2026-09-03",
-      "title": "Receita trimestral: 2,415,631,000.00 USD (fim 2026-08-02); variação homóloga -4.3%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:04.957220+00:00",
-      "details": {
-        "val": 2415631000,
-        "start": "2026-05-04",
-        "end": "2026-08-02",
-        "filed": "2026-09-03",
-        "accn": "0001397187-26-000127",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-        "unit": "USD",
-        "previous": {
-          "val": 2525219000,
-          "start": "2025-05-05",
-          "end": "2025-08-03",
-          "accn": "0001397187-26-000127"
-        },
-        "yoy_pct": -4.339742414420289
-      }
-    },
-    {
-      "id": "2574f6202aef8de334b2d8a7",
-      "ticker": "LULU",
-      "category": "earnings",
-      "date": "2026-09-03",
-      "title": "EPS diluído trimestral: 2.92 USD/shares (fim 2026-08-02); variação homóloga -5.8%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:04.957227+00:00",
-      "details": {
-        "val": 2.92,
-        "start": "2026-05-04",
-        "end": "2026-08-02",
-        "filed": "2026-09-03",
-        "accn": "0001397187-26-000127",
-        "tag": "EarningsPerShareDiluted",
-        "unit": "USD/shares",
-        "previous": {
-          "val": 3.1,
-          "start": "2025-05-05",
-          "end": "2025-08-03",
-          "accn": "0001397187-26-000127"
-        },
-        "yoy_pct": -5.8064516129032295
-      }
-    },
-    {
       "id": "e0ace9cb7b102b0968d73971",
       "ticker": "KULR",
       "category": "risk",
@@ -2899,7 +2882,8 @@
           "end": "2024-12-31",
           "accn": "0001104659-26-037918"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -2982,7 +2966,8 @@
           "end": "2024-12-31",
           "accn": "0001628280-26-018698"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -3010,7 +2995,8 @@
           "end": "2024-12-31",
           "accn": "0001193125-25-066199"
         },
-        "yoy_pct": 570.9677419354839
+        "yoy_pct": 570.9677419354839,
+        "stale": false
       }
     },
     {
@@ -3149,7 +3135,8 @@
           "end": "2024-12-31",
           "accn": "0001437749-26-005875"
         },
-        "yoy_pct": null
+        "yoy_pct": null,
+        "stale": false
       }
     },
     {
@@ -3317,77 +3304,6 @@
           "accn": "0001874178-26-000008"
         },
         "yoy_pct": -32.395164336985275
-      }
-    },
-    {
-      "id": "aa8b49631c842f18ed5a9310",
-      "ticker": "ASTS",
-      "category": "earnings",
-      "date": "2024-11-14",
-      "title": "Receita trimestral: 1,100,000.00 USD (fim 2024-09-30); comparação homóloga N/D",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:03.456328+00:00",
-      "details": {
-        "val": 1100000,
-        "start": "2024-07-01",
-        "end": "2024-09-30",
-        "filed": "2024-11-14",
-        "accn": "0000950170-24-127101",
-        "tag": "Revenues",
-        "unit": "USD",
-        "previous": null,
-        "yoy_pct": null
-      }
-    },
-    {
-      "id": "2b2f9d6da167ab7cfc05880d",
-      "ticker": "ASTS",
-      "category": "earnings",
-      "date": "2022-11-14",
-      "title": "EPS diluído trimestral: -0.18 USD/shares (fim 2022-09-30); variação homóloga -357.1%",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:03.456340+00:00",
-      "details": {
-        "val": -0.18,
-        "start": "2022-07-01",
-        "end": "2022-09-30",
-        "filed": "2022-11-14",
-        "accn": "0000950170-22-025059",
-        "tag": "EarningsPerShareDiluted",
-        "unit": "USD/shares",
-        "previous": {
-          "val": 0.07,
-          "start": "2021-07-01",
-          "end": "2021-09-30",
-          "accn": "0000950170-22-025059"
-        },
-        "yoy_pct": -357.1428571428571
-      }
-    },
-    {
-      "id": "770c1a91522f09c8070db438",
-      "ticker": "BIDU",
-      "category": "earnings",
-      "date": "2018-11-07",
-      "title": "Receita trimestral: 4,106,000,000.00 USD (fim 2018-09-30); comparação homóloga N/D",
-      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json",
-      "relevance": "média",
-      "status": "confirmado",
-      "detected_at": "2026-11-12T12:04:02.910570+00:00",
-      "details": {
-        "val": 4106000000,
-        "start": "2018-07-01",
-        "end": "2018-09-30",
-        "filed": "2018-11-07",
-        "accn": "0001193125-18-320960",
-        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
-        "unit": "USD",
-        "previous": null,
-        "yoy_pct": null
       }
     }
   ]
