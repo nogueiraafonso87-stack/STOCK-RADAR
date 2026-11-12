@@ -37,9 +37,27 @@ def render_monitoring():
                     st.link_button('Consultar fonte',e['source_url'])
             st.download_button('Descarregar histórico completo',json.dumps(events,ensure_ascii=False,indent=2),'stock-radar-events.json','application/json')
         else: st.info('Ainda não existem alertas recolhidos. Verifica o estado das fontes acima.')
+        market=load('latest.json',{})
+        technical=[]
+        for symbol,item in market.get('stocks',{}).items():
+            for alert in item.get('technical_alerts',[]):
+                technical.append({'Empresa':symbol,'Sessão':item['asof'],'Alerta técnico':alert['message']})
+        if technical:
+            st.write('Cruzamentos da média móvel de 50 sessões')
+            st.dataframe(pd.DataFrame(technical),hide_index=True,width='stretch')
         sec=load('sec_events.json',{})
         for symbol,company in sorted(sec.get('companies',{}).items()):
-            with st.expander(f'{symbol} — métricas oficiais anuais SEC'):
+            with st.expander(f'{symbol} — métricas oficiais SEC'):
                 st.caption('Recolha UTC: '+company['updated_at'])
-                st.json(company['metrics'])
+                metrics=company['metrics']
+                labels={'revenue':'Receita anual','eps':'EPS diluído anual','quarterly_revenue':'Receita trimestral','quarterly_eps':'EPS diluído trimestral','cash':'Caixa','operating_cashflow':'Fluxo operacional anual','debt_current':'Dívida de longo prazo — parcela corrente','debt_noncurrent':'Dívida de longo prazo — não corrente','shares':'Ações em circulação'}
+                table=[]
+                for key,label in labels.items():
+                    value=metrics.get(key)
+                    table.append({'Indicador':label,'Valor':f'{value["val"]:,.2f}' if value else 'N/D','Unidade':value.get('unit','') if value else '', 'Fim do período':value.get('end','') if value else '', 'Estado':'Desatualizado' if value and value.get('stale') else ('Disponível' if value else 'N/D')})
+                st.dataframe(pd.DataFrame(table),hide_index=True,width='stretch')
+                st.caption(metrics.get('method',''))
+                st.caption(metrics.get('guidance',''))
+                st.caption(metrics.get('analyst_consensus',''))
+                st.json(metrics,expanded=False)
                 st.link_button('XBRL oficial',company['source_url'])
