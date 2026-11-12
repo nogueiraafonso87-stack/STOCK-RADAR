@@ -10,53 +10,12 @@ st.set_page_config(page_title="STOCK RADAR",page_icon="📈",layout="wide")
 st.title("📈 STOCK RADAR")
 st.caption("Análise de ações • dados de mercado sujeitos a atraso e disponibilidade da fonte")
 
-# Daily automated monitoring: repository snapshots from GitHub Actions.
-@st.cache_data(ttl=600)
-def monitoring_snapshots():
-    import json
-    base="https://raw.githubusercontent.com/nogueiraafonso87-stack/STOCK-RADAR/main/data/"
-    result={}
-    for key,filename in (("market","latest.json"),("sec","sec_events.json")):
-        try:
-            response=requests.get(base+filename,timeout=8)
-            response.raise_for_status()
-            result[key]=response.json()
-        except (requests.RequestException,ValueError):
-            result[key]=None
-    return result
+from monitoring_ui import render_monitoring
+render_monitoring()
 
-with st.expander("🔔 Alertas automáticos — mercado e comunicados SEC", expanded=False):
-    snapshots=monitoring_snapshots()
-    market=snapshots.get("market")
-    sec=snapshots.get("sec")
-    if market:
-        st.caption("Mercado — última execução: "+market.get("generated_at_utc","desconhecida")+" (UTC); dados de fecho, não em tempo real.")
-        rows=[]
-        for ticker,item in market.get("stocks",{}).items():
-            for alert in item.get("alerts",[]):
-                rows.append({"Ação":ticker,"Sessão":item.get("asof"),"Tipo":alert.get("type"),"Descrição":alert.get("message")})
-        if rows:
-            st.dataframe(pd.DataFrame(rows),hide_index=True,use_container_width=True)
-        else:
-            st.info("Sem alertas de mercado novos na última execução.")
-    else:
-        st.info("O relatório de mercado ainda não foi publicado pela tarefa agendada.")
-    if sec:
-        st.caption("SEC — última execução: "+sec.get("generated_at_utc","desconhecida")+" (UTC). Eventos candidatos, não conclusões verificadas.")
-        events=sec.get("events",[])
-        if events:
-            for event in events[:30]:
-                st.markdown(f"**{event.get('ticker')}** — {event.get('filing_date')} · {event.get('form')} · {', '.join(event.get('categories',[]))} · [Documento oficial]({event.get('url')})")
-        else:
-            st.info("Sem novos documentos classificados nesta execução.")
-        if sec.get("errors"):
-            st.caption("Alguns símbolos não têm correspondência SEC ou falharam na consulta: "+", ".join(sec["errors"].keys()))
-    else:
-        st.info("A monitorização SEC ainda não publicou o primeiro relatório.")
-    st.caption("EPS versus consenso, alterações de cash burn, dívida, liquidez e termos de contratos exigem análise adicional dos documentos e dados de expectativas. Não são apresentados como confirmados.")
-
-DEFAULT_TICKERS=["NFLX","SE","LULU","OKLO","AEVA","FIG","RIVN","KULR","NKE","ASTS"]
-WATCHLIST_VERSION=3
+from scripts.common import watchlist
+DEFAULT_TICKERS=watchlist()
+WATCHLIST_VERSION=4
 if "tickers" not in st.session_state:
     st.session_state.tickers=DEFAULT_TICKERS.copy()
 if st.session_state.get("watchlist_version",0)<WATCHLIST_VERSION:
@@ -156,12 +115,12 @@ def stock_search():
                 with favorite:
                     favorite_symbol=yahoo_symbol(item["symbol"])
                     saved=favorite_symbol in st.session_state.tickers
-                    if st.button("★ Nos favoritos" if saved else "☆ Adicionar aos favoritos",key=f'favorite_stock_{item["symbol"]}',disabled=saved or favorite_symbol is None,use_container_width=True):
+                    if st.button("★ Nos favoritos" if saved else "☆ Adicionar aos favoritos",key=f'favorite_stock_{item["symbol"]}',disabled=saved or favorite_symbol is None,width="stretch"):
                         st.session_state.tickers.append(favorite_symbol)
                         st.toast(f"{favorite_symbol} adicionado aos favoritos",icon="⭐")
                         st.rerun(scope="fragment")
                 with action:
-                    if st.button("Abrir",key=f'open_stock_{item["symbol"]}',use_container_width=True):
+                    if st.button("Abrir",key=f'open_stock_{item["symbol"]}',width="stretch"):
                         st.session_state.selected_xtb=item
                         st.session_state.pending_catalog=True
                         st.rerun()
@@ -171,7 +130,7 @@ def stock_search():
 
 if st.session_state.pop("pending_catalog",False):
     st.session_state.stock_universe="Catálogo XTB"
-if st.button("Pesquisar ações",icon=":material/search:",use_container_width=True):
+if st.button("Pesquisar ações",icon=":material/search:",width="stretch"):
     stock_search()
 
 selected_xtb=None
@@ -276,7 +235,7 @@ with historico:
     st.dataframe(pd.DataFrame(changes.items(),columns=["Período","Variação"]),hide_index=True)
     st.bar_chart(hist["Volume"])
     v=hist["Volume"]
-    st.write("Volume da última sessão:",big(v.iloc[-1]),"| Média 20 sessões:",big(v.tail(20).mean()),"| Volume relativo:",num(v.iloc[-1]/v.tail(20).mean()) if v.tail(20).mean()>0 else "N/D")
+    st.write("Volume da última sessão:",big(v.iloc[-1]),"| Média 20 sessões:",big(v.iloc[-21:-1].mean()),"| Volume relativo:",num(v.iloc[-1]/v.iloc[-21:-1].mean()) if v.iloc[-21:-1].mean()>0 else "N/D")
     peak=float(close.max())
     st.metric("Queda desde máximo de fecho disponível",f"{(last/peak-1)*100:.1f}%")
 
@@ -318,7 +277,7 @@ def labelled_lines(frame,labels,colors,y_label):
         color=alt.Color("Indicador:N",scale=alt.Scale(domain=labels,range=colors),legend=alt.Legend(title="Legenda",orient="top")),
         tooltip=[alt.Tooltip("Data:T",title="Data"),"Indicador:N",alt.Tooltip("Valor:Q",format=",.2f")]
     ).properties(height=380).interactive()
-    st.altair_chart(chart,use_container_width=True)
+    st.altair_chart(chart,width="stretch")
 
 with tecnica:
     df=pd.DataFrame({"Fecho":close})

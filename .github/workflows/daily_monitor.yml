@@ -1,41 +1,66 @@
 name: STOCK-RADAR daily market monitor
-
 on:
   schedule:
-    # 23:15 UTC on weekdays: after US regular market close, including DST changes.
-    - cron: "15 23 * * 1-5"
+    - cron: "15 23 * * *"
   workflow_dispatch:
-
+  push:
+    paths:
+      - '*.py'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - 'watchlist.json'
+      - '.github/workflows/daily_monitor.yml'
 permissions:
   contents: write
-
 concurrency:
   group: stock-radar-monitor
   cancel-in-progress: false
-
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
-      - name: Install monitor dependencies
-        run: pip install "yfinance>=0.2.40" "pandas>=2.1"
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+      - name: Run regression tests
+        run: python -m pytest -q
       - name: Run daily monitor
-        run: python scripts/daily_monitor.py
-      - name: Scan SEC filings for fundamental events
-        run: python scripts/sec_monitor.py
+        id: market
         continue-on-error: true
-      - name: Save daily snapshot to repository
+        run: python scripts/daily_monitor.py
+      - name: Scan official SEC filings
+        id: sec
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/sec_monitor.py
+      - name: Build daily Portuguese summary
+        run: python scripts/build_summary.py
+      - name: Save reports and history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/daily_report.md data/sec_events.json
+          git add data/
           if ! git diff --cached --quiet; then
-            git commit -m "data: update daily market monitoring"
-            git push
+            git commit -m "data: update monitoring reports and history"
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
+      - name: Archive execution reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitoring-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+      - name: Report collection failures
+        if: steps.market.outcome == 'failure' || steps.sec.outcome == 'failure'
+        run: |
+          echo 'A monitor failed. Reports preserve prior data and expose the failing source.'
+          exit 1

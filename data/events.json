@@ -1,0 +1,3394 @@
+{
+  "generated_at_utc": "2026-11-12T12:04:08.014791+00:00",
+  "events": [
+    {
+      "id": "5c99aea56151abd3c119f1fb",
+      "ticker": "ADUR",
+      "category": "movement",
+      "date": "2026-11-11",
+      "title": "Variação diária +5.41%",
+      "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:01:08.487074+00:00",
+      "details": {
+        "change_pct": 5.413387785384227,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "4065a9568e8d985ecd559b4b",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-11",
+      "title": "Variação diária +8.70%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:01:03.399072+00:00",
+      "details": {
+        "change_pct": 8.696943973315907,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "AST SpaceMobile (ASTS) Stock Fair Value Moves Lower As Analysts Split On Risks",
+            "published_at": "2026-11-12T04:32:16Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-fair-043216880.html"
+          },
+          {
+            "title": "Does The Move In AST SpaceMobile Stock Change Anything?",
+            "published_at": "2026-11-11T20:26:45Z",
+            "url": "https://www.trefis.com/stock/asts/articles/624308/does-the-move-in-ast-spacemobile-stock-change-anything/2026-11-11"
+          },
+          {
+            "title": "Rocket Lab Soars 6% as Morgan Stanley Looks Past “Q3 Margin Noise” to Neutron",
+            "published_at": "2026-11-11T19:06:56Z",
+            "url": "https://www.tikr.com/blog/rocket-lab-soars-6-as-morgan-stanley-looks-past-q3-margin-noise-to-neutron?ref=yahoofinance&tlnk=yf-261111-mqrqhgqr"
+          },
+          {
+            "title": "Elon Musk's SpaceX Could Be Making AST SpaceMobile More Valuable, Analysts Say",
+            "published_at": "2026-11-11T19:00:09Z",
+            "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63161442/spacex-ast-spacemobile?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
+          },
+          {
+            "title": "Is UBS Wrong to Give Up on AST SpaceMobile? Wall Street Still Sees $68",
+            "published_at": "2026-11-11T17:09:17Z",
+            "url": "https://www.tikr.com/blog/is-ubs-wrong-to-give-up-on-ast-spacemobile-wall-street-still-sees-68?ref=yahoofinance&tlnk=yf-261111-j3mjqh63"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25d5afa9cb4fe3acbe8e0f2b",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-11",
+      "title": "Variação diária +15.60%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:01:07.949259+00:00",
+      "details": {
+        "change_pct": 15.604306629031273,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Applied Optoelectronics (AAOI) Stock Could Still Be Undervalued On Its Huge Five Year Run",
+            "published_at": "2026-11-12T02:17:29Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-stock-could-021729244.html"
+          },
+          {
+            "title": "Applied Optoelectronics (AAOI) Just Soared 15.6% — This Company May Hold The Reason",
+            "published_at": "2026-11-11T23:36:40Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-just-soared-233640320.html"
+          },
+          {
+            "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+            "published_at": "2026-11-11T14:57:58Z",
+            "url": "https://247wallst.com/investing/2026/11/11/applied-optoelectronics-surges-12-lumentum-jumps-11-as-coreweaves-results-revive-ai-trade-coherent-climbs-7/"
+          },
+          {
+            "title": "ETFs Are Selling Applied Optoelectronics (AAOI) on Nov. 9",
+            "published_at": "2026-11-11T11:02:23Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-selling-applied-optoelectronics-aaoi-110223673.html"
+          },
+          {
+            "title": "TTM Technologies (TTMI) Sees Almost 28% Jump in Insider Position Following Recent Dip",
+            "published_at": "2026-11-10T19:15:38Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-sees-almost-191654888.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ead0b9106002956bd67cb372",
+      "ticker": "KULR",
+      "category": "earnings",
+      "date": "2026-11-10",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926124826/tm2629340d2_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390157+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001104659-26-124826",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "ce4e461f72982e90b57994bd",
+      "ticker": "KULR",
+      "category": "risk",
+      "date": "2026-11-10",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390165+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001104659-26-124824",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "c5d0789640559fd4a1c15937",
+      "ticker": "KULR",
+      "category": "dilution",
+      "date": "2026-11-10",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390168+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001104659-26-124824",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "7e0ad1ac254c946ec4806bad",
+      "ticker": "SE",
+      "category": "earnings",
+      "date": "2026-11-10",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526455420/d17880d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:47.932904+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-455420",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "70a7b4ea2ed6dbcb5ea1ea6b",
+      "ticker": "SYF",
+      "category": "contracts",
+      "date": "2026-11-10",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000045/syf-20261110.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114829+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01,9.01",
+        "accession": "0001601712-26-000045",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "6dfedfe08ba49d48fa4a0c22",
+      "ticker": "KULR",
+      "category": "earnings",
+      "date": "2026-11-10",
+      "title": "EPS diluído trimestral: 0.10 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:00.994027+00:00",
+      "details": {
+        "val": 0.1,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-10",
+        "accn": "0001104659-26-124824",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -0.17,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001104659-26-124824"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "584eeb6bd2f28918ac5dcffe",
+      "ticker": "KULR",
+      "category": "earnings",
+      "date": "2026-11-10",
+      "title": "Receita trimestral: 7,396,716.00 USD (fim 2026-09-30); variação homóloga +197.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:00.994019+00:00",
+      "details": {
+        "val": 7396716,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-10",
+        "accn": "0001104659-26-124824",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 2488237,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001104659-26-124824"
+        },
+        "yoy_pct": 197.2673422989852
+      }
+    },
+    {
+      "id": "4ffd3b5696afd9718567c9d3",
+      "ticker": "KULR",
+      "category": "earnings",
+      "date": "2026-11-10",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926124824/tmb-20260930x10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390162+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001104659-26-124824",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "20300cddec048ed3eec15f6a",
+      "ticker": "SE",
+      "category": "contracts",
+      "date": "2026-11-10",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526455420/d17880d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:47.932925+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-455420",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "173681807753b0ec2c9472ca",
+      "ticker": "KULR",
+      "category": "contracts",
+      "date": "2026-11-10",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926125320/tm2629340d1_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390133+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "8.01,9.01",
+        "accession": "0001104659-26-125320",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "0bb827d9ad2b69e86461c471",
+      "ticker": "ASTS",
+      "category": "contracts",
+      "date": "2026-11-10",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226050865/form8-k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944470+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01,9.01",
+        "accession": "0001493152-26-050865",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "fcd48803691505ae95861ec9",
+      "ticker": "ASTS",
+      "category": "earnings",
+      "date": "2026-11-09",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526453759/asts-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944674+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-453759",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "ba794587d3a2399b42312a15",
+      "ticker": "ASTS",
+      "category": "earnings",
+      "date": "2026-11-09",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526453758/asts-20261109.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944692+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,7.01,9.01",
+        "accession": "0001193125-26-453758",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "85dc93abb1a7b6c90907fbfa",
+      "ticker": "ASTS",
+      "category": "risk",
+      "date": "2026-11-09",
+      "title": "Aumento da dívida de longo prazo não corrente: +485.4% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:03.456348+00:00",
+      "details": {
+        "metric": "debt_noncurrent",
+        "val": 4083709000,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-11-09",
+        "accn": "0001193125-26-453759",
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 697628000,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001193125-25-274391"
+        },
+        "yoy_pct": 485.3705699885899
+      }
+    },
+    {
+      "id": "654929cd60655ebd44ecb80f",
+      "ticker": "ASTS",
+      "category": "dilution",
+      "date": "2026-11-09",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526453759/asts-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944685+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-453759",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "2fd32e5a6222d110dfff9db9",
+      "ticker": "ASTS",
+      "category": "risk",
+      "date": "2026-11-09",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526453759/asts-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944681+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-453759",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "0e2edce00f4e2f582b3d25b7",
+      "ticker": "ASTS",
+      "category": "contracts",
+      "date": "2026-11-09",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526453758/asts-20261109.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944695+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,7.01,9.01",
+        "accession": "0001193125-26-453758",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "f1275f685b7b6425a1294325",
+      "ticker": "OKLO",
+      "category": "dilution",
+      "date": "2026-11-06",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.833325+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-071319",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "cf4539f2202d1414708a4f62",
+      "ticker": "OKLO",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.833296+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-071319",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "ada2fde7373123522f691e33",
+      "ticker": "AEVA",
+      "category": "risk",
+      "date": "2026-11-06",
+      "title": "Redução da caixa: -55.9% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:00.510215+00:00",
+      "details": {
+        "metric": "cash",
+        "val": 20130000,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-11-06",
+        "accn": "0001193125-26-451930",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "previous": {
+          "val": 45688000,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001193125-25-270405"
+        },
+        "yoy_pct": -55.940290667133596
+      }
+    },
+    {
+      "id": "a90da42f5cf4b807ddb4f335",
+      "ticker": "OKLO",
+      "category": "dilution",
+      "date": "2026-11-06",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +25.0% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:04:01.473698+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 195289593,
+        "start": null,
+        "end": "2026-11-04",
+        "filed": "2026-11-06",
+        "accn": "0001628280-26-071319",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 156247075,
+          "start": null,
+          "end": "2025-11-07",
+          "accn": "0001628280-25-051349"
+        },
+        "yoy_pct": 24.9876792893563
+      }
+    },
+    {
+      "id": "9b3553262e6898755f052654",
+      "ticker": "OKLO",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "EPS diluído trimestral: -0.22 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:01.473691+00:00",
+      "details": {
+        "val": -0.22,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-06",
+        "accn": "0001628280-26-071319",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -0.2,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-071319"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "9ad3e694cb3c37c404cb6bae",
+      "ticker": "AEVA",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "EPS diluído trimestral: -0.54 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:00.510207+00:00",
+      "details": {
+        "val": -0.54,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-06",
+        "accn": "0001193125-26-451930",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -0.52,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001193125-26-451930"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "8fc4d459adaf312b4d3eb0a1",
+      "ticker": "AEVA",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312526451930/aeva-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.793426+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-451930",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "7c5435b0519a06bb78969f37",
+      "ticker": "OKLO",
+      "category": "risk",
+      "date": "2026-11-06",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.833320+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-071319",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "7731497ff1510033e43e2315",
+      "ticker": "AEVA",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "Receita trimestral: 6,669,000.00 USD (fim 2026-09-30); variação homóloga +86.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:00.510198+00:00",
+      "details": {
+        "val": 6669000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-06",
+        "accn": "0001193125-26-451930",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 3579000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001193125-26-451930"
+        },
+        "yoy_pct": 86.33696563285834
+      }
+    },
+    {
+      "id": "75185b5ec49ff0ef9a6dc36b",
+      "ticker": "ASTS",
+      "category": "contracts",
+      "date": "2026-11-06",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226050513/form8-k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.944700+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01,9.01",
+        "accession": "0001493152-26-050513",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "6e30e20b1cfe1a6fad86ce58",
+      "ticker": "AEVA",
+      "category": "risk",
+      "date": "2026-11-06",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312526451930/aeva-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.793447+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-451930",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "6a3aae61b619602f20cfa323",
+      "ticker": "OKLO",
+      "category": "earnings",
+      "date": "2026-11-06",
+      "title": "Receita trimestral: 1,861,000.00 USD (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:01.473682+00:00",
+      "details": {
+        "val": 1861000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-06",
+        "accn": "0001628280-26-071319",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 0,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-071319"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "611e78d9dcc5a487296a3691",
+      "ticker": "AEVA",
+      "category": "dilution",
+      "date": "2026-11-06",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312526451930/aeva-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.793452+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001193125-26-451930",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "4744015ad2dc3c0f545b806d",
+      "ticker": "AEVA",
+      "category": "dilution",
+      "date": "2026-11-06",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +16.3% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:04:00.510221+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 69896274,
+        "start": null,
+        "end": "2026-10-30",
+        "filed": "2026-11-06",
+        "accn": "0001193125-26-451930",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 60079908,
+          "start": null,
+          "end": "2025-10-31",
+          "accn": "0001193125-25-270405"
+        },
+        "yoy_pct": 16.338849919676978
+      }
+    },
+    {
+      "id": "f6e63a812c36d2f3f515c319",
+      "ticker": "SOFI",
+      "category": "dilution",
+      "date": "2026-11-05",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +7.6% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:04:05.332818+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 1297840447,
+        "start": null,
+        "end": "2026-10-30",
+        "filed": "2026-11-05",
+        "accn": "0001818874-26-000070",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 1205903044,
+          "start": null,
+          "end": "2025-10-31",
+          "accn": "0001818874-25-000210"
+        },
+        "yoy_pct": 7.623946506929946
+      }
+    },
+    {
+      "id": "e765187a9d586da35fd8b952",
+      "ticker": "SOFI",
+      "category": "dilution",
+      "date": "2026-11-05",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.150266+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001818874-26-000070",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "d86b1cc2e52566a5a10b62ab",
+      "ticker": "AAOI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "Receita trimestral: 269,875,000.00 USD (fim 2026-09-30); variação homóloga +127.5%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:04.087389+00:00",
+      "details": {
+        "val": 269875000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-05",
+        "accn": "0001437749-26-035282",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 118630000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001437749-26-035282"
+        },
+        "yoy_pct": 127.49304560397876
+      }
+    },
+    {
+      "id": "cd4876ba1a217c2f892dd4f4",
+      "ticker": "AAOI",
+      "category": "risk",
+      "date": "2026-11-05",
+      "title": "Aumento da componente corrente da dívida de longo prazo: +114.4% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:04.087405+00:00",
+      "details": {
+        "metric": "debt_current",
+        "val": 59990000,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-11-05",
+        "accn": "0001437749-26-035282",
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 27978000,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001437749-25-033627"
+        },
+        "yoy_pct": 114.41847165630139
+      }
+    },
+    {
+      "id": "c98f6acd049d01ee9b942840",
+      "ticker": "SOFI",
+      "category": "risk",
+      "date": "2026-11-05",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.150262+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001818874-26-000070",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b8a07b36b4fd094cab5a04f5",
+      "ticker": "SOFI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "Receita trimestral: 163,396,000.00 USD (fim 2026-09-30); variação homóloga +4.2%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:05.332803+00:00",
+      "details": {
+        "val": 163396000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-05",
+        "accn": "0001818874-26-000070",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 156791000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001818874-26-000070"
+        },
+        "yoy_pct": 4.2126142444400605
+      }
+    },
+    {
+      "id": "a7d7aef73f1627d9d4157366",
+      "ticker": "SOFI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000070/sofi-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.150241+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001818874-26-000070",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "9de7e539afd326bdfcb2a0bd",
+      "ticker": "AAOI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474233+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001437749-26-035282",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "8b6dc08bf9f48ad8a1191dd0",
+      "ticker": "SOFI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "EPS diluído trimestral: 0.18 USD/shares (fim 2026-09-30); variação homóloga +63.6%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:05.332811+00:00",
+      "details": {
+        "val": 0.18,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-05",
+        "accn": "0001818874-26-000070",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 0.11,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001818874-26-000070"
+        },
+        "yoy_pct": 63.636363636363626
+      }
+    },
+    {
+      "id": "5e51fe609a62e9f1b50015c9",
+      "ticker": "AAOI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008351/aaoi_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474269+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001683168-26-008351",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "4ec8eb321f5b15d953b56ab9",
+      "ticker": "AAOI",
+      "category": "risk",
+      "date": "2026-11-05",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474255+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001437749-26-035282",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "3ac7c4d2aef3c5df9b7fef84",
+      "ticker": "AAOI",
+      "category": "dilution",
+      "date": "2026-11-05",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474260+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001437749-26-035282",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "39cde76927bd3e620ea2a406",
+      "ticker": "AAOI",
+      "category": "earnings",
+      "date": "2026-11-05",
+      "title": "EPS diluído trimestral: 0.07 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:04.087397+00:00",
+      "details": {
+        "val": 0.07,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-05",
+        "accn": "0001437749-26-035282",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -0.28,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001437749-26-035282"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "193de8be74a7f7126b51ac4e",
+      "ticker": "AAOI",
+      "category": "dilution",
+      "date": "2026-11-05",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +32.9% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:04:04.087410+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 90770732,
+        "start": null,
+        "end": "2026-11-02",
+        "filed": "2026-11-05",
+        "accn": "0001437749-26-035282",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 68278417,
+          "start": null,
+          "end": "2025-11-03",
+          "accn": "0001437749-25-033627"
+        },
+        "yoy_pct": 32.94205693140191
+      }
+    },
+    {
+      "id": "e35c4efbaeb7fab9790adbb5",
+      "ticker": "UBER",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.600527+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001543151-26-000041",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "d29a834fdc90a585a85eeff8",
+      "ticker": "FIG",
+      "category": "risk",
+      "date": "2026-11-04",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070272/fig-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.440030+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-070272",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "bb1ecf1ea0e1fce7eaaf031b",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-11-04",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526446265/d168684d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546832+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-446265",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b31089a71d8e22cebc71fc71",
+      "ticker": "AAOI",
+      "category": "contracts",
+      "date": "2026-11-04",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008310/aaoi_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474276+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "1.01,1.02,2.03,9.01",
+        "accession": "0001683168-26-008310",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "8ca087ee9d51c692048518ac",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526446265/d168684d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546812+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-446265",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "835800fcf59e97cf6fcc9e45",
+      "ticker": "UBER",
+      "category": "risk",
+      "date": "2026-11-04",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.600549+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001543151-26-000041",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "760e7e4eb9be4f8082a51b22",
+      "ticker": "UBER",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Receita trimestral: 14,766,000,000.00 USD (fim 2026-09-30); variação homóloga +9.6%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:05.726806+00:00",
+      "details": {
+        "val": 14766000000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accn": "0001543151-26-000041",
+        "tag": "Revenues",
+        "unit": "USD",
+        "previous": {
+          "val": 13467000000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001543151-26-000041"
+        },
+        "yoy_pct": 9.645800846513698
+      }
+    },
+    {
+      "id": "716ff0c3ca88453066a547a6",
+      "ticker": "UBER",
+      "category": "dilution",
+      "date": "2026-11-04",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000041/uber-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.600553+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001543151-26-000041",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "64fe3d9c921649d043ada3f1",
+      "ticker": "FIG",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070133/fig-20261104.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.440043+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001628280-26-070133",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "5f1686f8adcacc03a95a063a",
+      "ticker": "UBER",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000039/uber-20261104.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.600563+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,5.02,9.01",
+        "accession": "0001543151-26-000039",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "535d33b5b5b363897e6fa38a",
+      "ticker": "FIG",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Receita trimestral: 391,415,000.00 USD (fim 2026-09-30); variação homóloga +42.8%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001579878.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:01.981764+00:00",
+      "details": {
+        "val": 391415000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accn": "0001628280-26-070272",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 274173000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-070272"
+        },
+        "yoy_pct": 42.76205169728602
+      }
+    },
+    {
+      "id": "34d5941dff1141d4a17f4202",
+      "ticker": "FIG",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "EPS diluído trimestral: -0.15 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001579878.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:01.981771+00:00",
+      "details": {
+        "val": -0.15,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accn": "0001628280-26-070272",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -2.72,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-070272"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "34b0f84bacc580ca1c2a744d",
+      "ticker": "FIG",
+      "category": "dilution",
+      "date": "2026-11-04",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070272/fig-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.440034+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-070272",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "2deb756a0734c55224d5ddda",
+      "ticker": "UBER",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "EPS diluído trimestral: 0.25 USD/shares (fim 2026-09-30); variação homóloga -92.0%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:05.726815+00:00",
+      "details": {
+        "val": 0.25,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accn": "0001543151-26-000041",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 3.11,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001543151-26-000041"
+        },
+        "yoy_pct": -91.96141479099678
+      }
+    },
+    {
+      "id": "2c8d705291eabfdd03e088f9",
+      "ticker": "UBER",
+      "category": "risk",
+      "date": "2026-11-04",
+      "title": "Aumento da dívida de longo prazo não corrente: +47.6% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:05.726822+00:00",
+      "details": {
+        "metric": "debt_noncurrent",
+        "val": 15664000000,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-11-04",
+        "accn": "0001543151-26-000041",
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 10615000000,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001543151-25-000033"
+        },
+        "yoy_pct": 47.56476683937825
+      }
+    },
+    {
+      "id": "25d388f1c62813866d35165e",
+      "ticker": "FIG",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070272/fig-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.440010+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-070272",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "1b3919af93e83907666cf718",
+      "ticker": "AEVA",
+      "category": "earnings",
+      "date": "2026-11-04",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1789029/000119312526447222/aeva-20261104.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.793461+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001193125-26-447222",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "14f7ea67eb5c06edd3ae45b0",
+      "ticker": "AAOI",
+      "category": "risk",
+      "date": "2026-11-04",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1158114/000168316826008310/aaoi_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.474305+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "1.01,1.02,2.03,9.01",
+        "accession": "0001683168-26-008310",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "fd2d595cff460656e37227d8",
+      "ticker": "DECK",
+      "category": "risk",
+      "date": "2026-10-29",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.969235+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-068116",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "f7dacbc95e872062426d6c8e",
+      "ticker": "DECK",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.969198+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-068116",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "a93122cd91c0669fd96efd0c",
+      "ticker": "CROX",
+      "category": "risk",
+      "date": "2026-10-29",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.542944+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001334036-26-000060",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "a449b292b4d56592bfdfcf86",
+      "ticker": "CROX",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000058/crox-20261029.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.542962+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001334036-26-000058",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "9cf2a1d374c4ef1887f42718",
+      "ticker": "CROX",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Receita trimestral: 1,042,583,000.00 USD (fim 2026-09-30); variação homóloga +4.6%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:07.007602+00:00",
+      "details": {
+        "val": 1042583000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001334036-26-000060",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 996301000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001334036-26-000060"
+        },
+        "yoy_pct": 4.6453832727258115
+      }
+    },
+    {
+      "id": "7b86ae847a95de5729a05c85",
+      "ticker": "CROX",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "EPS diluído trimestral: 4.52 USD/shares (fim 2026-09-30); variação homóloga +67.4%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:07.007611+00:00",
+      "details": {
+        "val": 4.52,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001334036-26-000060",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 2.7,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001334036-26-000060"
+        },
+        "yoy_pct": 67.40740740740738
+      }
+    },
+    {
+      "id": "794a7db637862355af85bd4d",
+      "ticker": "RIVN",
+      "category": "risk",
+      "date": "2026-10-29",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000066/rivn-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919260+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001874178-26-000066",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "621d0a14ca4ad258c3c149fc",
+      "ticker": "RIVN",
+      "category": "contracts",
+      "date": "2026-10-29",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000065/rivn-20261027.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919276+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,5.02,7.01,9.01",
+        "accession": "0001874178-26-000065",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "5ee114eff018e9f04a66b925",
+      "ticker": "DECK",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "EPS diluído trimestral: 2.31 USD/shares (fim 2026-09-30); variação homóloga +26.9%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000910521.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:08.010251+00:00",
+      "details": {
+        "val": 2.31,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001628280-26-068116",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 1.82,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-068116"
+        },
+        "yoy_pct": 26.923076923076916
+      }
+    },
+    {
+      "id": "518edeb412952eb672384a71",
+      "ticker": "RIVN",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000066/rivn-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919240+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001874178-26-000066",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "3e21d7919361955a57dddcf2",
+      "ticker": "CROX",
+      "category": "dilution",
+      "date": "2026-10-29",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.542951+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001334036-26-000060",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "3a7f23956f4917c16fd72e9c",
+      "ticker": "RIVN",
+      "category": "dilution",
+      "date": "2026-10-29",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +19.1% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:04:02.497277+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 1460000000,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001874178-26-000066",
+        "tag": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 1226000000,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001874178-25-000052"
+        },
+        "yoy_pct": 19.08646003262642
+      }
+    },
+    {
+      "id": "2b48066d0f951712a18d111e",
+      "ticker": "RIVN",
+      "category": "dilution",
+      "date": "2026-10-29",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000066/rivn-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919265+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001874178-26-000066",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "1ced947cbbe5439bfd86a614",
+      "ticker": "CROX",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334036/000133403626000060/crox-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.542921+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001334036-26-000060",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "19aed5c35f541630e60c630a",
+      "ticker": "RIVN",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "EPS diluído trimestral: -0.63 USD/shares (fim 2026-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:02.497269+00:00",
+      "details": {
+        "val": -0.63,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001874178-26-000066",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": -0.96,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001874178-26-000066"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "0ae559784ece95a4b774e4bc",
+      "ticker": "DECK",
+      "category": "dilution",
+      "date": "2026-10-29",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000162828026068116/deck-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.969239+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001628280-26-068116",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "087c331a1cf2d711430579aa",
+      "ticker": "RIVN",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000065/rivn-20261027.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919274+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,5.02,7.01,9.01",
+        "accession": "0001874178-26-000065",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "029563b44b94773f90e0a5f6",
+      "ticker": "DECK",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Receita trimestral: 1,480,554,000.00 USD (fim 2026-09-30); variação homóloga +3.5%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000910521.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:08.010242+00:00",
+      "details": {
+        "val": 1480554000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001628280-26-068116",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 1430840000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001628280-26-068116"
+        },
+        "yoy_pct": 3.4744625534651075
+      }
+    },
+    {
+      "id": "000b94539c5b414fbda5a038",
+      "ticker": "RIVN",
+      "category": "earnings",
+      "date": "2026-10-29",
+      "title": "Receita trimestral: 2,155,000,000.00 USD (fim 2026-09-30); variação homóloga +38.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:02.497262+00:00",
+      "details": {
+        "val": 2155000000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-29",
+        "accn": "0001874178-26-000066",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 1558000000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001874178-26-000066"
+        },
+        "yoy_pct": 38.3183568677792
+      }
+    },
+    {
+      "id": "e90e0e3348d6baefbc2e5a59",
+      "ticker": "PYPL",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.438694+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001633917-26-000088",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "e57e3b1b5b186934a6b83ca8",
+      "ticker": "PYPL",
+      "category": "dilution",
+      "date": "2026-10-27",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.438718+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001633917-26-000088",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "c4ca6d3c410c9d4e506c9233",
+      "ticker": "PYPL",
+      "category": "risk",
+      "date": "2026-10-27",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.438712+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001633917-26-000088",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "bc079f8310a8e1413b6f7988",
+      "ticker": "PYPL",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl-20261027.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.438727+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001633917-26-000086",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b5735ce1cf7840d7b5c2f036",
+      "ticker": "SOFI",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818874/000181887426000065/sofi-20261027.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.150307+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001818874-26-000065",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b045b399cd0379ec76d7ff3f",
+      "ticker": "PYPL",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "EPS diluído trimestral: 1.25 USD/shares (fim 2026-09-30); variação homóloga -3.8%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633917.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:07.622708+00:00",
+      "details": {
+        "val": 1.25,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-27",
+        "accn": "0001633917-26-000088",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 1.3,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001633917-26-000088"
+        },
+        "yoy_pct": -3.8461538461538547
+      }
+    },
+    {
+      "id": "af70dddff6f59e9e4782b5a9",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526432580/d179452d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546839+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-432580",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "5880310729d91eab8a92ba4d",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-10-27",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526432580/d179452d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546842+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-432580",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "163570d372a96e8a340d4db8",
+      "ticker": "PYPL",
+      "category": "earnings",
+      "date": "2026-10-27",
+      "title": "Receita trimestral: 8,584,000,000.00 USD (fim 2026-09-30); variação homóloga +2.0%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633917.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:07.622700+00:00",
+      "details": {
+        "val": 8584000000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-27",
+        "accn": "0001633917-26-000088",
+        "tag": "Revenues",
+        "unit": "USD",
+        "previous": {
+          "val": 8417000000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001633917-26-000088"
+        },
+        "yoy_pct": 1.984079838422237
+      }
+    },
+    {
+      "id": "cdc7aaddf13aa2c9f9cf02f0",
+      "ticker": "LULU",
+      "category": "contracts",
+      "date": "2026-10-22",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000135/lulu-20261019.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.628994+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "5.02,7.01,9.01",
+        "accession": "0001397187-26-000135",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b525f7454f6e705fc8ba3239",
+      "ticker": "DECK",
+      "category": "earnings",
+      "date": "2026-10-22",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/deck-20261020.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.969251+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,5.02,7.01,9.01",
+        "accession": "0000910521-26-000028",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "aa1371a7aef4729a48d30d18",
+      "ticker": "SYF",
+      "category": "earnings",
+      "date": "2026-10-22",
+      "title": "EPS diluído trimestral: 2.68 USD/shares (fim 2026-09-30); variação homóloga -6.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001601712.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:06.374986+00:00",
+      "details": {
+        "val": 2.68,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-22",
+        "accn": "0001601712-26-000043",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 2.86,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001601712-26-000043"
+        },
+        "yoy_pct": -6.293706293706281
+      }
+    },
+    {
+      "id": "914cf44d30e7870bdf571524",
+      "ticker": "SYF",
+      "category": "risk",
+      "date": "2026-10-22",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114855+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001601712-26-000043",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "399568e975243a73b0f47c27",
+      "ticker": "SYF",
+      "category": "earnings",
+      "date": "2026-10-22",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114851+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001601712-26-000043",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "380e2029a819e71400ebc29d",
+      "ticker": "DECK",
+      "category": "contracts",
+      "date": "2026-10-22",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/deck-20261020.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:56.969254+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,5.02,7.01,9.01",
+        "accession": "0000910521-26-000028",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "33b740da22f370cadfdde7d2",
+      "ticker": "SYF",
+      "category": "dilution",
+      "date": "2026-10-22",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114858+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001601712-26-000043",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "fadee926374b5237eac53baf",
+      "ticker": "NFLX",
+      "category": "earnings",
+      "date": "2026-10-21",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.329945+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001065280-26-000291",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "cf592de3b1fd686659e99adf",
+      "ticker": "NFLX",
+      "category": "earnings",
+      "date": "2026-10-21",
+      "title": "EPS diluído trimestral: 0.87 USD/shares (fim 2026-09-30); variação homóloga +47.5%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:03:59.038749+00:00",
+      "details": {
+        "val": 0.87,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-21",
+        "accn": "0001065280-26-000291",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 0.59,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001065280-26-000291"
+        },
+        "yoy_pct": 47.457627118644076
+      }
+    },
+    {
+      "id": "b00d95bf70bdaebc362e7e7d",
+      "ticker": "NFLX",
+      "category": "dilution",
+      "date": "2026-10-21",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +869.1% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:03:59.038761+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 4106325903,
+        "start": null,
+        "end": "2026-09-30",
+        "filed": "2026-10-21",
+        "accn": "0001065280-26-000291",
+        "tag": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 423732334,
+          "start": null,
+          "end": "2025-09-30",
+          "accn": "0001065280-25-000406"
+        },
+        "yoy_pct": 869.0848617183885
+      }
+    },
+    {
+      "id": "9c9dbb650e5dce730ab675b6",
+      "ticker": "NFLX",
+      "category": "earnings",
+      "date": "2026-10-21",
+      "title": "Receita trimestral: 12,874,176,000.00 USD (fim 2026-09-30); variação homóloga +11.8%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001065280.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:03:59.038653+00:00",
+      "details": {
+        "val": 12874176000,
+        "start": "2026-07-01",
+        "end": "2026-09-30",
+        "filed": "2026-10-21",
+        "accn": "0001065280-26-000291",
+        "tag": "Revenues",
+        "unit": "USD",
+        "previous": {
+          "val": 11510307000,
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accn": "0001065280-26-000291"
+        },
+        "yoy_pct": 11.849110540665864
+      }
+    },
+    {
+      "id": "77e81cc72366337fcc33b5aa",
+      "ticker": "NFLX",
+      "category": "risk",
+      "date": "2026-10-21",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.329969+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001065280-26-000291",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "514f8a6032a9c6db698b564a",
+      "ticker": "NFLX",
+      "category": "dilution",
+      "date": "2026-10-21",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.329974+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0001065280-26-000291",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b087a8ff664c68f92e7fafb3",
+      "ticker": "SE",
+      "category": "earnings",
+      "date": "2026-10-20",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526425639/d181814d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:47.932940+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-425639",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "8dfe491280096af19c59731f",
+      "ticker": "NFLX",
+      "category": "earnings",
+      "date": "2026-10-20",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/nflx-20261020.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:07.329985+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001065280-26-000290",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "67f5e1942a7962977db71342",
+      "ticker": "SE",
+      "category": "contracts",
+      "date": "2026-10-20",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526425639/d181814d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:47.932944+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-425639",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "654ad09920ff915ea40d42e3",
+      "ticker": "SYF",
+      "category": "contracts",
+      "date": "2026-10-20",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000041/syf-20261020.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114864+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01,9.01",
+        "accession": "0001601712-26-000041",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "4fe5b8c831a0f8eb305d0f94",
+      "ticker": "SYF",
+      "category": "earnings",
+      "date": "2026-10-20",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/syf-20261020.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:55.114868+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,9.01",
+        "accession": "0001601712-26-000040",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "ce645a971571036c0744627a",
+      "ticker": "ADUR",
+      "category": "earnings",
+      "date": "2026-10-19",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005400/form6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131479+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001062993-26-005400",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "cc553e376e5580a583e4bc61",
+      "ticker": "ADUR",
+      "category": "dilution",
+      "date": "2026-10-19",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005398/form40fa.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131514+00:00",
+      "details": {
+        "form": "40-F/A",
+        "items": "",
+        "accession": "0001062993-26-005398",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "86218c8f87e253a3b480add8",
+      "ticker": "ADUR",
+      "category": "earnings",
+      "date": "2026-10-19",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005398/form40fa.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131508+00:00",
+      "details": {
+        "form": "40-F/A",
+        "items": "",
+        "accession": "0001062993-26-005398",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "49f8fec4341dac26a0edebe2",
+      "ticker": "ADUR",
+      "category": "risk",
+      "date": "2026-10-19",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005398/form40fa.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131511+00:00",
+      "details": {
+        "form": "40-F/A",
+        "items": "",
+        "accession": "0001062993-26-005398",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "0f5d3cb3fcc42c805999fbe0",
+      "ticker": "ADUR",
+      "category": "contracts",
+      "date": "2026-10-19",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005400/form6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131502+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001062993-26-005400",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "eee2117e6bced393d226bd3f",
+      "ticker": "ADUR",
+      "category": "earnings",
+      "date": "2026-10-16",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005366/form6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131518+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001062993-26-005366",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "57a82917fef039793e5b33d4",
+      "ticker": "ADUR",
+      "category": "contracts",
+      "date": "2026-10-16",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1863934/000106299326005366/form6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.131520+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001062993-26-005366",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "e401af973bebd33803c57626",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-10-07",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526416952/d148700d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546846+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-416952",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "df3a67c11fb7abe79c53aa78",
+      "ticker": "RIVN",
+      "category": "risk",
+      "date": "2026-10-07",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000061/rivn-20261007.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919309+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.03",
+        "accession": "0001874178-26-000061",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "afe6692eee2d5d1e83693213",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-10-07",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526416952/d148700d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546849+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-416952",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "353ac8d8267edafe03bdfb9c",
+      "ticker": "LULU",
+      "category": "contracts",
+      "date": "2026-10-07",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1397187/000139718726000131/lulu-20260930.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:53.629018+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "5.02,7.01,9.01",
+        "accession": "0001397187-26-000131",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "e4cab005bf16912f1ff5401a",
+      "ticker": "NKE",
+      "category": "dilution",
+      "date": "2026-10-02",
+      "title": "Documento a rever para possível diluição; não confirma emissão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:48.477984+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0000320187-26-000193",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "c4e1c807cd3cc10fe7b4473a",
+      "ticker": "NKE",
+      "category": "earnings",
+      "date": "2026-10-02",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:48.477958+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0000320187-26-000193",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "a67a2cc38b62fb53b837fbee",
+      "ticker": "NKE",
+      "category": "risk",
+      "date": "2026-10-02",
+      "title": "Documento com informação de risco financeiro — requer revisão",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000193/nke-20260831.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:48.477979+00:00",
+      "details": {
+        "form": "10-Q",
+        "items": "",
+        "accession": "0000320187-26-000193",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "82c6ad609634ef61ab468015",
+      "ticker": "NKE",
+      "category": "earnings",
+      "date": "2026-10-02",
+      "title": "Receita trimestral: 11,213,000,000.00 USD (fim 2026-08-31); variação homóloga -4.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:03:59.964386+00:00",
+      "details": {
+        "val": 11213000000,
+        "start": "2026-06-01",
+        "end": "2026-08-31",
+        "filed": "2026-10-02",
+        "accn": "0000320187-26-000193",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 11720000000,
+          "start": "2025-06-01",
+          "end": "2025-08-31",
+          "accn": "0000320187-26-000193"
+        },
+        "yoy_pct": -4.3259385665529
+      }
+    },
+    {
+      "id": "6a9d11193c782e45953d82f5",
+      "ticker": "NKE",
+      "category": "earnings",
+      "date": "2026-10-02",
+      "title": "EPS diluído trimestral: 0.48 USD/shares (fim 2026-08-31); variação homóloga -2.0%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320187.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:03:59.964396+00:00",
+      "details": {
+        "val": 0.48,
+        "start": "2026-06-01",
+        "end": "2026-08-31",
+        "filed": "2026-10-02",
+        "accn": "0000320187-26-000193",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 0.49,
+          "start": "2025-06-01",
+          "end": "2025-08-31",
+          "accn": "0000320187-26-000193"
+        },
+        "yoy_pct": -2.0408163265306145
+      }
+    },
+    {
+      "id": "19aa8c427e54f6748d040275",
+      "ticker": "RIVN",
+      "category": "contracts",
+      "date": "2026-10-02",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000057/rivn-20261002.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.919316+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01,9.01",
+        "accession": "0001874178-26-000057",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "e48dbc9678ab38ced15e8c84",
+      "ticker": "NKE",
+      "category": "earnings",
+      "date": "2026-10-01",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000184/nke-20261001.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:48.477990+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "2.02,2.05,9.01",
+        "accession": "0000320187-26-000184",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "585c74c020863d9d45df57ce",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-10-01",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526409756/d110370d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546853+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-409756",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "0d2c0c5f866e4659086fa05f",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-10-01",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526409756/d110370d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546856+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-409756",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "d45347a4fea890f6ff2a52c5",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-09-30",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526408259/d44191d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546859+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-408259",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "b931a897fa02782bb80274a2",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-09-30",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526408259/d44191d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546861+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-408259",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "622765ebf4d70cbe1a1482bb",
+      "ticker": "KULR",
+      "category": "contracts",
+      "date": "2026-09-30",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662684/000110465926112343/tm2626725d1_8k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:49.390175+00:00",
+      "details": {
+        "form": "8-K",
+        "items": "7.01",
+        "accession": "0001104659-26-112343",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "763af269d50cac7dde29e340",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-09-29",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526405930/d149776d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546865+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-405930",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "6e9fa20576441d33b1379a74",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-09-29",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526405930/d149776d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546867+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-405930",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "cde06dbd814b1ed3e01f535b",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2026-09-28",
+      "title": "Relatório ou comunicado financeiro — rever resultados e guidance",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526403371/d181948d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546871+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-403371",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "06c5ce087e2bbdcc7848ebca",
+      "ticker": "BIDU",
+      "category": "contracts",
+      "date": "2026-09-28",
+      "title": "Acordo ou comunicação relevante — termos e impacto por confirmar",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526403371/d181948d6k.htm",
+      "relevance": "média",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.546873+00:00",
+      "details": {
+        "form": "6-K",
+        "items": "",
+        "accession": "0001193125-26-403371",
+        "note": "Classificação de metadados SEC; não confirma o conteúdo, a emissão, o contrato ou a sua materialidade."
+      }
+    },
+    {
+      "id": "6ec2933436a90c88b026af03",
+      "ticker": "LULU",
+      "category": "earnings",
+      "date": "2026-09-03",
+      "title": "Receita trimestral: 2,415,631,000.00 USD (fim 2026-08-02); variação homóloga -4.3%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:04.957220+00:00",
+      "details": {
+        "val": 2415631000,
+        "start": "2026-05-04",
+        "end": "2026-08-02",
+        "filed": "2026-09-03",
+        "accn": "0001397187-26-000127",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": {
+          "val": 2525219000,
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "accn": "0001397187-26-000127"
+        },
+        "yoy_pct": -4.339742414420289
+      }
+    },
+    {
+      "id": "2574f6202aef8de334b2d8a7",
+      "ticker": "LULU",
+      "category": "earnings",
+      "date": "2026-09-03",
+      "title": "EPS diluído trimestral: 2.92 USD/shares (fim 2026-08-02); variação homóloga -5.8%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001397187.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:04.957227+00:00",
+      "details": {
+        "val": 2.92,
+        "start": "2026-05-04",
+        "end": "2026-08-02",
+        "filed": "2026-09-03",
+        "accn": "0001397187-26-000127",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 3.1,
+          "start": "2025-05-05",
+          "end": "2025-08-03",
+          "accn": "0001397187-26-000127"
+        },
+        "yoy_pct": -5.8064516129032295
+      }
+    },
+    {
+      "id": "e0ace9cb7b102b0968d73971",
+      "ticker": "KULR",
+      "category": "risk",
+      "date": "2026-03-31",
+      "title": "Redução da caixa: -55.4% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:49.626777+00:00",
+      "details": {
+        "metric": "cash",
+        "val": 13300188,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-03-31",
+        "accn": "0001104659-26-037918",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "previous": {
+          "val": 29831858,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001104659-26-037918"
+        },
+        "yoy_pct": -55.41615946281322
+      }
+    },
+    {
+      "id": "11df892e4e64f43911a2a8f1",
+      "ticker": "KULR",
+      "category": "risk",
+      "date": "2026-03-31",
+      "title": "Consumo anual de caixa operacional aumentou mais de 25%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001662684.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:49.626787+00:00",
+      "details": {
+        "val": -44883648,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-03-31",
+        "accn": "0001104659-26-037918",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "previous": {
+          "val": -17341676,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0001104659-26-037918"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "7037408acff282f8aa77a5da",
+      "ticker": "AEVA",
+      "category": "dilution",
+      "date": "2026-03-20",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +15.0% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001789029.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:08.111806+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 62947689,
+        "start": null,
+        "end": "2026-03-10",
+        "filed": "2026-03-20",
+        "accn": "0001193125-26-116518",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 54713688,
+          "start": null,
+          "end": "2025-03-01",
+          "accn": "0000950170-25-042849"
+        },
+        "yoy_pct": 15.049252391832923
+      }
+    },
+    {
+      "id": "d8041d5f010312cc10068aa9",
+      "ticker": "OKLO",
+      "category": "dilution",
+      "date": "2026-03-17",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +24.9% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:50.227660+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 173568788,
+        "start": null,
+        "end": "2026-03-13",
+        "filed": "2026-03-17",
+        "accn": "0001628280-26-018698",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 139018305,
+          "start": null,
+          "end": "2025-03-21",
+          "accn": "0001628280-25-014490"
+        },
+        "yoy_pct": 24.853189657290088
+      }
+    },
+    {
+      "id": "88fd2689f93d564fe6bbfdd2",
+      "ticker": "OKLO",
+      "category": "risk",
+      "date": "2026-03-17",
+      "title": "Consumo anual de caixa operacional aumentou mais de 25%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001849056.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:50.227669+00:00",
+      "details": {
+        "val": -82174000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-03-17",
+        "accn": "0001628280-26-018698",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "previous": {
+          "val": -38390000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0001628280-26-018698"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "214c8cf1b716d51e8773845e",
+      "ticker": "BIDU",
+      "category": "risk",
+      "date": "2026-03-17",
+      "title": "Aumento da componente corrente da dívida de longo prazo: +571.0% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:51.764471+00:00",
+      "details": {
+        "metric": "debt_current",
+        "val": 208000000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-03-17",
+        "accn": "0001193125-26-109289",
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 31000000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001193125-25-066199"
+        },
+        "yoy_pct": 570.9677419354839
+      }
+    },
+    {
+      "id": "ba3070648005df771f52eaaf",
+      "ticker": "ASTS",
+      "category": "risk",
+      "date": "2026-03-02",
+      "title": "Aumento da componente corrente da dívida de longo prazo: +311.1% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:52.237931+00:00",
+      "details": {
+        "metric": "debt_current",
+        "val": 11999000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-03-02",
+        "accn": "0001780312-26-000006",
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 2919000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001780312-26-000006"
+        },
+        "yoy_pct": 311.06543336759165
+      }
+    },
+    {
+      "id": "98d4674da7ff6f6511ed5d18",
+      "ticker": "ASTS",
+      "category": "risk",
+      "date": "2026-03-02",
+      "title": "Aumento da dívida de longo prazo não corrente: +1319.0% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:52.237939+00:00",
+      "details": {
+        "metric": "debt_noncurrent",
+        "val": 2207583000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-03-02",
+        "accn": "0001780312-26-000006",
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 155573000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001780312-26-000006"
+        },
+        "yoy_pct": 1319.001369132176
+      }
+    },
+    {
+      "id": "e5693e71fc2db12e94969cc7",
+      "ticker": "AAOI",
+      "category": "dilution",
+      "date": "2026-02-26",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +51.5% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:52.959649+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 75198817,
+        "start": null,
+        "end": "2026-02-01",
+        "filed": "2026-02-26",
+        "accn": "0001437749-26-005875",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 49651482,
+          "start": null,
+          "end": "2025-02-24",
+          "accn": "0001437749-25-005575"
+        },
+        "yoy_pct": 51.45331815070495
+      }
+    },
+    {
+      "id": "d938f2f1725bad34d1f04232",
+      "ticker": "AAOI",
+      "category": "risk",
+      "date": "2026-02-26",
+      "title": "Aumento da componente corrente da dívida de longo prazo: +51.9% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:52.959640+00:00",
+      "details": {
+        "metric": "debt_current",
+        "val": 33975000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-26",
+        "accn": "0001437749-26-005875",
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 22369000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001437749-26-005875"
+        },
+        "yoy_pct": 51.88430417095087
+      }
+    },
+    {
+      "id": "a05f43a6a9c51e66e2d06449",
+      "ticker": "AAOI",
+      "category": "risk",
+      "date": "2026-02-26",
+      "title": "Consumo anual de caixa operacional aumentou mais de 25%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001158114.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:52.959655+00:00",
+      "details": {
+        "val": -174428000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-02-26",
+        "accn": "0001437749-26-005875",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "previous": {
+          "val": -69526000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0001437749-26-005875"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "e7a0d69feee134cd131eb3fd",
+      "ticker": "SOFI",
+      "category": "risk",
+      "date": "2026-02-17",
+      "title": "Consumo anual de caixa operacional aumentou mais de 25%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:54.428461+00:00",
+      "details": {
+        "val": -3742458000,
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "filed": "2026-02-17",
+        "accn": "0001818874-26-000013",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "previous": {
+          "val": -1119807000,
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "accn": "0001818874-26-000013"
+        },
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "1c78c69fd7b496e08755076f",
+      "ticker": "SOFI",
+      "category": "dilution",
+      "date": "2026-02-17",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +16.3% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001818874.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:54.428453+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 1275263850,
+        "start": null,
+        "end": "2026-01-30",
+        "filed": "2026-02-17",
+        "accn": "0001818874-26-000013",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 1096540215,
+          "start": null,
+          "end": "2025-01-31",
+          "accn": "0001818874-25-000016"
+        },
+        "yoy_pct": 16.298867342498703
+      }
+    },
+    {
+      "id": "7422d8419ded78f4c3916957",
+      "ticker": "UBER",
+      "category": "risk",
+      "date": "2026-02-13",
+      "title": "Aumento da dívida de longo prazo não corrente: +26.0% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:54.834875+00:00",
+      "details": {
+        "metric": "debt_noncurrent",
+        "val": 10521000000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-13",
+        "accn": "0001543151-26-000015",
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "previous": {
+          "val": 8347000000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001543151-26-000015"
+        },
+        "yoy_pct": 26.045285731400504
+      }
+    },
+    {
+      "id": "b0e0881aeef265f297bbe1d6",
+      "ticker": "CROX",
+      "category": "risk",
+      "date": "2026-02-12",
+      "title": "Redução da caixa: -27.8% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001334036.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:56.107200+00:00",
+      "details": {
+        "metric": "cash",
+        "val": 130354000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-12",
+        "accn": "0001334036-26-000006",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "previous": {
+          "val": 180485000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001334036-26-000006"
+        },
+        "yoy_pct": -27.775715433415517
+      }
+    },
+    {
+      "id": "269b9c20319c79750a4b9a10",
+      "ticker": "RIVN",
+      "category": "dilution",
+      "date": "2026-02-12",
+      "title": "Alteração do número de ações; verificar emissões e desdobramentos: +9.6% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
+      "relevance": "alta",
+      "status": "requer revisão",
+      "detected_at": "2026-11-12T12:02:51.274466+00:00",
+      "details": {
+        "metric": "shares",
+        "val": 1240000000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-12",
+        "accn": "0001874178-26-000008",
+        "tag": "CommonStockSharesOutstanding",
+        "unit": "shares",
+        "previous": {
+          "val": 1131000000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001874178-26-000008"
+        },
+        "yoy_pct": 9.637488947833784
+      }
+    },
+    {
+      "id": "08e275394fab610f9a71e862",
+      "ticker": "RIVN",
+      "category": "risk",
+      "date": "2026-02-12",
+      "title": "Redução da caixa: -32.4% face ao período anual comparável",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:02:51.274457+00:00",
+      "details": {
+        "metric": "cash",
+        "val": 3579000000,
+        "start": null,
+        "end": "2025-12-31",
+        "filed": "2026-02-12",
+        "accn": "0001874178-26-000008",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "previous": {
+          "val": 5294000000,
+          "start": null,
+          "end": "2024-12-31",
+          "accn": "0001874178-26-000008"
+        },
+        "yoy_pct": -32.395164336985275
+      }
+    },
+    {
+      "id": "aa8b49631c842f18ed5a9310",
+      "ticker": "ASTS",
+      "category": "earnings",
+      "date": "2024-11-14",
+      "title": "Receita trimestral: 1,100,000.00 USD (fim 2024-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:03.456328+00:00",
+      "details": {
+        "val": 1100000,
+        "start": "2024-07-01",
+        "end": "2024-09-30",
+        "filed": "2024-11-14",
+        "accn": "0000950170-24-127101",
+        "tag": "Revenues",
+        "unit": "USD",
+        "previous": null,
+        "yoy_pct": null
+      }
+    },
+    {
+      "id": "2b2f9d6da167ab7cfc05880d",
+      "ticker": "ASTS",
+      "category": "earnings",
+      "date": "2022-11-14",
+      "title": "EPS diluído trimestral: -0.18 USD/shares (fim 2022-09-30); variação homóloga -357.1%",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:03.456340+00:00",
+      "details": {
+        "val": -0.18,
+        "start": "2022-07-01",
+        "end": "2022-09-30",
+        "filed": "2022-11-14",
+        "accn": "0000950170-22-025059",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "previous": {
+          "val": 0.07,
+          "start": "2021-07-01",
+          "end": "2021-09-30",
+          "accn": "0000950170-22-025059"
+        },
+        "yoy_pct": -357.1428571428571
+      }
+    },
+    {
+      "id": "770c1a91522f09c8070db438",
+      "ticker": "BIDU",
+      "category": "earnings",
+      "date": "2018-11-07",
+      "title": "Receita trimestral: 4,106,000,000.00 USD (fim 2018-09-30); comparação homóloga N/D",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001329099.json",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-12T12:04:02.910570+00:00",
+      "details": {
+        "val": 4106000000,
+        "start": "2018-07-01",
+        "end": "2018-09-30",
+        "filed": "2018-11-07",
+        "accn": "0001193125-18-320960",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "previous": null,
+        "yoy_pct": null
+      }
+    }
+  ]
+}
