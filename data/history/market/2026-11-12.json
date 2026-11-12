@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:05:53.302596+00:00",
+  "generated_at_utc": "2026-11-12T12:09:10.952491+00:00",
   "stocks": {
     "NFLX": {
       "asof": "2026-11-11",
@@ -127,11 +127,16 @@
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:05:51.506752+00:00",
+          "detected_at": "2026-11-12T12:09:08.906593+00:00",
           "details": {
             "change_pct": 8.696943973315907,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
+              {
+                "title": "AST SpaceMobile sends strong signal to SpaceX investors",
+                "published_at": "2026-11-12T12:03:00Z",
+                "url": "https://www.thestreet.com/investing/stocks/ast-spacemobile-starlink-wireless-plans"
+              },
               {
                 "title": "AST SpaceMobile (ASTS) Stock Fair Value Moves Lower As Analysts Split On Risks",
                 "published_at": "2026-11-12T04:32:16Z",
@@ -151,11 +156,6 @@
                 "title": "Elon Musk's SpaceX Could Be Making AST SpaceMobile More Valuable, Analysts Say",
                 "published_at": "2026-11-11T19:00:09Z",
                 "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63161442/spacex-ast-spacemobile?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
-              },
-              {
-                "title": "Is UBS Wrong to Give Up on AST SpaceMobile? Wall Street Still Sees $68",
-                "published_at": "2026-11-11T17:09:17Z",
-                "url": "https://www.tikr.com/blog/is-ubs-wrong-to-give-up-on-ast-spacemobile-wall-street-still-sees-68?ref=yahoofinance&tlnk=yf-261111-j3mjqh63"
               }
             ]
           }
@@ -182,7 +182,7 @@
           "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:05:51.842551+00:00",
+          "detected_at": "2026-11-12T12:09:09.479967+00:00",
           "details": {
             "change_pct": 15.604306629031273,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
@@ -237,7 +237,7 @@
           "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-12T12:05:52.168559+00:00",
+          "detected_at": "2026-11-12T12:09:09.805344+00:00",
           "details": {
             "change_pct": 5.413387785384227,
             "context": "Sem notícia próxima disponível; causa não confirmada.",

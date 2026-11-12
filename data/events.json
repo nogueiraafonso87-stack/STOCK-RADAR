@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-12T12:07:18.177344+00:00",
+  "generated_at_utc": "2026-11-12T12:09:10.953989+00:00",
   "events": [
     {
       "id": "5c99aea56151abd3c119f1fb",
@@ -32,6 +32,11 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "AST SpaceMobile sends strong signal to SpaceX investors",
+            "published_at": "2026-11-12T12:03:00Z",
+            "url": "https://www.thestreet.com/investing/stocks/ast-spacemobile-starlink-wireless-plans"
+          },
+          {
             "title": "AST SpaceMobile (ASTS) Stock Fair Value Moves Lower As Analysts Split On Risks",
             "published_at": "2026-11-12T04:32:16Z",
             "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-fair-043216880.html"
@@ -50,11 +55,6 @@
             "title": "Elon Musk's SpaceX Could Be Making AST SpaceMobile More Valuable, Analysts Say",
             "published_at": "2026-11-11T19:00:09Z",
             "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63161442/spacex-ast-spacemobile?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral"
-          },
-          {
-            "title": "Is UBS Wrong to Give Up on AST SpaceMobile? Wall Street Still Sees $68",
-            "published_at": "2026-11-11T17:09:17Z",
-            "url": "https://www.tikr.com/blog/is-ubs-wrong-to-give-up-on-ast-spacemobile-wall-street-still-sees-68?ref=yahoofinance&tlnk=yf-261111-j3mjqh63"
           }
         ]
       }
