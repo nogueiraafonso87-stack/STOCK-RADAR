@@ -43,13 +43,13 @@ def analyze(symbol):
     ma50 = float(close.tail(50).mean()) if len(close) >= 50 else None
     asof = str(hist.index[-1].date())
     alerts = []
-    if change is not None and abs(change) >= 5:
-        alerts.append({"type": "price_move", "message": f"Variação diária {change:+.1f}%"})
-    if relative_volume is not None and relative_volume >= 2:
-        alerts.append({"type": "unusual_volume", "message": f"Volume {relative_volume:.1f}× média 20 sessões"})
     prev = PREVIOUS.get(symbol, {})
-    # Prevent re-alerting the same candle on weekends and holidays.
     is_new = prev.get("asof") != asof
+    if is_new and change is not None and abs(change) >= 5:
+        alerts.append({"type": "price_move", "message": f"Variação diária {change:+.1f}%"})
+    if is_new and relative_volume is not None and relative_volume >= 2:
+        alerts.append({"type": "unusual_volume", "message": f"Volume {relative_volume:.1f}× média 20 sessões"})
+    # Prevent re-alerting the same candle on weekends and holidays.
     if ma50 is not None and is_new and len(close) >= 51:
         yesterday_ma50 = float(close.iloc[-51:-1].mean())
         yesterday_close = float(close.iloc[-2])
