@@ -1,0 +1,484 @@
+{
+  "generated_at_utc": "2026-11-13T03:26:19.957476+00:00",
+  "stocks": {
+    "NFLX": {
+      "asof": "2026-11-12",
+      "close": 62.689998626708984,
+      "change_pct": -2.8664429231101463,
+      "volume": 31363500,
+      "relative_volume_20d": 0.6732010971352329,
+      "ma20": 64.75550003051758,
+      "ma50": 69.59500030517579,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SE": {
+      "asof": "2026-11-12",
+      "close": 74.5199966430664,
+      "change_pct": 0.7163113861318182,
+      "volume": 6493600,
+      "relative_volume_20d": 0.7015530948186778,
+      "ma20": 77.63550033569337,
+      "ma50": 91.75600021362305,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "NKE": {
+      "asof": "2026-11-12",
+      "close": 37.7599983215332,
+      "change_pct": -1.4613814659467539,
+      "volume": 18536300,
+      "relative_volume_20d": 0.7772403424649349,
+      "ma20": 38.29749984741211,
+      "ma50": 36.90099983215332,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AEVA": {
+      "asof": "2026-11-12",
+      "close": 11.800000190734863,
+      "change_pct": -8.099688080170441,
+      "volume": 1114000,
+      "relative_volume_20d": 0.5704819138285533,
+      "ma20": 10.377250003814698,
+      "ma50": 12.784300003051758,
+      "alerts": [
+        {
+          "id": "e61b03cfce114c80b95d2abb",
+          "ticker": "AEVA",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -8.10%",
+          "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:13.866727+00:00",
+          "details": {
+            "change_pct": -8.099688080170441,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Top Electric & Autonomous Vehicle Stocks to Charge Up Your Portfolio",
+                "published_at": "2026-11-11T16:03:00Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/top-electric-autonomous-vehicle-stocks-160300058.html"
+              },
+              {
+                "title": "Aeva Technologies (AEVA) Stock Fair Value Moves Lower After Analyst Target Cuts",
+                "published_at": "2026-11-11T04:32:47Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-aeva-stock-fair-043247975.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "KULR": {
+      "asof": "2026-11-12",
+      "close": 1.8300000429153442,
+      "change_pct": -10.731703147229988,
+      "volume": 1064800,
+      "relative_volume_20d": 1.1696022056360151,
+      "ma20": 1.6884999990463256,
+      "ma50": 2.122000000476837,
+      "alerts": [
+        {
+          "id": "88e8add9fafbc7da2c40df46",
+          "ticker": "KULR",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -10.73%",
+          "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:14.366678+00:00",
+          "details": {
+            "change_pct": -10.731703147229988,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "KULR Technology Group Inc (KULR) (Q3 2026) Earnings Call Highlights: Revenue Surges 197% as ...",
+                "published_at": "2026-11-11T07:04:42Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/kulr-technology-group-inc-kulr-070442354.html"
+              },
+              {
+                "title": "KULR Technology Group Q3 Earnings Call Highlights",
+                "published_at": "2026-11-11T06:14:38Z",
+                "url": "https://www.marketbeat.com/instant-alerts/transcript-kulr-technology-group-q3-earnings-call-highlights-2026-11-11/?utm_source=yahoofinance&utm_medium=yahoofinance"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "OKLO": {
+      "asof": "2026-11-12",
+      "close": 24.450000762939453,
+      "change_pct": -5.452435476152684,
+      "volume": 8572600,
+      "relative_volume_20d": 0.8010648969467379,
+      "ma20": 25.517500114440917,
+      "ma50": 32.431600189208986,
+      "alerts": [
+        {
+          "id": "35204eb11eec10147e88d0da",
+          "ticker": "OKLO",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -5.45%",
+          "source_url": "https://finance.yahoo.com/quote/OKLO/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:14.859365+00:00",
+          "details": {
+            "change_pct": -5.452435476152684,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Will NuScale Power Stock's Jump After Earnings Last?",
+                "published_at": "2026-11-12T20:21:01Z",
+                "url": "https://www.trefis.com/stock/smr/articles/624576/will-nuscale-power-stocks-jump-after-earnings-last/2026-11-12"
+              },
+              {
+                "title": "NuScale Power Just Dropped 25% in a Month: Nuke Your Shares Now, or Hunker Down and Hold?",
+                "published_at": "2026-11-12T20:02:14Z",
+                "url": "https://247wallst.com/investing/2026/11/12/nuscale-power-just-dropped-25-in-a-month-nuke-your-shares-now-or-hunker-down-and-hold/"
+              },
+              {
+                "title": "AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits",
+                "published_at": "2026-11-12T17:05:16Z",
+                "url": "https://www.tikr.com/blog/amd-soars-6-broadcom-up-6-as-nvidia-ceo-jensen-huang-exits?ref=yahoofinance&tlnk=yf-261112-wrpf5gpv"
+              },
+              {
+                "title": "Can NuScale's TVA Deal Unlock Its First Major Module Order?",
+                "published_at": "2026-11-12T15:29:00Z",
+                "url": "https://finance.yahoo.com/energy/articles/nuscales-tva-deal-unlock-first-152900220.html"
+              },
+              {
+                "title": "Oklo Advances Groves-1 Reactor Into Research and Testing Phase",
+                "published_at": "2026-11-12T15:18:00Z",
+                "url": "https://finance.yahoo.com/energy/articles/oklo-advances-groves-1-reactor-151800308.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "FIG": {
+      "asof": "2026-11-12",
+      "close": 18.920000076293945,
+      "change_pct": -0.26357005203130335,
+      "volume": 9471900,
+      "relative_volume_20d": 0.7999557452242425,
+      "ma20": 21.483499813079835,
+      "ma50": 21.95639991760254,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "RIVN": {
+      "asof": "2026-11-12",
+      "close": 12.800000190734863,
+      "change_pct": -5.465286360435783,
+      "volume": 25850900,
+      "relative_volume_20d": 0.8281859179016006,
+      "ma20": 12.678000020980836,
+      "ma50": 14.022899990081788,
+      "alerts": [
+        {
+          "id": "f8e564079e059e646d11c0eb",
+          "ticker": "RIVN",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -5.47%",
+          "source_url": "https://finance.yahoo.com/quote/RIVN/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:15.687837+00:00",
+          "details": {
+            "change_pct": -5.465286360435783,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Rivian CEO says robotaxis won't end car ownership — he's betting on both",
+                "published_at": "2026-11-12T15:30:00Z",
+                "url": "https://finance.yahoo.com/markets/article/rivian-ceo-says-robotaxis-wont-end-car-ownership--hes-betting-on-both-153000409.html"
+              },
+              {
+                "title": "Rivian Just Earned a Buy Rating. Is Wall Street Seeing a Turning Point?",
+                "published_at": "2026-11-12T17:05:02Z",
+                "url": "https://www.fool.com/investing/2026/11/12/rivian-just-earned-a-buy-rating-is-wall-street-seeing-a-turning-point/"
+              },
+              {
+                "title": "Lucid Sinks 8% as Cash-Burn Worries Linger After Earnings; Rivian Falls 3%, Tesla Holds Steady After Musk’s Jensen Huang Remark",
+                "published_at": "2026-11-12T16:56:50Z",
+                "url": "https://247wallst.com/investing/2026/11/12/lucid-sinks-8-as-cash-burn-worries-linger-after-earnings-rivian-falls-3-tesla-holds-steady-after-musks-jensen-huang-remark/"
+              },
+              {
+                "title": "Could Rivian Actually Get Back to $22? Stifel Thinks So, Even as 2027 Loss Estimates Widen",
+                "published_at": "2026-11-12T15:16:38Z",
+                "url": "https://www.tikr.com/blog/could-rivian-actually-get-back-to-22-stifel-thinks-so-even-as-2027-loss-estimates-widen?ref=yahoofinance&tlnk=yf-261112-5g4xp6jg"
+              },
+              {
+                "title": "Tesla FSD Gains Ground in Europe: Is EU-Wide Approval Near?",
+                "published_at": "2026-11-12T11:27:00Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/tesla-fsd-gains-ground-europe-112700383.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "BIDU": {
+      "asof": "2026-11-12",
+      "close": 77.62999725341797,
+      "change_pct": -2.670517584959997,
+      "volume": 1994600,
+      "relative_volume_20d": 0.8648334590736838,
+      "ma20": 78.9435001373291,
+      "ma50": 84.65260025024413,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ASTS": {
+      "asof": "2026-11-12",
+      "close": 34.5,
+      "change_pct": -5.789183489131389,
+      "volume": 9914800,
+      "relative_volume_20d": 0.5602759450008702,
+      "ma20": 38.21000022888184,
+      "ma50": 50.2926001739502,
+      "alerts": [
+        {
+          "id": "a564d2c7aba1048d8cde1c06",
+          "ticker": "ASTS",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -5.79%",
+          "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:16.336916+00:00",
+          "details": {
+            "change_pct": -5.789183489131389,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "The Honeymoon Is Over Between Rocket Lab and Its Investors",
+                "published_at": "2026-11-12T22:21:34Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/honeymoon-over-between-rocket-lab-222134960.html"
+              },
+              {
+                "title": "3 Intriguing Stocks to Buy After Q3 Earnings Beats: FOSL, FLY, NYAX",
+                "published_at": "2026-11-12T20:46:00Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/3-intriguing-stocks-buy-q3-204600748.html"
+              },
+              {
+                "title": "AST SpaceMobile Plans Its Own Rocket to Speed Satellite Launches and Cut Costs",
+                "published_at": "2026-11-12T19:14:52Z",
+                "url": "https://www.marketbeat.com/instant-alerts/event-ast-spacemobile-plans-its-own-rocket-to-speed-satellite-launches-and-cut-costs-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance"
+              },
+              {
+                "title": "Intuitive Machines Surges 16% on Record Quarter and Positive Free Cash Flow; AST SpaceMobile Falls 3%, Rocket Lab Slips 2%",
+                "published_at": "2026-11-12T14:51:46Z",
+                "url": "https://247wallst.com/investing/2026/11/12/intuitive-machines-surges-16-on-record-quarter-and-positive-free-cash-flow-ast-spacemobile-falls-3-rocket-lab-slips-2/"
+              },
+              {
+                "title": "ASTS Short Interest At 2-Year Highs Ahead Of Blacklift Event – Retail Calls ASTS The ‘Biggest Stock Of The Next 5 Years’",
+                "published_at": "2026-11-12T13:40:27Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/asts-short-interest-at-2-year-highs-ahead-of-blacklift-event-retail-calls-asts-the-biggest-stock-of-the-next-5-years/cNGzxcYR9aK"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AAOI": {
+      "asof": "2026-11-12",
+      "close": 52.849998474121094,
+      "change_pct": -5.3884749433258605,
+      "volume": 10242000,
+      "relative_volume_20d": 0.7250934950787872,
+      "ma20": 65.73250007629395,
+      "ma50": 88.735,
+      "alerts": [
+        {
+          "id": "c5024c2c6d577032d3d90e7c",
+          "ticker": "AAOI",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -5.39%",
+          "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:16.729175+00:00",
+          "details": {
+            "change_pct": -5.3884749433258605,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Applied Optoelectronics (AAOI) Stock Could Still Be Undervalued On Its Huge Five Year Run",
+                "published_at": "2026-11-12T02:17:29Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-stock-could-021729244.html"
+              },
+              {
+                "title": "Applied Optoelectronics (AAOI) Just Soared 15.6% — This Company May Hold The Reason",
+                "published_at": "2026-11-11T23:36:40Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-just-soared-233640320.html"
+              },
+              {
+                "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+                "published_at": "2026-11-11T14:57:58Z",
+                "url": "https://247wallst.com/investing/2026/11/11/applied-optoelectronics-surges-12-lumentum-jumps-11-as-coreweaves-results-revive-ai-trade-coherent-climbs-7/"
+              },
+              {
+                "title": "ETFs Are Selling Applied Optoelectronics (AAOI) on Nov. 9",
+                "published_at": "2026-11-11T11:02:23Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-selling-applied-optoelectronics-aaoi-110223673.html"
+              },
+              {
+                "title": "TTM Technologies (TTMI) Sees Almost 28% Jump in Insider Position Following Recent Dip",
+                "published_at": "2026-11-10T19:15:38Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-sees-almost-191654888.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ADUR": {
+      "asof": "2026-11-12",
+      "close": 10.15999984741211,
+      "change_pct": -5.135389250941813,
+      "volume": 183800,
+      "relative_volume_20d": 0.6238544565881474,
+      "ma20": 10.01725001335144,
+      "ma50": 11.330400028228759,
+      "alerts": [
+        {
+          "id": "21163ff903b4f8c92c64ca30",
+          "ticker": "ADUR",
+          "category": "movement",
+          "date": "2026-11-12",
+          "title": "Variação diária -5.14%",
+          "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-13T03:26:17.219233+00:00",
+          "details": {
+            "change_pct": -5.135389250941813,
+            "context": "Sem notícia próxima disponível; causa não confirmada.",
+            "related_news": []
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "LULU": {
+      "asof": "2026-11-12",
+      "close": 104.45999908447266,
+      "change_pct": -2.7826877139976003,
+      "volume": 2404000,
+      "relative_volume_20d": 0.7098942245793493,
+      "ma20": 105.4194995880127,
+      "ma50": 101.27660003662109,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SOFI": {
+      "asof": "2026-11-12",
+      "close": 15.630000114440918,
+      "change_pct": -3.9336221592874088,
+      "volume": 45398200,
+      "relative_volume_20d": 0.7873005809086606,
+      "ma20": 15.910250091552735,
+      "ma50": 16.23629993438721,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "UBER": {
+      "asof": "2026-11-12",
+      "close": 69.12000274658203,
+      "change_pct": -2.2071272663527597,
+      "volume": 13843500,
+      "relative_volume_20d": 0.7274990816595187,
+      "ma20": 68.11899948120117,
+      "ma50": 69.64179977416993,
+      "alerts": [],
+      "technical_alerts": [
+        {
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para baixo"
+        }
+      ],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SYF": {
+      "asof": "2026-11-12",
+      "close": 71.66000366210938,
+      "change_pct": -0.4998514270157073,
+      "volume": 7060500,
+      "relative_volume_20d": 1.536966208729611,
+      "ma20": 74.01440658569337,
+      "ma50": 73.7890347290039,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "CROX": {
+      "asof": "2026-11-12",
+      "close": 156.8800048828125,
+      "change_pct": -1.9377365467656005,
+      "volume": 1138800,
+      "relative_volume_20d": 0.8153621445141335,
+      "ma20": 139.51699981689453,
+      "ma50": 126.77019989013672,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "PYPL": {
+      "asof": "2026-11-12",
+      "close": 58.29999923706055,
+      "change_pct": -1.9838606493900013,
+      "volume": 6150300,
+      "relative_volume_20d": 0.5371537219662011,
+      "ma20": 57.784749794006345,
+      "ma50": 55.556699676513674,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "DECK": {
+      "asof": "2026-11-12",
+      "close": 84.52999877929688,
+      "change_pct": -4.35618759195221,
+      "volume": 3363500,
+      "relative_volume_20d": 0.9247409089596905,
+      "ma20": 85.21799926757812,
+      "ma50": 82.5411994934082,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    }
+  },
+  "errors": {}
+}
