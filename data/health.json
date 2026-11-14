@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-11-13T03:26:20.247232+00:00",
+  "generated_at_utc": "2026-11-14T03:14:45.237062+00:00",
   "state": "degraded",
   "sources": {
     "market": {
       "state": "ok",
-      "last_attempt_at_utc": "2026-11-13T03:26:19.957100+00:00",
-      "last_success_at_utc": "2026-11-13T03:26:19.957083+00:00",
+      "last_attempt_at_utc": "2026-11-14T03:14:44.970709+00:00",
+      "last_success_at_utc": "2026-11-14T03:14:44.970703+00:00",
       "successes": 19,
       "errors": 0
     },
     "sec": {
       "state": "configuration_required",
-      "last_attempt_at_utc": "2026-11-13T03:26:20.186102+00:00",
+      "last_attempt_at_utc": "2026-11-14T03:14:45.189125+00:00",
       "last_success_at_utc": "2026-11-12T12:07:18.180668+00:00",
       "successes": 0,
       "errors": 1

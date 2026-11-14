@@ -1,6 +1,144 @@
 {
-  "generated_at_utc": "2026-11-13T03:26:19.959941+00:00",
+  "generated_at_utc": "2026-11-14T03:14:44.972644+00:00",
   "events": [
+    {
+      "id": "b8f040fe4833b7e6811197df",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-13",
+      "title": "Variação diária -6.01%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-14T03:14:35.216232+00:00",
+      "details": {
+        "change_pct": -6.010929602486536,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "KULR Technology Group Inc (KULR) (Q3 2026) Earnings Call Highlights: Revenue Surges 197% as ...",
+            "published_at": "2026-11-11T07:04:42Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/kulr-technology-group-inc-kulr-070442354.html"
+          },
+          {
+            "title": "KULR Technology Group Q3 Earnings Call Highlights",
+            "published_at": "2026-11-11T06:14:38Z",
+            "url": "https://www.marketbeat.com/instant-alerts/transcript-kulr-technology-group-q3-earnings-call-highlights-2026-11-11/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          }
+        ]
+      }
+    },
+    {
+      "id": "96898406c4d5bf99de7892b8",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-13",
+      "title": "Variação diária -10.34%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-14T03:14:34.464260+00:00",
+      "details": {
+        "change_pct": -10.338985146684399,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Top Electric & Autonomous Vehicle Stocks to Charge Up Your Portfolio",
+            "published_at": "2026-11-11T16:03:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/top-electric-autonomous-vehicle-stocks-160300058.html"
+          },
+          {
+            "title": "Aeva Technologies (AEVA) Stock Fair Value Moves Lower After Analyst Target Cuts",
+            "published_at": "2026-11-11T04:32:47Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/aeva-technologies-aeva-stock-fair-043247975.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "869296ede829a7be1dec0600",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-13",
+      "title": "Variação diária -5.51%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-14T03:14:37.431815+00:00",
+      "details": {
+        "change_pct": -5.507250799648999,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Here's What $1,000 in Each of These 3 Space Stocks Could Be Worth by 2030",
+            "published_at": "2026-11-13T21:50:00Z",
+            "url": "https://www.fool.com/investing/2026/11/13/heres-what-1000-in-each-of-these-x-space-stocks-co/"
+          },
+          {
+            "title": "5 Stocks With Insane Upside According to Reddit",
+            "published_at": "2026-11-13T21:29:48Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-insane-upside-according-212948713.html"
+          },
+          {
+            "title": "Can AST SpaceMobile Stock Double From Here?",
+            "published_at": "2026-11-13T19:41:16Z",
+            "url": "https://www.trefis.com/stock/asts/articles/625004/can-ast-spacemobile-stock-double-from-here/2026-11-13"
+          },
+          {
+            "title": "AST SpaceMobile Sinks 6%, Rocket Lab Down 5% as Space Stocks Give Back a Stellar Week",
+            "published_at": "2026-11-13T17:30:53Z",
+            "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-6-rocket-lab-down-5-as-space-stocks-give-back-a-stellar-week?ref=yahoofinance&tlnk=yf-261113-q72jrjhc"
+          },
+          {
+            "title": "Cantor Fitzgerald’s $90 Target Says AST SpaceMobile’s Selloff Went Too Far",
+            "published_at": "2026-11-13T17:30:48Z",
+            "url": "https://www.tikr.com/blog/cantor-fitzgeralds-90-target-says-ast-spacemobiles-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261113-4mfp5rrx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e43d3db1b79d7bea842ef46",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-13",
+      "title": "Variação diária -5.60%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-14T03:14:38.134536+00:00",
+      "details": {
+        "change_pct": -5.600755288426484,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "3 US AI Infrastructure Stocks Retail Investors Should Watch Now",
+            "published_at": "2026-11-13T19:10:57Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/3-us-ai-infrastructure-stocks-191057882.html"
+          },
+          {
+            "title": "AXTQ 2X Short AXT ETF Surges 15% as AXT Retraces From 147% Year-to-Date Rally; Coherent Drops 8%",
+            "published_at": "2026-11-13T19:03:04Z",
+            "url": "https://247wallst.com/investing/2026/11/13/axtq-2x-short-axt-etf-surges-15-as-axt-slides-7-after-a-147-run-this-year-coherent-drops-8/"
+          },
+          {
+            "title": "Applied Optoelectronics (AAOI) Stock Could Still Be Undervalued On Its Huge Five Year Run",
+            "published_at": "2026-11-12T02:17:29Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-stock-could-021729244.html"
+          },
+          {
+            "title": "Applied Optoelectronics (AAOI) Just Soared 15.6% — This Company May Hold The Reason",
+            "published_at": "2026-11-11T23:36:40Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-just-soared-233640320.html"
+          },
+          {
+            "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave’s Results Revive AI Trade; Coherent Climbs 7%",
+            "published_at": "2026-11-11T14:57:58Z",
+            "url": "https://247wallst.com/investing/2026/11/11/applied-optoelectronics-surges-12-lumentum-jumps-11-as-coreweaves-results-revive-ai-trade-coherent-climbs-7/"
+          }
+        ]
+      }
+    },
     {
       "id": "f8e564079e059e646d11c0eb",
       "ticker": "RIVN",
