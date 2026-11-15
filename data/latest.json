@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-14T03:14:44.971037+00:00",
+  "generated_at_utc": "2026-11-15T02:39:13.985425+00:00",
   "stocks": {
     "NFLX": {
       "asof": "2026-11-13",
@@ -55,7 +55,7 @@
           "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-14T03:14:34.464260+00:00",
+          "detected_at": "2026-11-15T02:39:08.757818+00:00",
           "details": {
             "change_pct": -10.338985146684399,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
@@ -95,7 +95,7 @@
           "source_url": "https://finance.yahoo.com/quote/KULR/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-14T03:14:35.216232+00:00",
+          "detected_at": "2026-11-15T02:39:09.244235+00:00",
           "details": {
             "change_pct": -6.010929602486536,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
@@ -183,11 +183,16 @@
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-14T03:14:37.431815+00:00",
+          "detected_at": "2026-11-15T02:39:10.917641+00:00",
           "details": {
             "change_pct": -5.507250799648999,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
+              {
+                "title": "Firefly Aerospace vs. Redwire: Which Industrials Stock Is a Better Buy for 2027?",
+                "published_at": "2026-11-14T16:20:02Z",
+                "url": "https://www.fool.com/coverage/better-buy/2026/11/14/firefly-aerospace-vs-redwire-which-industrials-stock-is-a-better-buy-for-2027/"
+              },
               {
                 "title": "Here's What $1,000 in Each of These 3 Space Stocks Could Be Worth by 2030",
                 "published_at": "2026-11-13T21:50:00Z",
@@ -207,11 +212,6 @@
                 "title": "AST SpaceMobile Sinks 6%, Rocket Lab Down 5% as Space Stocks Give Back a Stellar Week",
                 "published_at": "2026-11-13T17:30:53Z",
                 "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-6-rocket-lab-down-5-as-space-stocks-give-back-a-stellar-week?ref=yahoofinance&tlnk=yf-261113-q72jrjhc"
-              },
-              {
-                "title": "Cantor Fitzgerald’s $90 Target Says AST SpaceMobile’s Selloff Went Too Far",
-                "published_at": "2026-11-13T17:30:48Z",
-                "url": "https://www.tikr.com/blog/cantor-fitzgeralds-90-target-says-ast-spacemobiles-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261113-4mfp5rrx"
               }
             ]
           }
@@ -238,7 +238,7 @@
           "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-14T03:14:38.134536+00:00",
+          "detected_at": "2026-11-15T02:39:11.243438+00:00",
           "details": {
             "change_pct": -5.600755288426484,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
