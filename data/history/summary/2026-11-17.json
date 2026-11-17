@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-11-17T05:05:09.426600+00:00",
+  "event_ids": [
+    "441bbac300ba4fd963a90da9",
+    "d15b26a9dad0f57d1646cde7",
+    "9a9bcdbdf6a7366ff36af8d6",
+    "5253662f13e6c743a27508ae",
+    "1a670ad2886b11552e8d0dde"
+  ],
+  "summary": "# Resumo diário — STOCK-RADAR\n\nData: 2026-11-17 (UTC)\n\n- **ASTS · Movimentos relevantes** (2026-11-16): Variação diária -12.33%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/ASTS/history/)\n- **KULR · Movimentos relevantes** (2026-11-16): Variação diária -6.98%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/KULR/history/)\n- **AAOI · Movimentos relevantes** (2026-11-16): Variação diária -9.48%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/AAOI/history/)\n- **BIDU · Movimentos relevantes** (2026-11-16): Variação diária -5.37%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/BIDU/history/)\n- **AEVA · Movimentos relevantes** (2026-11-16): Variação diária -5.20%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/AEVA/history/)\n\n## Estado das fontes\n\n- market: consulta com dados; execução 2026-11-17T05:05:09.097671+00:00; falhas: 0.\n- sec: indisponível; execução 2026-11-17T05:05:09.319973+00:00; falhas: 1.\n\nGuidance e consenso: N/D quando não há extração ou fonte validada. Documentos SEC classificados automaticamente exigem revisão. Notícias associadas não demonstram a causa de um movimento.\n"
+}

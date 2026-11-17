@@ -1,6 +1,149 @@
 {
-  "generated_at_utc": "2026-11-16T02:44:06.904584+00:00",
+  "generated_at_utc": "2026-11-17T05:05:09.100336+00:00",
   "events": [
+    {
+      "id": "d15b26a9dad0f57d1646cde7",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-16",
+      "title": "Variação diária -6.98%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-17T05:05:04.379263+00:00",
+      "details": {
+        "change_pct": -6.976744347227271,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "9a9bcdbdf6a7366ff36af8d6",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-16",
+      "title": "Variação diária -9.48%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-17T05:05:06.467538+00:00",
+      "details": {
+        "change_pct": -9.480857085794526,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "5253662f13e6c743a27508ae",
+      "ticker": "BIDU",
+      "category": "movement",
+      "date": "2026-11-16",
+      "title": "Variação diária -5.37%",
+      "source_url": "https://finance.yahoo.com/quote/BIDU/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-17T05:05:05.723553+00:00",
+      "details": {
+        "change_pct": -5.374964142626526,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Baidu shares hit over five-year low as ad slump overshadows AI growth",
+            "published_at": "2026-11-17T02:56:01Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/baidu-shares-hit-over-five-025601329.html"
+          },
+          {
+            "title": "Baidu earnings analysis: questions answered and next catalysts",
+            "published_at": "2026-11-16T20:52:08Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/baidu-earnings-analysis-questions-answered-205208357.html"
+          },
+          {
+            "title": "Baidu's AI Cloud Surge Leaves One Big Question About Margins",
+            "published_at": "2026-11-16T15:35:28Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/baidus-ai-cloud-surge-leaves-153528340.html"
+          },
+          {
+            "title": "Baidu Q3 Earnings Call Highlights",
+            "published_at": "2026-11-16T15:14:28Z",
+            "url": "https://www.marketbeat.com/instant-alerts/transcript-baidu-q3-earnings-call-highlights-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          },
+          {
+            "title": "Baidu beats adjusted earnings estimates as AI cloud revenue surges 94%",
+            "published_at": "2026-11-16T13:32:00Z",
+            "url": "https://www.proactiveinvestors.com/companies/news/1101837/baidu-beats-adjusted-earnings-estimates-as-ai-cloud-revenue-surges-94-1101837.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "441bbac300ba4fd963a90da9",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-16",
+      "title": "Variação diária -12.33%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-17T05:05:06.164069+00:00",
+      "details": {
+        "change_pct": -12.331284474158,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "What Is AST SpaceMobile (ASTS) Building With Its $1 Billion Japan Venture?",
+            "published_at": "2026-11-17T03:11:19Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-building-1-031119939.html"
+          },
+          {
+            "title": "AST SpaceMobile (ASTS) Takes a Beating. Here’s What Happened",
+            "published_at": "2026-11-17T02:03:49Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-takes-beating-020349552.html"
+          },
+          {
+            "title": "Rocket Lab Sinks 7%, AST SpaceMobile Down 12% as Tech Selloff and Vulcan Failure Hit Space Stocks",
+            "published_at": "2026-11-16T21:22:04Z",
+            "url": "https://www.tikr.com/blog/rocket-lab-sinks-7-ast-spacemobile-down-12-as-tech-selloff-and-vulcan-failure-hit-space-stocks?ref=yahoofinance&tlnk=yf-261116-xj5m8wmh"
+          },
+          {
+            "title": "AST SpaceMobile: Is the Stock a No-Brainer Buy at $30?",
+            "published_at": "2026-11-16T18:17:02Z",
+            "url": "https://www.fool.com/investing/2026/11/16/ast-spacemobile-is-the-stock-a-no-brainer-buy-at-30/"
+          },
+          {
+            "title": "AST SpaceMobile Drops 7% as Tech Selloff Hits Space Stocks; Rocket Lab Falls 4%, SpaceX Dips Despite Historic Starship Catch",
+            "published_at": "2026-11-16T17:02:44Z",
+            "url": "https://247wallst.com/investing/2026/11/16/ast-spacemobile-drops-7-as-tech-selloff-hits-space-stocks-rocket-lab-falls-4-spacex-dips-despite-historic-starship-catch/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1a670ad2886b11552e8d0dde",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-16",
+      "title": "Variação diária -5.20%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-17T05:05:03.925201+00:00",
+      "details": {
+        "change_pct": -5.198489552939467,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Is O'Reilly Stock Worth Buying as Growth Faces a Premium Valuation?",
+            "published_at": "2026-11-16T14:51:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/oreilly-stock-worth-buying-growth-145100272.html"
+          },
+          {
+            "title": "Wall Street Analysts Think Aeva Technologies (AEVA) Could Surge 123.72%: Read This Before Placing a Bet",
+            "published_at": "2026-11-16T13:55:03Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-aeva-135503706.html"
+          }
+        ]
+      }
+    },
     {
       "id": "b8f040fe4833b7e6811197df",
       "ticker": "KULR",

@@ -1,27 +1,27 @@
 # STOCK-RADAR — Monitorização diária
 
-Execução UTC: 2026-11-16T02:44:06.907595+00:00
+Execução UTC: 2026-11-17T05:05:09.104249+00:00
 
 Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.
 
 | Ação | Sessão | Fecho | Variação | Volume relativo | Estado |
 |---|---|---:|---:|---:|---|
-| NFLX | 2026-11-13 | 62.15 | -0.86% | 0.79× | Recolhido |
-| SE | 2026-11-13 | 75.36 | +1.13% | 0.46× | Recolhido |
-| NKE | 2026-11-13 | 37.99 | +0.61% | 0.54× | Recolhido |
-| AEVA | 2026-11-13 | 10.58 | -10.34% | 1.15× | Recolhido |
-| KULR | 2026-11-13 | 1.72 | -6.01% | 0.58× | Recolhido |
-| OKLO | 2026-11-13 | 23.92 | -2.17% | 0.62× | Recolhido |
-| FIG | 2026-11-13 | 19.45 | +2.80% | 0.54× | Recolhido |
-| RIVN | 2026-11-13 | 12.18 | -4.84% | 0.91× | Recolhido |
-| BIDU | 2026-11-13 | 78.14 | +0.66% | 1.45× | Recolhido |
-| ASTS | 2026-11-13 | 32.60 | -5.51% | 0.84× | Recolhido |
-| AAOI | 2026-11-13 | 49.89 | -5.60% | 0.79× | Recolhido |
-| ADUR | 2026-11-13 | 9.75 | -4.04% | 0.92× | Recolhido |
-| LULU | 2026-11-13 | 105.65 | +1.14% | 0.64× | Recolhido |
-| SOFI | 2026-11-13 | 15.42 | -1.34% | 0.67× | Recolhido |
-| UBER | 2026-11-13 | 69.69 | +0.82% | 0.60× | Recolhido |
-| SYF | 2026-11-13 | 72.25 | +0.82% | 1.48× | Recolhido |
-| CROX | 2026-11-13 | 163.72 | +4.36% | 0.89× | Recolhido |
-| PYPL | 2026-11-13 | 59.28 | +1.68% | 0.84× | Recolhido |
-| DECK | 2026-11-13 | 86.82 | +2.71% | 0.68× | Recolhido |
+| NFLX | 2026-11-16 | 60.75 | -2.25% | 0.78× | Recolhido |
+| SE | 2026-11-16 | 71.63 | -4.95% | 0.45× | Recolhido |
+| NKE | 2026-11-16 | 38.26 | +0.71% | 0.88× | Recolhido |
+| AEVA | 2026-11-16 | 10.03 | -5.20% | 0.79× | Recolhido |
+| KULR | 2026-11-16 | 1.60 | -6.98% | 0.39× | Recolhido |
+| OKLO | 2026-11-16 | 23.03 | -3.72% | 0.63× | Recolhido |
+| FIG | 2026-11-16 | 19.41 | -0.21% | 0.70× | Recolhido |
+| RIVN | 2026-11-16 | 12.10 | -0.66% | 1.11× | Recolhido |
+| BIDU | 2026-11-16 | 73.94 | -5.37% | 1.81× | Recolhido |
+| ASTS | 2026-11-16 | 28.58 | -12.33% | 1.30× | Recolhido |
+| AAOI | 2026-11-16 | 45.16 | -9.48% | 0.75× | Recolhido |
+| ADUR | 2026-11-16 | 9.48 | -2.77% | 0.75× | Recolhido |
+| LULU | 2026-11-16 | 105.46 | -0.18% | 0.79× | Recolhido |
+| SOFI | 2026-11-16 | 14.85 | -3.70% | 0.82× | Recolhido |
+| UBER | 2026-11-16 | 69.99 | +0.43% | 0.76× | Recolhido |
+| SYF | 2026-11-16 | 71.76 | -0.68% | 1.05× | Recolhido |
+| CROX | 2026-11-16 | 160.01 | -2.27% | 1.04× | Recolhido |
+| PYPL | 2026-11-16 | 58.83 | -0.76% | 0.83× | Recolhido |
+| DECK | 2026-11-16 | 83.46 | -3.87% | 1.06× | Recolhido |
