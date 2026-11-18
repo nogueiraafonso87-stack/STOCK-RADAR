@@ -1,0 +1,324 @@
+{
+  "generated_at_utc": "2026-11-18T04:20:20.921906+00:00",
+  "stocks": {
+    "NFLX": {
+      "asof": "2026-11-17",
+      "close": 59.68000030517578,
+      "change_pct": -1.761316370081023,
+      "volume": 34876900,
+      "relative_volume_20d": 0.760205295470524,
+      "ma20": 63.4310001373291,
+      "ma50": 68.49280044555664,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SE": {
+      "asof": "2026-11-17",
+      "close": 69.44000244140625,
+      "change_pct": -3.0573710679672295,
+      "volume": 5748500,
+      "relative_volume_20d": 0.6215296755146933,
+      "ma20": 75.32350044250488,
+      "ma50": 89.31420028686523,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "NKE": {
+      "asof": "2026-11-17",
+      "close": 35.849998474121094,
+      "change_pct": -6.2990066731281935,
+      "volume": 66369800,
+      "relative_volume_20d": 3.0806721241964388,
+      "ma20": 38.29149971008301,
+      "ma50": 36.83759979248047,
+      "alerts": [
+        {
+          "id": "1b1242ab2f6ba25428a14412",
+          "ticker": "NKE",
+          "category": "movement",
+          "date": "2026-11-17",
+          "title": "Variação diária -6.30%",
+          "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-18T04:20:15.335086+00:00",
+          "details": {
+            "change_pct": -6.2990066731281935,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+                "published_at": "2026-11-18T03:46:27Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/cNbX828R9hF"
+              },
+              {
+                "title": "NKE Stock Heads For Worst Week Since June: Analysts Flag Risks In Nike’s $5B Growth Plan— Retail Questions CEO Elliott Hill’s Leadership",
+                "published_at": "2026-11-18T01:54:56Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/nke-stock-nike-investors-day-growth-plan-ceo-elliott-hill-analysts-flag-risks/cNbXZP0R9h1"
+              },
+              {
+                "title": "NIKE Sees Revenue Falling Through 2028, Targets $5 Billion Rebound by 2031",
+                "published_at": "2026-11-18T00:13:23Z",
+                "url": "https://www.marketbeat.com/instant-alerts/event-nike-sees-revenue-falling-through-2028-targets-5-billion-rebound-by-2031-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
+              },
+              {
+                "title": "Nike Is Down 78% From Its High. Here's What That Does to the Yield.",
+                "published_at": "2026-11-17T22:50:00Z",
+                "url": "https://www.fool.com/investing/2026/11/17/nike-is-down-78-from-its-high-heres-what-that-does/"
+              },
+              {
+                "title": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
+                "published_at": "2026-11-17T22:19:09Z",
+                "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nike-shares-fall-63-after-investor-day-turnaround-plan-draws-scrutiny/"
+              }
+            ]
+          }
+        },
+        {
+          "id": "0c7af6ed5c998a209832eaaa",
+          "ticker": "NKE",
+          "category": "volume",
+          "date": "2026-11-17",
+          "title": "Volume 3.08× a média das 20 sessões anteriores",
+          "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-18T04:20:15.335097+00:00",
+          "details": {
+            "relative_volume": 3.0806721241964388,
+            "average_volume": 21543935.0
+          }
+        }
+      ],
+      "technical_alerts": [
+        {
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para baixo"
+        }
+      ],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AEVA": {
+      "asof": "2026-11-17",
+      "close": 9.960000038146973,
+      "change_pct": -0.697903257106891,
+      "volume": 1445900,
+      "relative_volume_20d": 0.7652977510546066,
+      "ma20": 10.394999980926514,
+      "ma50": 12.451700000762939,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "KULR": {
+      "asof": "2026-11-17",
+      "close": 1.5399999618530273,
+      "change_pct": -3.750003818422498,
+      "volume": 438400,
+      "relative_volume_20d": 0.5356139279169212,
+      "ma20": 1.6685000002384185,
+      "ma50": 2.067200002670288,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "OKLO": {
+      "asof": "2026-11-17",
+      "close": 22.3700008392334,
+      "change_pct": -2.86582643392983,
+      "volume": 6318100,
+      "relative_volume_20d": 0.6112346202143447,
+      "ma20": 24.849000263214112,
+      "ma50": 31.32960018157959,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "FIG": {
+      "asof": "2026-11-17",
+      "close": 18.18000030517578,
+      "change_pct": -6.33693741321858,
+      "volume": 12162600,
+      "relative_volume_20d": 1.0563181200167273,
+      "ma20": 21.048499870300294,
+      "ma50": 21.65539993286133,
+      "alerts": [
+        {
+          "id": "23b57757338b1ae110a67e05",
+          "ticker": "FIG",
+          "category": "movement",
+          "date": "2026-11-17",
+          "title": "Variação diária -6.34%",
+          "source_url": "https://finance.yahoo.com/quote/FIG/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-18T04:20:16.812128+00:00",
+          "details": {
+            "change_pct": -6.33693741321858,
+            "context": "Sem notícia próxima disponível; causa não confirmada.",
+            "related_news": []
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "RIVN": {
+      "asof": "2026-11-17",
+      "close": 11.880000114440918,
+      "change_pct": -1.8181839677106404,
+      "volume": 23668300,
+      "relative_volume_20d": 0.7346058829490446,
+      "ma20": 12.626500034332276,
+      "ma50": 13.789700012207032,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "BIDU": {
+      "asof": "2026-11-17",
+      "close": 71.1500015258789,
+      "change_pct": -3.773330840417921,
+      "volume": 3392500,
+      "relative_volume_20d": 1.402314387104908,
+      "ma20": 78.08400039672851,
+      "ma50": 83.3652001953125,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ASTS": {
+      "asof": "2026-11-17",
+      "close": 27.59000015258789,
+      "change_pct": -3.4639600201572973,
+      "volume": 19389000,
+      "relative_volume_20d": 1.1192721296390638,
+      "ma20": 36.46550016403198,
+      "ma50": 48.25680004119873,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AAOI": {
+      "asof": "2026-11-17",
+      "close": 45.220001220703125,
+      "change_pct": 0.1328639802784526,
+      "volume": 16701900,
+      "relative_volume_20d": 1.2357909457164737,
+      "ma20": 61.22050037384033,
+      "ma50": 85.19120002746583,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ADUR": {
+      "asof": "2026-11-17",
+      "close": 9.15999984741211,
+      "change_pct": -3.3755243700015036,
+      "volume": 236200,
+      "relative_volume_20d": 0.8949003561415473,
+      "ma20": 9.938000011444093,
+      "ma50": 11.080200023651123,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "LULU": {
+      "asof": "2026-11-17",
+      "close": 104.13999938964844,
+      "change_pct": -1.2516591184178805,
+      "volume": 2575400,
+      "relative_volume_20d": 0.8144716244208662,
+      "ma20": 106.4419994354248,
+      "ma50": 101.07020004272461,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SOFI": {
+      "asof": "2026-11-17",
+      "close": 14.279999732971191,
+      "change_pct": -3.8383881067760695,
+      "volume": 51393500,
+      "relative_volume_20d": 0.9168476361517001,
+      "ma20": 15.961250066757202,
+      "ma50": 16.03249994277954,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "UBER": {
+      "asof": "2026-11-17",
+      "close": 68.80999755859375,
+      "change_pct": -1.6859556239343876,
+      "volume": 22210900,
+      "relative_volume_20d": 1.1771733032577123,
+      "ma20": 68.08099937438965,
+      "ma50": 69.3145997619629,
+      "alerts": [],
+      "technical_alerts": [
+        {
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para baixo"
+        }
+      ],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SYF": {
+      "asof": "2026-11-17",
+      "close": 70.5,
+      "change_pct": -1.7558557674489217,
+      "volume": 4535600,
+      "relative_volume_20d": 0.926721077510423,
+      "ma20": 73.72604293823242,
+      "ma50": 73.33304016113281,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "CROX": {
+      "asof": "2026-11-17",
+      "close": 158.7899932861328,
+      "change_pct": -0.7624531357952158,
+      "volume": 1248700,
+      "relative_volume_20d": 0.8793197542383325,
+      "ma20": 145.40849914550782,
+      "ma50": 129.46279968261717,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "PYPL": {
+      "asof": "2026-11-17",
+      "close": 58.11000061035156,
+      "change_pct": -1.2238674116835657,
+      "volume": 10872200,
+      "relative_volume_20d": 1.044909523571541,
+      "ma20": 58.07824993133545,
+      "ma50": 55.78469970703125,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "DECK": {
+      "asof": "2026-11-17",
+      "close": 81.4800033569336,
+      "change_pct": -2.3723888680313054,
+      "volume": 4836000,
+      "relative_volume_20d": 1.3077834206811507,
+      "ma20": 84.78999938964844,
+      "ma50": 82.51819961547852,
+      "alerts": [],
+      "technical_alerts": [
+        {
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para baixo"
+        }
+      ],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    }
+  },
+  "errors": {}
+}

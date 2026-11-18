@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-11-18T04:20:21.194457+00:00",
+  "event_ids": [
+    "23b57757338b1ae110a67e05",
+    "1b1242ab2f6ba25428a14412",
+    "0c7af6ed5c998a209832eaaa"
+  ],
+  "summary": "# Resumo diário — STOCK-RADAR\n\nData: 2026-11-18 (UTC)\n\n- **FIG · Movimentos relevantes** (2026-11-17): Variação diária -6.34%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/FIG/history/)\n- **NKE · Movimentos relevantes** (2026-11-17): Variação diária -6.30%. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/NKE/history/)\n- **NKE · Volume anormal** (2026-11-17): Volume 3.08× a média das 20 sessões anteriores. Estado: confirmado. [Fonte](https://finance.yahoo.com/quote/NKE/history/)\n\n## Estado das fontes\n\n- market: consulta com dados; execução 2026-11-18T04:20:20.921572+00:00; falhas: 0.\n- sec: indisponível; execução 2026-11-18T04:20:21.103562+00:00; falhas: 1.\n\nGuidance e consenso: N/D quando não há extração ou fonte validada. Documentos SEC classificados automaticamente exigem revisão. Notícias associadas não demonstram a causa de um movimento.\n"
+}

@@ -1,6 +1,79 @@
 {
-  "generated_at_utc": "2026-11-17T05:05:09.100336+00:00",
+  "generated_at_utc": "2026-11-18T04:20:20.923722+00:00",
   "events": [
+    {
+      "id": "23b57757338b1ae110a67e05",
+      "ticker": "FIG",
+      "category": "movement",
+      "date": "2026-11-17",
+      "title": "Variação diária -6.34%",
+      "source_url": "https://finance.yahoo.com/quote/FIG/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-18T04:20:16.812128+00:00",
+      "details": {
+        "change_pct": -6.33693741321858,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "1b1242ab2f6ba25428a14412",
+      "ticker": "NKE",
+      "category": "movement",
+      "date": "2026-11-17",
+      "title": "Variação diária -6.30%",
+      "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-18T04:20:15.335086+00:00",
+      "details": {
+        "change_pct": -6.2990066731281935,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia’s Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+            "published_at": "2026-11-18T03:46:27Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/cNbX828R9hF"
+          },
+          {
+            "title": "NKE Stock Heads For Worst Week Since June: Analysts Flag Risks In Nike’s $5B Growth Plan— Retail Questions CEO Elliott Hill’s Leadership",
+            "published_at": "2026-11-18T01:54:56Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/nke-stock-nike-investors-day-growth-plan-ceo-elliott-hill-analysts-flag-risks/cNbXZP0R9h1"
+          },
+          {
+            "title": "NIKE Sees Revenue Falling Through 2028, Targets $5 Billion Rebound by 2031",
+            "published_at": "2026-11-18T00:13:23Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-nike-sees-revenue-falling-through-2028-targets-5-billion-rebound-by-2031-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          },
+          {
+            "title": "Nike Is Down 78% From Its High. Here's What That Does to the Yield.",
+            "published_at": "2026-11-17T22:50:00Z",
+            "url": "https://www.fool.com/investing/2026/11/17/nike-is-down-78-from-its-high-heres-what-that-does/"
+          },
+          {
+            "title": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
+            "published_at": "2026-11-17T22:19:09Z",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nike-shares-fall-63-after-investor-day-turnaround-plan-draws-scrutiny/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0c7af6ed5c998a209832eaaa",
+      "ticker": "NKE",
+      "category": "volume",
+      "date": "2026-11-17",
+      "title": "Volume 3.08× a média das 20 sessões anteriores",
+      "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-18T04:20:15.335097+00:00",
+      "details": {
+        "relative_volume": 3.0806721241964388,
+        "average_volume": 21543935.0
+      }
+    },
     {
       "id": "d15b26a9dad0f57d1646cde7",
       "ticker": "KULR",
