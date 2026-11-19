@@ -1,6 +1,178 @@
 {
-  "generated_at_utc": "2026-11-18T04:20:20.923722+00:00",
+  "generated_at_utc": "2026-11-19T04:12:28.016994+00:00",
   "events": [
+    {
+      "id": "dd51636e4e856d9e9e121a99",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-18",
+      "title": "Variação diária -7.61%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:22.573963+00:00",
+      "details": {
+        "change_pct": -7.611454765696157,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "AST SpaceMobile Sinks 8% as New Offering Filing Revives Dilution Fears",
+            "published_at": "2026-11-18T21:42:17Z",
+            "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-8-as-new-offering-filing-revives-dilution-fears?ref=yahoofinance&tlnk=yf-261118-w92886xc"
+          },
+          {
+            "title": "AST SpaceMobile Just Touched a 52-Week Low. Will ASTS Stock Hit $20 or $40 First?",
+            "published_at": "2026-11-18T19:02:57Z",
+            "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-just-touched-a-52-week-low-will-asts-stock-hit-20-or-40-first/"
+          },
+          {
+            "title": "Will 798 Million Unlocked SpaceX Shares on December 8 Swamp Starship’s Catch?",
+            "published_at": "2026-11-18T18:38:45Z",
+            "url": "https://www.tikr.com/blog/will-798-million-unlocked-spacex-shares-on-december-8-swamp-starships-catch?ref=yahoofinance&tlnk=yf-261118-qx27g85m"
+          },
+          {
+            "title": "AST SpaceMobile Falls 5% After Jim Cramer Calls It ‘a Very Hard Stock to Own’; SpaceX Rises 3%, Rocket Lab Holds Steady",
+            "published_at": "2026-11-18T15:57:51Z",
+            "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-falls-5-after-jim-cramer-calls-it-a-very-hard-stock-to-own-spacex-rises-3-rocket-lab-holds-steady/"
+          },
+          {
+            "title": "AST SpaceMobile (ASTS) Stock May Be Below Fair Value As Blacklift Spending Looms",
+            "published_at": "2026-11-18T15:14:35Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-may-151435040.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d61e5af8b8dd80f68d40f88b",
+      "ticker": "LULU",
+      "category": "movement",
+      "date": "2026-11-18",
+      "title": "Variação diária +6.38%",
+      "source_url": "https://finance.yahoo.com/quote/LULU/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:24.614200+00:00",
+      "details": {
+        "change_pct": 6.376031715541242,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
+            "published_at": "2026-11-17T22:19:09Z",
+            "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nike-shares-fall-63-after-investor-day-turnaround-plan-draws-scrutiny/"
+          },
+          {
+            "title": "Here's Why Lululemon (LULU) Fell More Than Broader Market",
+            "published_at": "2026-11-17T21:45:03Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-lululemon-lulu-fell-214503392.html"
+          },
+          {
+            "title": "Will Lower Revenue Outlook Change Lululemon's (LULU) Narrative",
+            "published_at": "2026-11-17T18:08:59Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lower-revenue-outlook-change-lululemons-180859288.html"
+          },
+          {
+            "title": "Michael Burry Makes Bold Bet on Beaten-Down AI Software Stock",
+            "published_at": "2026-11-17T17:47:37Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-makes-bold-bet-174737697.html"
+          },
+          {
+            "title": "Will Lululemon (LULU) Beat Estimates Again in Its Next Earnings Report?",
+            "published_at": "2026-11-17T16:10:02Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-beat-estimates-again-161002002.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d30cc0086a79c1199e6b8a08",
+      "ticker": "ADUR",
+      "category": "movement",
+      "date": "2026-11-18",
+      "title": "Variação diária -10.70%",
+      "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:23.993376+00:00",
+      "details": {
+        "change_pct": -10.698685137131292,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "9c13487f58bc81498c559b4b",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-18",
+      "title": "Variação diária -9.80%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:23.346684+00:00",
+      "details": {
+        "change_pct": -9.79655060944047,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Applied Optoelectronics (AAOI) Could Be 63% Undervalued After $550 Million Stock Offering",
+            "published_at": "2026-11-19T01:12:42Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-could-63-011242004.html"
+          },
+          {
+            "title": "Nvidia, Take-Two, Palo Alto, Applied Optoelectronics, TJX, and More Stocks That Explain Today’s Market",
+            "published_at": "2026-11-18T21:31:00Z",
+            "url": "https://www.barrons.com/articles/stock-movers-62881b61?siteid=yhoof2&yptr=yahoo"
+          },
+          {
+            "title": "Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?",
+            "published_at": "2026-11-18T20:03:55Z",
+            "url": "https://247wallst.com/investing/2026/11/18/lumentum-is-down-33-in-a-month-as-marvells-slide-shrinks-its-buyout-value-can-lite-stock-get-back-to-bernsteins-700-target/"
+          },
+          {
+            "title": "Applied Optoelectronics Falls After $550 Million Share Sale Plan",
+            "published_at": "2026-11-18T19:48:48Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-falls-550-million-194848177.html"
+          },
+          {
+            "title": "Applied Optoelectronics Stock Plunges 10% -- Company Seeks $550 Million Share Sale",
+            "published_at": "2026-11-18T19:11:53Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-stock-plunges-10-191153969.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "74e1f87b2def6bb524acc6db",
+      "ticker": "ADUR",
+      "category": "volume",
+      "date": "2026-11-18",
+      "title": "Volume 2.95× a média das 20 sessões anteriores",
+      "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:23.993388+00:00",
+      "details": {
+        "relative_volume": 2.9463931171409663,
+        "average_volume": 264425.0
+      }
+    },
+    {
+      "id": "49aaeb899048ef3511405c10",
+      "ticker": "KULR",
+      "category": "volume",
+      "date": "2026-11-18",
+      "title": "Volume 2.07× a média das 20 sessões anteriores",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-19T04:12:20.488150+00:00",
+      "details": {
+        "relative_volume": 2.0681742064328863,
+        "average_volume": 806170.0
+      }
+    },
     {
       "id": "23b57757338b1ae110a67e05",
       "ticker": "FIG",
