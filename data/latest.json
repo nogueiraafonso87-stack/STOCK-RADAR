@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-19T04:12:28.014933+00:00",
+  "generated_at_utc": "2026-11-20T03:58:54.271832+00:00",
   "stocks": {
     "NFLX": {
-      "asof": "2026-11-18",
-      "close": 59.81999969482422,
-      "change_pct": 0.2345834264955604,
-      "volume": 26823600,
-      "relative_volume_20d": 0.605759566730016,
-      "ma20": 63.170000076293945,
-      "ma50": 68.1686004638672,
+      "asof": "2026-11-19",
+      "close": 58.459999084472656,
+      "change_pct": -2.273488159962722,
+      "volume": 37924200,
+      "relative_volume_20d": 0.9350582491321404,
+      "ma20": 62.740499877929686,
+      "ma50": 67.81760040283203,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
@@ -26,14 +26,57 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "NKE": {
-      "asof": "2026-11-18",
-      "close": 36.310001373291016,
-      "change_pct": 1.2831322698716008,
-      "volume": 25355900,
-      "relative_volume_20d": 1.071797755919882,
-      "ma20": 38.230499839782716,
-      "ma50": 36.816799850463866,
-      "alerts": [],
+      "asof": "2026-11-19",
+      "close": 34.33000183105469,
+      "change_pct": -5.453041771826483,
+      "volume": 29339200,
+      "relative_volume_20d": 1.2216674925153128,
+      "ma20": 38.030999946594235,
+      "ma50": 36.770999908447266,
+      "alerts": [
+        {
+          "id": "ccdeadb6b346b189493df051",
+          "ticker": "NKE",
+          "category": "movement",
+          "date": "2026-11-19",
+          "title": "Variação diária -5.45%",
+          "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-20T03:58:45.191039+00:00",
+          "details": {
+            "change_pct": -5.453041771826483,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Nike (NKE) Targets a Turnaround with Ambitious Fiscal 2031 Goals",
+                "published_at": "2026-11-19T21:37:00Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-targets-turnaround-ambitious-213700782.html"
+              },
+              {
+                "title": "Dow Drops 1,100 Points as Anthropic Pops 17%: Stock Market Today",
+                "published_at": "2026-11-19T21:14:22Z",
+                "url": "https://www.kiplinger.com/investing/stocks/dow-drops-1-100-points-as-anthropic-pops-17-percent-stock-market-today"
+              },
+              {
+                "title": "Nike Sinks 5%, Dick’s Sporting Goods Down 5% as Analyst Flags Jordan Allocation Cuts of Up to 50%",
+                "published_at": "2026-11-19T19:25:19Z",
+                "url": "https://www.tikr.com/blog/nike-sinks-5-dicks-sporting-goods-down-5-as-analyst-flags-jordan-allocation-cuts-of-up-to-50?ref=yahoofinance&tlnk=yf-261119-r5m84fqw"
+              },
+              {
+                "title": "Nike’s CEO admitted a miss, but Morgan Stanley sees a bigger one",
+                "published_at": "2026-11-19T18:07:00Z",
+                "url": "https://www.thestreet.com/investing/nike-ceo-admission-morgan-stanley-warning"
+              },
+              {
+                "title": "A 67-Year-Old With $500,000 in Nike, HP and Truist Collects $1,872 a Month in Dividends. How Safe Is Each Check?",
+                "published_at": "2026-11-19T16:50:47Z",
+                "url": "https://www.tikr.com/blog/a-67-year-old-with-500000-in-nike-hp-and-truist-collects-1762-a-month-in-dividends-how-safe-is-each-check?ref=yahoofinancedividend&tlnk=yf-261119-frhm7v6p"
+              }
+            ]
+          }
+        }
+      ],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
@@ -67,7 +110,7 @@
           "source_url": "https://finance.yahoo.com/quote/KULR/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:20.488150+00:00",
+          "detected_at": "2026-11-20T03:58:46.526761+00:00",
           "details": {
             "relative_volume": 2.0681742064328863,
             "average_volume": 806170.0
@@ -81,8 +124,8 @@
       "asof": "2026-11-18",
       "close": 21.799999237060547,
       "change_pct": -2.5480624979376865,
-      "volume": 6480700,
-      "relative_volume_20d": 0.6319557600738762,
+      "volume": 6504600,
+      "relative_volume_20d": 0.6342863327999345,
       "ma20": 24.552500247955322,
       "ma50": 30.914200172424316,
       "alerts": [],
@@ -93,8 +136,8 @@
       "asof": "2026-11-18",
       "close": 17.329999923706055,
       "change_pct": -4.67546956656395,
-      "volume": 12767100,
-      "relative_volume_20d": 1.1231659183791067,
+      "volume": 12809700,
+      "relative_volume_20d": 1.1269135876323395,
       "ma20": 20.76599988937378,
       "ma50": 21.561799926757814,
       "alerts": [],
@@ -105,8 +148,8 @@
       "asof": "2026-11-18",
       "close": 11.800000190734863,
       "change_pct": -0.6734000247088368,
-      "volume": 20857000,
-      "relative_volume_20d": 0.6421704665934808,
+      "volume": 20950400,
+      "relative_volume_20d": 0.6450461784206769,
       "ma20": 12.59350004196167,
       "ma50": 13.705600032806396,
       "alerts": [],
@@ -114,13 +157,13 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "BIDU": {
-      "asof": "2026-11-18",
-      "close": 69.20999908447266,
-      "change_pct": -2.726637244976904,
-      "volume": 4162900,
-      "relative_volume_20d": 1.6516265718700964,
-      "ma20": 77.60350036621094,
-      "ma50": 82.90880020141601,
+      "asof": "2026-11-19",
+      "close": 66.37999725341797,
+      "change_pct": -4.089007178862403,
+      "volume": 4048500,
+      "relative_volume_20d": 1.5450520932717628,
+      "ma20": 77.02350006103515,
+      "ma50": 82.42460021972656,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
@@ -129,8 +172,8 @@
       "asof": "2026-11-18",
       "close": 25.489999771118164,
       "change_pct": -7.611454765696157,
-      "volume": 22667700,
-      "relative_volume_20d": 1.2883159428081998,
+      "volume": 22968800,
+      "relative_volume_20d": 1.3054289242919652,
       "ma20": 35.695000076293944,
       "ma50": 47.518200073242184,
       "alerts": [
@@ -143,35 +186,35 @@
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:22.573963+00:00",
+          "detected_at": "2026-11-20T03:58:48.687878+00:00",
           "details": {
             "change_pct": -7.611454765696157,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
               {
-                "title": "AST SpaceMobile Sinks 8% as New Offering Filing Revives Dilution Fears",
-                "published_at": "2026-11-18T21:42:17Z",
-                "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-8-as-new-offering-filing-revives-dilution-fears?ref=yahoofinance&tlnk=yf-261118-w92886xc"
+                "title": "AST SpaceMobile Is Down 37% in a Month. Can B. Riley’s Upgrade Get ASTS Stock Back to $48?",
+                "published_at": "2026-11-19T17:03:43Z",
+                "url": "https://247wallst.com/investing/2026/11/19/ast-spacemobile-is-down-37-in-a-month-can-b-rileys-upgrade-get-asts-stock-back-to-48/"
               },
               {
-                "title": "AST SpaceMobile Just Touched a 52-Week Low. Will ASTS Stock Hit $20 or $40 First?",
-                "published_at": "2026-11-18T19:02:57Z",
-                "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-just-touched-a-52-week-low-will-asts-stock-hit-20-or-40-first/"
+                "title": "Why AST SpaceMobile Stock Just Popped",
+                "published_at": "2026-11-19T16:36:00Z",
+                "url": "https://www.fool.com/investing/2026/11/19/why-ast-spacemobile-stock-just-popped/"
               },
               {
-                "title": "Will 798 Million Unlocked SpaceX Shares on December 8 Swamp Starship’s Catch?",
-                "published_at": "2026-11-18T18:38:45Z",
-                "url": "https://www.tikr.com/blog/will-798-million-unlocked-spacex-shares-on-december-8-swamp-starships-catch?ref=yahoofinance&tlnk=yf-261118-qx27g85m"
+                "title": "AST SpaceMobile Rises 5% as B. Riley Upgrades, Says Launch and Funding Risks Are “Already Priced In”",
+                "published_at": "2026-11-19T16:16:13Z",
+                "url": "https://www.tikr.com/blog/ast-spacemobile-rises-5-as-b-riley-upgrades-says-launch-and-funding-risks-are-already-priced-in?ref=yahoofinance&tlnk=yf-261119-cfh9cg9j"
               },
               {
-                "title": "AST SpaceMobile Falls 5% After Jim Cramer Calls It ‘a Very Hard Stock to Own’; SpaceX Rises 3%, Rocket Lab Holds Steady",
-                "published_at": "2026-11-18T15:57:51Z",
-                "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-falls-5-after-jim-cramer-calls-it-a-very-hard-stock-to-own-spacex-rises-3-rocket-lab-holds-steady/"
+                "title": "ASTS Stock Gets A Breather After Relentless Sell-Off: B. Riley Says Launch Delays, Funding Risks Are Already Priced In",
+                "published_at": "2026-11-19T14:50:47Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-gains-after-relentless-sell-off-briley-says-launch-delays-funding-risks-are-already-priced-in/cNbiOz8R90a"
               },
               {
-                "title": "AST SpaceMobile (ASTS) Stock May Be Below Fair Value As Blacklift Spending Looms",
-                "published_at": "2026-11-18T15:14:35Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-may-151435040.html"
+                "title": "Musk: SpaceX Has a “Monopoly” in Space. That’s Bad News for Amazon’s Leo. But Also Bad for SpaceX",
+                "published_at": "2026-11-19T14:50:42Z",
+                "url": "https://www.tikr.com/blog/musk-spacex-has-a-monopoly-in-space-thats-bad-news-for-amazons-leo-but-also-bad-for-spacex?ref=yahoofinance&tlnk=yf-261119-53r8796f"
               }
             ]
           }
@@ -184,8 +227,8 @@
       "asof": "2026-11-18",
       "close": 40.790000915527344,
       "change_pct": -9.79655060944047,
-      "volume": 20371100,
-      "relative_volume_20d": 1.4605106277418942,
+      "volume": 20505900,
+      "relative_volume_20d": 1.4701751442687194,
       "ma20": 59.39400043487549,
       "ma50": 83.84840003967285,
       "alerts": [
@@ -198,11 +241,26 @@
           "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
           "relevance": "média",
           "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:23.346684+00:00",
+          "detected_at": "2026-11-20T03:58:49.382672+00:00",
           "details": {
             "change_pct": -9.79655060944047,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
+              {
+                "title": "Coherent Soars 6% on New $2 Billion Buyback as Anthropic IPO Revives AI Trade",
+                "published_at": "2026-11-19T15:57:32Z",
+                "url": "https://www.tikr.com/blog/coherent-soars-6-on-new-2-billion-buyback-as-anthropic-ipo-revives-ai-trade?ref=yahoofinance&tlnk=yf-261119-px4vrhf4"
+              },
+              {
+                "title": "Applied Optoelectronics Rallies 5% Despite $550 Million Share Sale Plan; Coherent Jumps 8%, Lumentum Climbs 4%",
+                "published_at": "2026-11-19T14:13:56Z",
+                "url": "https://247wallst.com/investing/2026/11/19/applied-optoelectronics-rallies-5-despite-550-million-share-sale-plan-coherent-jumps-8-lumentum-climbs-4/"
+              },
+              {
+                "title": "What Sent Applied Optoelectronics Stock Higher?",
+                "published_at": "2026-11-19T11:04:38Z",
+                "url": "https://www.trefis.com/stock/aaoi/articles/626749/what-sent-applied-optoelectronics-stock-higher/2026-11-19"
+              },
               {
                 "title": "Applied Optoelectronics (AAOI) Could Be 63% Undervalued After $550 Million Stock Offering",
                 "published_at": "2026-11-19T01:12:42Z",
@@ -212,21 +270,6 @@
                 "title": "Nvidia, Take-Two, Palo Alto, Applied Optoelectronics, TJX, and More Stocks That Explain Today’s Market",
                 "published_at": "2026-11-18T21:31:00Z",
                 "url": "https://www.barrons.com/articles/stock-movers-62881b61?siteid=yhoof2&yptr=yahoo"
-              },
-              {
-                "title": "Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?",
-                "published_at": "2026-11-18T20:03:55Z",
-                "url": "https://247wallst.com/investing/2026/11/18/lumentum-is-down-33-in-a-month-as-marvells-slide-shrinks-its-buyout-value-can-lite-stock-get-back-to-bernsteins-700-target/"
-              },
-              {
-                "title": "Applied Optoelectronics Falls After $550 Million Share Sale Plan",
-                "published_at": "2026-11-18T19:48:48Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-falls-550-million-194848177.html"
-              },
-              {
-                "title": "Applied Optoelectronics Stock Plunges 10% -- Company Seeks $550 Million Share Sale",
-                "published_at": "2026-11-18T19:11:53Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-stock-plunges-10-191153969.html"
               }
             ]
           }
@@ -253,7 +296,7 @@
           "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:23.993376+00:00",
+          "detected_at": "2026-11-20T03:58:50.343076+00:00",
           "details": {
             "change_pct": -10.698685137131292,
             "context": "Sem notícia próxima disponível; causa não confirmada.",
@@ -269,7 +312,7 @@
           "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:23.993388+00:00",
+          "detected_at": "2026-11-20T03:58:50.343088+00:00",
           "details": {
             "relative_volume": 2.9463931171409663,
             "average_volume": 264425.0
@@ -280,57 +323,14 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "LULU": {
-      "asof": "2026-11-18",
-      "close": 110.77999877929688,
-      "change_pct": 6.376031715541242,
-      "volume": 3690200,
-      "relative_volume_20d": 1.1626082600572767,
-      "ma20": 107.15449943542481,
-      "ma50": 101.29139999389649,
-      "alerts": [
-        {
-          "id": "d61e5af8b8dd80f68d40f88b",
-          "ticker": "LULU",
-          "category": "movement",
-          "date": "2026-11-18",
-          "title": "Variação diária +6.38%",
-          "source_url": "https://finance.yahoo.com/quote/LULU/history/",
-          "relevance": "média",
-          "status": "confirmado",
-          "detected_at": "2026-11-19T04:12:24.614200+00:00",
-          "details": {
-            "change_pct": 6.376031715541242,
-            "context": "Notícias próximas da sessão; relação causal não confirmada.",
-            "related_news": [
-              {
-                "title": "Stock Market Today, Nov. 17: Nike Shares Fall 6.3% After Investor Day Turnaround Plan Draws Scrutiny",
-                "published_at": "2026-11-17T22:19:09Z",
-                "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nike-shares-fall-63-after-investor-day-turnaround-plan-draws-scrutiny/"
-              },
-              {
-                "title": "Here's Why Lululemon (LULU) Fell More Than Broader Market",
-                "published_at": "2026-11-17T21:45:03Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-lululemon-lulu-fell-214503392.html"
-              },
-              {
-                "title": "Will Lower Revenue Outlook Change Lululemon's (LULU) Narrative",
-                "published_at": "2026-11-17T18:08:59Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/lower-revenue-outlook-change-lululemons-180859288.html"
-              },
-              {
-                "title": "Michael Burry Makes Bold Bet on Beaten-Down AI Software Stock",
-                "published_at": "2026-11-17T17:47:37Z",
-                "url": "https://finance.yahoo.com/technology/ai/articles/michael-burry-makes-bold-bet-174737697.html"
-              },
-              {
-                "title": "Will Lululemon (LULU) Beat Estimates Again in Its Next Earnings Report?",
-                "published_at": "2026-11-17T16:10:02Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-beat-estimates-again-161002002.html"
-              }
-            ]
-          }
-        }
-      ],
+      "asof": "2026-11-19",
+      "close": 105.52999877929688,
+      "change_pct": -4.739122637525384,
+      "volume": 2549200,
+      "relative_volume_20d": 0.7992588075392191,
+      "ma20": 107.22799949645996,
+      "ma50": 101.46440002441406,
+      "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
@@ -338,8 +338,8 @@
       "asof": "2026-11-18",
       "close": 14.109999656677246,
       "change_pct": -1.1904767470088284,
-      "volume": 41911400,
-      "relative_volume_20d": 0.743200654902642,
+      "volume": 42369500,
+      "relative_volume_20d": 0.7513239869796162,
       "ma20": 15.92175006866455,
       "ma50": 15.968099937438964,
       "alerts": [],
@@ -350,8 +350,8 @@
       "asof": "2026-11-18",
       "close": 68.76000213623047,
       "change_pct": -0.07265720700063705,
-      "volume": 12235800,
-      "relative_volume_20d": 0.6375351018673842,
+      "volume": 12254200,
+      "relative_volume_20d": 0.6384938169390885,
       "ma20": 68.13799934387207,
       "ma50": 69.26819976806641,
       "alerts": [],
@@ -371,13 +371,13 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "CROX": {
-      "asof": "2026-11-18",
-      "close": 162.75999450683594,
-      "change_pct": 2.5001583151082807,
-      "volume": 896200,
-      "relative_volume_20d": 0.6195944497832595,
-      "ma20": 147.62199897766112,
-      "ma50": 130.4961996459961,
+      "asof": "2026-11-19",
+      "close": 157.30999755859375,
+      "change_pct": -3.348486810137663,
+      "volume": 1100600,
+      "relative_volume_20d": 0.7553514930648493,
+      "ma20": 149.43799896240233,
+      "ma50": 131.46579956054688,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
@@ -395,18 +395,56 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "DECK": {
-      "asof": "2026-11-18",
-      "close": 83.5999984741211,
-      "change_pct": 2.601859388616612,
-      "volume": 3346200,
-      "relative_volume_20d": 0.8806971461959369,
-      "ma20": 84.69549942016602,
-      "ma50": 82.58559951782226,
-      "alerts": [],
+      "asof": "2026-11-19",
+      "close": 78.94999694824219,
+      "change_pct": -5.562202883673906,
+      "volume": 3820600,
+      "relative_volume_20d": 1.0001845600468076,
+      "ma20": 84.37899932861328,
+      "ma50": 82.56699951171875,
+      "alerts": [
+        {
+          "id": "6df422d7c1bb457a42034f32",
+          "ticker": "DECK",
+          "category": "movement",
+          "date": "2026-11-19",
+          "title": "Variação diária -5.56%",
+          "source_url": "https://finance.yahoo.com/quote/DECK/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-20T03:58:53.661912+00:00",
+          "details": {
+            "change_pct": -5.562202883673906,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Nike Sinks 5%, Dick’s Sporting Goods Down 5% as Analyst Flags Jordan Allocation Cuts of Up to 50%",
+                "published_at": "2026-11-19T19:25:19Z",
+                "url": "https://www.tikr.com/blog/nike-sinks-5-dicks-sporting-goods-down-5-as-analyst-flags-jordan-allocation-cuts-of-up-to-50?ref=yahoofinance&tlnk=yf-261119-r5m84fqw"
+              },
+              {
+                "title": "Nike Sinks 7% as Investor Day Warns Fiscal 2028 Will Be a “Challenging Year Financially”",
+                "published_at": "2026-11-17T20:42:24Z",
+                "url": "https://www.tikr.com/blog/nike-sinks-7-as-investor-day-warns-fiscal-2028-will-be-a-challenging-year-financially?ref=yahoofinance&tlnk=yf-261117-36795rwc"
+              },
+              {
+                "title": "One Reason Lululemon Stock Looks Better Than Its Price",
+                "published_at": "2026-11-17T14:13:43Z",
+                "url": "https://www.trefis.com/stock/lulu/articles/625725/one-reason-lululemon-stock-looks-better-than-its-price/2026-11-17"
+              },
+              {
+                "title": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+                "published_at": "2026-11-17T13:00:03Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/deckers-outdoor-corporation-deck-trending-130003933.html"
+              }
+            ]
+          }
+        }
+      ],
       "technical_alerts": [
         {
           "type": "ma50_cross",
-          "message": "Cruzou a média móvel de 50 sessões para cima"
+          "message": "Cruzou a média móvel de 50 sessões para baixo"
         }
       ],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"

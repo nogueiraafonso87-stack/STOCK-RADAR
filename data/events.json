@@ -1,6 +1,85 @@
 {
-  "generated_at_utc": "2026-11-19T04:12:28.016994+00:00",
+  "generated_at_utc": "2026-11-20T03:58:54.274243+00:00",
   "events": [
+    {
+      "id": "ccdeadb6b346b189493df051",
+      "ticker": "NKE",
+      "category": "movement",
+      "date": "2026-11-19",
+      "title": "Variação diária -5.45%",
+      "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-20T03:58:45.191039+00:00",
+      "details": {
+        "change_pct": -5.453041771826483,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Nike (NKE) Targets a Turnaround with Ambitious Fiscal 2031 Goals",
+            "published_at": "2026-11-19T21:37:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-targets-turnaround-ambitious-213700782.html"
+          },
+          {
+            "title": "Dow Drops 1,100 Points as Anthropic Pops 17%: Stock Market Today",
+            "published_at": "2026-11-19T21:14:22Z",
+            "url": "https://www.kiplinger.com/investing/stocks/dow-drops-1-100-points-as-anthropic-pops-17-percent-stock-market-today"
+          },
+          {
+            "title": "Nike Sinks 5%, Dick’s Sporting Goods Down 5% as Analyst Flags Jordan Allocation Cuts of Up to 50%",
+            "published_at": "2026-11-19T19:25:19Z",
+            "url": "https://www.tikr.com/blog/nike-sinks-5-dicks-sporting-goods-down-5-as-analyst-flags-jordan-allocation-cuts-of-up-to-50?ref=yahoofinance&tlnk=yf-261119-r5m84fqw"
+          },
+          {
+            "title": "Nike’s CEO admitted a miss, but Morgan Stanley sees a bigger one",
+            "published_at": "2026-11-19T18:07:00Z",
+            "url": "https://www.thestreet.com/investing/nike-ceo-admission-morgan-stanley-warning"
+          },
+          {
+            "title": "A 67-Year-Old With $500,000 in Nike, HP and Truist Collects $1,872 a Month in Dividends. How Safe Is Each Check?",
+            "published_at": "2026-11-19T16:50:47Z",
+            "url": "https://www.tikr.com/blog/a-67-year-old-with-500000-in-nike-hp-and-truist-collects-1762-a-month-in-dividends-how-safe-is-each-check?ref=yahoofinancedividend&tlnk=yf-261119-frhm7v6p"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6df422d7c1bb457a42034f32",
+      "ticker": "DECK",
+      "category": "movement",
+      "date": "2026-11-19",
+      "title": "Variação diária -5.56%",
+      "source_url": "https://finance.yahoo.com/quote/DECK/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-20T03:58:53.661912+00:00",
+      "details": {
+        "change_pct": -5.562202883673906,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Nike Sinks 5%, Dick’s Sporting Goods Down 5% as Analyst Flags Jordan Allocation Cuts of Up to 50%",
+            "published_at": "2026-11-19T19:25:19Z",
+            "url": "https://www.tikr.com/blog/nike-sinks-5-dicks-sporting-goods-down-5-as-analyst-flags-jordan-allocation-cuts-of-up-to-50?ref=yahoofinance&tlnk=yf-261119-r5m84fqw"
+          },
+          {
+            "title": "Nike Sinks 7% as Investor Day Warns Fiscal 2028 Will Be a “Challenging Year Financially”",
+            "published_at": "2026-11-17T20:42:24Z",
+            "url": "https://www.tikr.com/blog/nike-sinks-7-as-investor-day-warns-fiscal-2028-will-be-a-challenging-year-financially?ref=yahoofinance&tlnk=yf-261117-36795rwc"
+          },
+          {
+            "title": "One Reason Lululemon Stock Looks Better Than Its Price",
+            "published_at": "2026-11-17T14:13:43Z",
+            "url": "https://www.trefis.com/stock/lulu/articles/625725/one-reason-lululemon-stock-looks-better-than-its-price/2026-11-17"
+          },
+          {
+            "title": "Deckers Outdoor Corporation (DECK) Is a Trending Stock: Facts to Know Before Betting on It",
+            "published_at": "2026-11-17T13:00:03Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/deckers-outdoor-corporation-deck-trending-130003933.html"
+          }
+        ]
+      }
+    },
     {
       "id": "dd51636e4e856d9e9e121a99",
       "ticker": "ASTS",
@@ -16,29 +95,29 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
-            "title": "AST SpaceMobile Sinks 8% as New Offering Filing Revives Dilution Fears",
-            "published_at": "2026-11-18T21:42:17Z",
-            "url": "https://www.tikr.com/blog/ast-spacemobile-sinks-8-as-new-offering-filing-revives-dilution-fears?ref=yahoofinance&tlnk=yf-261118-w92886xc"
+            "title": "AST SpaceMobile Is Down 37% in a Month. Can B. Riley’s Upgrade Get ASTS Stock Back to $48?",
+            "published_at": "2026-11-19T17:03:43Z",
+            "url": "https://247wallst.com/investing/2026/11/19/ast-spacemobile-is-down-37-in-a-month-can-b-rileys-upgrade-get-asts-stock-back-to-48/"
           },
           {
-            "title": "AST SpaceMobile Just Touched a 52-Week Low. Will ASTS Stock Hit $20 or $40 First?",
-            "published_at": "2026-11-18T19:02:57Z",
-            "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-just-touched-a-52-week-low-will-asts-stock-hit-20-or-40-first/"
+            "title": "Why AST SpaceMobile Stock Just Popped",
+            "published_at": "2026-11-19T16:36:00Z",
+            "url": "https://www.fool.com/investing/2026/11/19/why-ast-spacemobile-stock-just-popped/"
           },
           {
-            "title": "Will 798 Million Unlocked SpaceX Shares on December 8 Swamp Starship’s Catch?",
-            "published_at": "2026-11-18T18:38:45Z",
-            "url": "https://www.tikr.com/blog/will-798-million-unlocked-spacex-shares-on-december-8-swamp-starships-catch?ref=yahoofinance&tlnk=yf-261118-qx27g85m"
+            "title": "AST SpaceMobile Rises 5% as B. Riley Upgrades, Says Launch and Funding Risks Are “Already Priced In”",
+            "published_at": "2026-11-19T16:16:13Z",
+            "url": "https://www.tikr.com/blog/ast-spacemobile-rises-5-as-b-riley-upgrades-says-launch-and-funding-risks-are-already-priced-in?ref=yahoofinance&tlnk=yf-261119-cfh9cg9j"
           },
           {
-            "title": "AST SpaceMobile Falls 5% After Jim Cramer Calls It ‘a Very Hard Stock to Own’; SpaceX Rises 3%, Rocket Lab Holds Steady",
-            "published_at": "2026-11-18T15:57:51Z",
-            "url": "https://247wallst.com/investing/2026/11/18/ast-spacemobile-falls-5-after-jim-cramer-calls-it-a-very-hard-stock-to-own-spacex-rises-3-rocket-lab-holds-steady/"
+            "title": "ASTS Stock Gets A Breather After Relentless Sell-Off: B. Riley Says Launch Delays, Funding Risks Are Already Priced In",
+            "published_at": "2026-11-19T14:50:47Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-gains-after-relentless-sell-off-briley-says-launch-delays-funding-risks-are-already-priced-in/cNbiOz8R90a"
           },
           {
-            "title": "AST SpaceMobile (ASTS) Stock May Be Below Fair Value As Blacklift Spending Looms",
-            "published_at": "2026-11-18T15:14:35Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-may-151435040.html"
+            "title": "Musk: SpaceX Has a “Monopoly” in Space. That’s Bad News for Amazon’s Leo. But Also Bad for SpaceX",
+            "published_at": "2026-11-19T14:50:42Z",
+            "url": "https://www.tikr.com/blog/musk-spacex-has-a-monopoly-in-space-thats-bad-news-for-amazons-leo-but-also-bad-for-spacex?ref=yahoofinance&tlnk=yf-261119-53r8796f"
           }
         ]
       }
@@ -116,6 +195,21 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "Coherent Soars 6% on New $2 Billion Buyback as Anthropic IPO Revives AI Trade",
+            "published_at": "2026-11-19T15:57:32Z",
+            "url": "https://www.tikr.com/blog/coherent-soars-6-on-new-2-billion-buyback-as-anthropic-ipo-revives-ai-trade?ref=yahoofinance&tlnk=yf-261119-px4vrhf4"
+          },
+          {
+            "title": "Applied Optoelectronics Rallies 5% Despite $550 Million Share Sale Plan; Coherent Jumps 8%, Lumentum Climbs 4%",
+            "published_at": "2026-11-19T14:13:56Z",
+            "url": "https://247wallst.com/investing/2026/11/19/applied-optoelectronics-rallies-5-despite-550-million-share-sale-plan-coherent-jumps-8-lumentum-climbs-4/"
+          },
+          {
+            "title": "What Sent Applied Optoelectronics Stock Higher?",
+            "published_at": "2026-11-19T11:04:38Z",
+            "url": "https://www.trefis.com/stock/aaoi/articles/626749/what-sent-applied-optoelectronics-stock-higher/2026-11-19"
+          },
+          {
             "title": "Applied Optoelectronics (AAOI) Could Be 63% Undervalued After $550 Million Stock Offering",
             "published_at": "2026-11-19T01:12:42Z",
             "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-could-63-011242004.html"
@@ -124,21 +218,6 @@
             "title": "Nvidia, Take-Two, Palo Alto, Applied Optoelectronics, TJX, and More Stocks That Explain Today’s Market",
             "published_at": "2026-11-18T21:31:00Z",
             "url": "https://www.barrons.com/articles/stock-movers-62881b61?siteid=yhoof2&yptr=yahoo"
-          },
-          {
-            "title": "Lumentum Is Down 33% in a Month as Marvell’s Slide Shrinks Its Buyout Value. Can LITE Stock Get Back to Bernstein’s $700 Target?",
-            "published_at": "2026-11-18T20:03:55Z",
-            "url": "https://247wallst.com/investing/2026/11/18/lumentum-is-down-33-in-a-month-as-marvells-slide-shrinks-its-buyout-value-can-lite-stock-get-back-to-bernsteins-700-target/"
-          },
-          {
-            "title": "Applied Optoelectronics Falls After $550 Million Share Sale Plan",
-            "published_at": "2026-11-18T19:48:48Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-falls-550-million-194848177.html"
-          },
-          {
-            "title": "Applied Optoelectronics Stock Plunges 10% -- Company Seeks $550 Million Share Sale",
-            "published_at": "2026-11-18T19:11:53Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-stock-plunges-10-191153969.html"
           }
         ]
       }
