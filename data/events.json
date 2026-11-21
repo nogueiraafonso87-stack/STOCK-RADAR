@@ -1,6 +1,353 @@
 {
-  "generated_at_utc": "2026-11-20T03:58:54.274243+00:00",
+  "generated_at_utc": "2026-11-21T03:58:24.490062+00:00",
   "events": [
+    {
+      "id": "d0455ce39854b44cd000c665",
+      "ticker": "BIDU",
+      "category": "volume",
+      "date": "2026-11-20",
+      "title": "Volume 2.01× a média das 20 sessões anteriores",
+      "source_url": "https://finance.yahoo.com/quote/BIDU/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:19.139144+00:00",
+      "details": {
+        "relative_volume": 2.0129046571391593,
+        "average_volume": 2704450.0
+      }
+    },
+    {
+      "id": "cd002ef9b0ad1204d375e3ed",
+      "ticker": "SE",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -5.02%",
+      "source_url": "https://finance.yahoo.com/quote/SE/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:15.075497+00:00",
+      "details": {
+        "change_pct": -5.019716789110307,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Billionaire Druckenmiller’s New AI Warning and Top 10 Stock Picks",
+            "published_at": "2026-11-19T15:25:06Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-druckenmiller-ai-warning-top-152506734.html"
+          },
+          {
+            "title": "Analysts Turned Bearish on These 5 Stocks on Monday",
+            "published_at": "2026-11-19T11:24:03Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-turned-bearish-5-stocks-112403055.html"
+          },
+          {
+            "title": "Forget Nvidia: 5 Stocks Wall Street is Betting on Right Now",
+            "published_at": "2026-11-18T16:11:32Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/forget-nvidia-5-stocks-wall-161132558.html"
+          },
+          {
+            "title": "Here is What to Know Beyond Why Sea Limited Sponsored ADR (SE) is a Trending Stock",
+            "published_at": "2026-11-18T13:00:04Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-sea-limited-130004015.html"
+          },
+          {
+            "title": "3 Export Stocks Retail Investors Are Watching Before APEC Trade Rules Shift",
+            "published_at": "2026-11-18T10:09:52Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/3-export-stocks-retail-investors-100952334.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c91487772c30290b8659c56d",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -12.34%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:17.013238+00:00",
+      "details": {
+        "change_pct": -12.337658618026804,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Why KULR Technology Group Inc. (KULR) Could Be an Underrated AI Energy Storage Stock",
+            "published_at": "2026-11-20T13:22:43Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/why-kulr-technology-group-inc-132243163.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5bb0ff5176e772ce238edd0",
+      "ticker": "RIVN",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -8.50%",
+      "source_url": "https://finance.yahoo.com/quote/RIVN/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:18.461426+00:00",
+      "details": {
+        "change_pct": -8.503100455187319,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
+            "published_at": "2026-11-21T00:45:41Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/cNbm5YSR91g"
+          },
+          {
+            "title": "Rivian-Backed ALSO Hits Another Speed Bump, Pauses E-Bike Deliveries Over Software Issues Affecting Charging (UPDATED)",
+            "published_at": "2026-11-20T22:30:06Z",
+            "url": "https://finance.yahoo.com/technology/articles/rivian-backed-hits-another-speed-223006295.html"
+          },
+          {
+            "title": "Rivian (RIVN) Stock May Be Undervalued Following Its 2027 R2 Push",
+            "published_at": "2026-11-20T22:10:50Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-rivn-stock-may-undervalued-221050982.html"
+          },
+          {
+            "title": "Tesla Sinks 8%, SpaceX Down 7%, Rivian Down 8% as AI Sell-Off Swamps HSBC Upgrade",
+            "published_at": "2026-11-20T20:45:55Z",
+            "url": "https://www.tikr.com/blog/tesla-sinks-8-spacex-down-7-rivian-down-8-as-ai-sell-off-swamps-hsbc-upgrade?ref=yahoofinance&tlnk=yf-261120-49fmfcrf"
+          },
+          {
+            "title": "Tesla Falls 4% Despite HSBC Upgrade and $359 Target Tied to SpaceX Merger Talk; Rivian Drops 5%, Lucid Slides 4%",
+            "published_at": "2026-11-20T16:57:39Z",
+            "url": "https://247wallst.com/investing/2026/11/20/tesla-falls-4-despite-hsbc-upgrade-and-359-target-tied-to-spacex-merger-talk-rivian-drops-5-lucid-slides-4/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c947f6a9aa7f5061d289b93",
+      "ticker": "SOFI",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -7.76%",
+      "source_url": "https://finance.yahoo.com/quote/SOFI/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:21.771900+00:00",
+      "details": {
+        "change_pct": -7.760533713656493,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "PayPal vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+            "published_at": "2026-11-20T23:25:39Z",
+            "url": "https://www.fool.com/coverage/better-buy/2026/11/20/paypal-vs-sofi-technologies-which-financial-stock-is-a-better-buy-for-2027/"
+          },
+          {
+            "title": "How Much XRP Do You Need to Retire by 2040?",
+            "published_at": "2026-11-20T22:27:23Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/20/how-much-xrp-do-you-need-to-retire-by-2040/"
+          },
+          {
+            "title": "$1,000 in Anthropic or Bitcoin: Which Could Be Worth More by 2030?",
+            "published_at": "2026-11-20T21:12:00Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/20/1000-in-anthropic-or-bitcoin-which-could-be-worth-more-by-2030/"
+          },
+          {
+            "title": "Strategy Is Down 44% in a Month as Crypto Stocks Crumble: Can MSTR Stock Get Back to $100 This Year?",
+            "published_at": "2026-11-20T20:02:35Z",
+            "url": "https://247wallst.com/investing/2026/11/20/strategy-is-down-44-in-a-month-as-crypto-stocks-crumble-can-mstr-stock-get-back-to-100-this-year/"
+          },
+          {
+            "title": "Ripple’s CEO Says Investors Sold XRP and Bitcoin to Buy Anthropic Shares",
+            "published_at": "2026-11-20T19:01:03Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/20/ripples-ceo-says-investors-sold-xrp-and-bitcoin-to-buy-anthropic-shares/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "67a9ed03ccadf24b70f6ed66",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -17.66%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:16.354617+00:00",
+      "details": {
+        "change_pct": -17.659348320536626,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "637791fe978de07805c34783",
+      "ticker": "PYPL",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -5.46%",
+      "source_url": "https://finance.yahoo.com/quote/PYPL/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:23.677385+00:00",
+      "details": {
+        "change_pct": -5.463895821745835,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "PayPal Sinks 5% on CFO Swap and Leadership Shake-Up as Clear Street Sees “Lower Likelihood” of Sale",
+            "published_at": "2026-11-20T23:37:56Z",
+            "url": "https://www.tikr.com/blog/paypal-sinks-5-on-cfo-swap-and-leadership-shake-up-as-clear-street-sees-lower-likelihood-of-sale?ref=yahoofinance&tlnk=yf-261120-37wmff8c"
+          },
+          {
+            "title": "PayPal vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+            "published_at": "2026-11-20T23:25:39Z",
+            "url": "https://www.fool.com/coverage/better-buy/2026/11/20/paypal-vs-sofi-technologies-which-financial-stock-is-a-better-buy-for-2027/"
+          },
+          {
+            "title": "Financial Services Roundup: Market Talk",
+            "published_at": "2026-11-20T22:01:00Z",
+            "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-3af0bea5?siteid=yhoof2&yptr=yahoo"
+          },
+          {
+            "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
+            "published_at": "2026-11-20T21:44:48Z",
+            "url": "https://www.tikr.com/blog/global-payments-soars-10-as-gtcr-revives-buyout-talk-with-50-billion-takeover-bid?ref=yahoofinance&tlnk=yf-261120-frxg9pv4"
+          },
+          {
+            "title": "PayPal’s next CFO to receive over $30M in stock, bonuses",
+            "published_at": "2026-11-20T20:19:10Z",
+            "url": "https://www.cfodive.com/news/incoming-paypal-cfo-30m-stock-bonuses-comp-turnaround-strategy/875389/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3be65a143a9d17f3b97a1e25",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -8.92%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:19.738803+00:00",
+      "details": {
+        "change_pct": -8.923674549428995,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "AST SpaceMobile Just Plunged 44% in a Month as Space Stocks Face a Hard Landing: Could ASTS Stock Realistically Double From Here?",
+            "published_at": "2026-11-20T20:04:06Z",
+            "url": "https://247wallst.com/investing/2026/11/20/ast-spacemobile-just-plunged-44-in-a-month-as-space-stocks-face-a-hard-landing-could-asts-stock-realistically-double-from-here/"
+          },
+          {
+            "title": "AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?",
+            "published_at": "2026-11-20T18:50:02Z",
+            "url": "https://www.fool.com/coverage/better-buy/2026/11/20/ast-spacemobile-vs-redwire-which-space-infrastructure-stock-is-a-better-buy-for-2027/"
+          },
+          {
+            "title": "This Analyst Just Upgraded AST SpaceMobile Stock. Here's Why.",
+            "published_at": "2026-11-20T17:48:50Z",
+            "url": "https://www.barchart.com/story/news/8939525/this-analyst-just-upgraded-ast-spacemobile-stock-here-s-why"
+          },
+          {
+            "title": "AST SpaceMobile (ASTS), What Is Behind The Fresh Attention?",
+            "published_at": "2026-11-20T15:10:17Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-behind-fresh-151017644.html"
+          },
+          {
+            "title": "SpaceX Falls 5%, Breaks Below IPO Price as Lenders Reportedly Balk at Musk’s Orbital AI Chip Plans; Rocket Lab Drops 3%, AST SpaceMobile Dips",
+            "published_at": "2026-11-20T14:52:35Z",
+            "url": "https://247wallst.com/investing/2026/11/20/spacex-falls-5-breaks-below-ipo-price-as-lenders-reportedly-balk-at-musks-orbital-ai-chip-plans-rocket-lab-drops-3-ast-spacemobile-dips/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19daca39017e8c44eaa01b93",
+      "ticker": "BIDU",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -6.75%",
+      "source_url": "https://finance.yahoo.com/quote/BIDU/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:19.139131+00:00",
+      "details": {
+        "change_pct": -6.749014632278227,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Which Baidu ETFs Change What Chip News Means For You?",
+            "published_at": "2026-11-20T16:13:22Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/baidu-etfs-change-chip-news-161322634.html"
+          },
+          {
+            "title": "The U.S. Approved 879,000 Nvidia and AMD Chips for China in 6 Months",
+            "published_at": "2026-11-20T14:28:55Z",
+            "url": "https://247wallst.com/investing/2026/11/20/the-u-s-approved-879000-nvidia-and-amd-chips-for-china-in-6-months/"
+          },
+          {
+            "title": "From Berlin to Brussels: Tesla's $3.3 Billion Robotaxi Gamble",
+            "published_at": "2026-11-19T13:45:00Z",
+            "url": "https://www.marketbeat.com/articles/from-berlin-to-brussels-teslas-33-billion-robotaxi-gamble/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          },
+          {
+            "title": "Baidu (BIDU) AI Linked Revenue Reached 53% Of General Business Revenue",
+            "published_at": "2026-11-18T08:15:01Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/baidu-bidu-ai-linked-revenue-081501112.html"
+          },
+          {
+            "title": "Baidu shares hit record low as Q3 earnings, AI concerns weigh",
+            "published_at": "2026-11-18T05:54:22Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/baidu-shares-hit-record-low-055422817.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "188c14b0efb19ae3b0436f19",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-20",
+      "title": "Variação diária -16.55%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-21T03:58:20.318518+00:00",
+      "details": {
+        "change_pct": -16.548400736953894,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "3 Growth Stocks With Revenue Growth Up To 68%",
+            "published_at": "2026-11-20T15:13:21Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-revenue-growth-151321360.html"
+          },
+          {
+            "title": "Applied Optoelectronics Sinks 7% as Optics Stocks Reverse Thursday’s Rally; Coherent Declines 4%, Lumentum Slides 5%",
+            "published_at": "2026-11-20T14:54:46Z",
+            "url": "https://247wallst.com/investing/2026/11/20/applied-optoelectronics-sinks-10-as-optics-stocks-reverse-thursdays-rally-coherent-tumbles-8-lumentum-slides-7/"
+          },
+          {
+            "title": "Coherent Soars 6% on New $2 Billion Buyback as Anthropic IPO Revives AI Trade",
+            "published_at": "2026-11-19T15:57:32Z",
+            "url": "https://www.tikr.com/blog/coherent-soars-6-on-new-2-billion-buyback-as-anthropic-ipo-revives-ai-trade?ref=yahoofinance&tlnk=yf-261119-px4vrhf4"
+          },
+          {
+            "title": "Applied Optoelectronics Rallies 5% Despite $550 Million Share Sale Plan; Coherent Jumps 8%, Lumentum Climbs 4%",
+            "published_at": "2026-11-19T14:13:56Z",
+            "url": "https://247wallst.com/investing/2026/11/19/applied-optoelectronics-rallies-5-despite-550-million-share-sale-plan-coherent-jumps-8-lumentum-climbs-4/"
+          },
+          {
+            "title": "What Sent Applied Optoelectronics Stock Higher?",
+            "published_at": "2026-11-19T11:04:38Z",
+            "url": "https://www.trefis.com/stock/aaoi/articles/626749/what-sent-applied-optoelectronics-stock-higher/2026-11-19"
+          }
+        ]
+      }
+    },
     {
       "id": "ccdeadb6b346b189493df051",
       "ticker": "NKE",
