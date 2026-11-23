@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-22T03:10:29.429087+00:00",
+  "generated_at_utc": "2026-11-23T03:43:50.267453+00:00",
   "events": [
     {
       "id": "d0455ce39854b44cd000c665",
@@ -95,6 +95,11 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "Not Lucid. Not Ford. The EV Stock Most Likely to Catch Every Refunded Cybertruck Buyer.",
+            "published_at": "2026-11-22T12:27:02Z",
+            "url": "https://www.fool.com/investing/2026/11/22/not-lucid-not-ford-the-ev-stock-most-likely-to-catch-every-refunded-cybertruck-buyer/"
+          },
+          {
             "title": "Lucid Just Dropped 24% in a Month. Is It Time to Sell, or Load Up?",
             "published_at": "2026-11-21T02:32:45Z",
             "url": "https://www.tikr.com/blog/lucid-just-dropped-24-in-a-month-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261121-vh2xh7mw"
@@ -113,11 +118,6 @@
             "title": "Rivian (RIVN) Stock May Be Undervalued Following Its 2027 R2 Push",
             "published_at": "2026-11-20T22:10:50Z",
             "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-rivn-stock-may-undervalued-221050982.html"
-          },
-          {
-            "title": "Tesla Sinks 8%, SpaceX Down 7%, Rivian Down 8% as AI Sell-Off Swamps HSBC Upgrade",
-            "published_at": "2026-11-20T20:45:55Z",
-            "url": "https://www.tikr.com/blog/tesla-sinks-8-spacex-down-7-rivian-down-8-as-ai-sell-off-swamps-hsbc-upgrade?ref=yahoofinance&tlnk=yf-261120-49fmfcrf"
           }
         ]
       }
@@ -137,29 +137,29 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
-            "title": "At 74, a Machinist Planned to Pay for His Nursing Home With $150,000 in Bitcoin. After the Crash It’s Worth About $90,000, and the Loss Will Get Him Onto Medicaid About 5½ Months Sooner",
-            "published_at": "2026-11-21T22:27:31Z",
-            "url": "https://247wallst.com/personal-finance/2026/11/21/at-74-a-machinist-planned-to-pay-for-his-nursing-home-with-150000-in-bitcoin-after-the-crash-its-worth-about-90000-and-the-loss-will-get-him-onto-medicaid-about-5%c2%bd-months-sooner/"
+            "title": "Upstart Is Yesterday's News. Is This Fintech Stock the Better Buy?",
+            "published_at": "2026-11-22T23:24:02Z",
+            "url": "https://www.fool.com/investing/2026/11/22/upstart-is-yesterdays-news-is-this-fintech-stock-the-better-buy/"
           },
           {
-            "title": "$1,000 in Anthropic Stock or XRP: Which Could Be Worth More in 5 Years?",
-            "published_at": "2026-11-21T20:11:31Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/21/1000-in-anthropic-stock-or-xrp-which-could-be-worth-more-in-5-years/"
+            "title": "XRP’s Next 10 Years: Is It One to Buy, Hold or Avoid?",
+            "published_at": "2026-11-22T23:02:15Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/22/xrps-next-10-years-is-it-one-to-buy-hold-or-avoid/"
           },
           {
-            "title": "ChatGPT AI Predicts XRP’s Price for the End of 2029",
-            "published_at": "2026-11-21T16:13:55Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/21/chatgpt-ai-predicts-xrps-price-for-the-end-of-2029/"
+            "title": "Can Bitcoin Still Reach $1 Million by 2035?",
+            "published_at": "2026-11-22T21:52:57Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/22/can-bitcoin-still-reach-1-million-by-2035/"
           },
           {
-            "title": "Anthropic Is Now Worth More Than Bitcoin: Could Bitcoin Pass It by 2030?",
-            "published_at": "2026-11-21T15:32:31Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/21/anthropic-is-now-worth-more-than-bitcoin-could-bitcoin-pass-it-by-2030/"
+            "title": "How XRP Has Traded Every December Since 2017",
+            "published_at": "2026-11-22T18:16:16Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/22/how-xrp-has-traded-every-december-since-2017/"
           },
           {
-            "title": "How Low Could XRP Go if Bitcoin Falls to $50,000?",
-            "published_at": "2026-11-21T12:46:55Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/11/21/how-low-could-xrp-go-if-bitcoin-falls-to-50000/"
+            "title": "SoFi’s Personal Loans Carry a 12.9% Coupon. A “10% card rate cap” Would Undercut Them",
+            "published_at": "2026-11-22T16:21:29Z",
+            "url": "https://www.tikr.com/blog/sofis-personal-loans-carry-a-12-9-coupon-a-10-card-rate-cap-would-undercut-them?ref=yahoofinance&tlnk=yf-261122-6vvxwhr7"
           }
         ]
       }
@@ -201,6 +201,11 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "Venmo moves from splitting dinner to running the register",
+            "published_at": "2026-11-22T14:03:00Z",
+            "url": "https://www.thestreet.com/investing/stocks/pypl-pay-with-venmo-small-business-payments-fees-paypal"
+          },
+          {
             "title": "Is PayPal Holdings (PYPL) A Bargain On Its Leadership Shake Up?",
             "published_at": "2026-11-21T06:09:15Z",
             "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-holdings-pypl-bargain-leadership-060915406.html"
@@ -219,11 +224,6 @@
             "title": "Financial Services Roundup: Market Talk",
             "published_at": "2026-11-20T22:01:00Z",
             "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-3af0bea5?siteid=yhoof2&yptr=yahoo"
-          },
-          {
-            "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
-            "published_at": "2026-11-20T21:44:48Z",
-            "url": "https://www.tikr.com/blog/global-payments-soars-10-as-gtcr-revives-buyout-talk-with-50-billion-takeover-bid?ref=yahoofinance&tlnk=yf-261120-frxg9pv4"
           }
         ]
       }
@@ -243,6 +243,16 @@
         "context": "Notícias próximas da sessão; relação causal não confirmada.",
         "related_news": [
           {
+            "title": "Cathie Wood Just Bought $22 Million of SpaceX Across 2 ARK Funds",
+            "published_at": "2026-11-22T19:35:17Z",
+            "url": "https://www.tikr.com/blog/cathie-wood-just-bought-22-million-of-spacex-across-2-ark-funds?ref=yahoofinance&tlnk=yf-261122-x426pfvj"
+          },
+          {
+            "title": "Citi Says SpaceX’s Launch Lead Is “Increasingly Becoming a 20 Year Advantage.” Starlink Is Where It Pays Off",
+            "published_at": "2026-11-22T15:45:49Z",
+            "url": "https://www.tikr.com/blog/citi-says-spacexs-launch-lead-is-increasingly-becoming-a-20-year-advantage-starlink-is-where-it-pays-off?ref=yahoofinance&tlnk=yf-261122-h4wx96fq"
+          },
+          {
             "title": "Musk Says AT&T and Verizon May “Lose Some Revenue” as Starlink’s Phone Service Gets 40x the Bandwidth",
             "published_at": "2026-11-21T17:20:39Z",
             "url": "https://www.tikr.com/blog/musk-says-att-and-verizon-may-lose-some-revenue-as-starlinks-phone-service-gets-40x-the-bandwidth?ref=yahoofinance&tlnk=yf-261121-33qf4mj4"
@@ -256,16 +266,6 @@
             "title": "Could AST SpaceMobile Actually Climb 106%? Or Is B. Riley Totally Wrong?",
             "published_at": "2026-11-21T06:55:44Z",
             "url": "https://www.tikr.com/blog/could-ast-spacemobile-actually-climb-106-or-is-b-riley-totally-wrong?ref=yahoofinance&tlnk=yf-261121-cj9rjhgr"
-          },
-          {
-            "title": "AST SpaceMobile Just Plunged 44% in a Month as Space Stocks Face a Hard Landing: Could ASTS Stock Realistically Double From Here?",
-            "published_at": "2026-11-20T20:04:06Z",
-            "url": "https://247wallst.com/investing/2026/11/20/ast-spacemobile-just-plunged-44-in-a-month-as-space-stocks-face-a-hard-landing-could-asts-stock-realistically-double-from-here/"
-          },
-          {
-            "title": "AST SpaceMobile vs. Redwire: Which Space Infrastructure Stock Is a Better Buy for 2027?",
-            "published_at": "2026-11-20T18:50:02Z",
-            "url": "https://www.fool.com/coverage/better-buy/2026/11/20/ast-spacemobile-vs-redwire-which-space-infrastructure-stock-is-a-better-buy-for-2027/"
           }
         ]
       }
