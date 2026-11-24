@@ -1,6 +1,231 @@
 {
-  "generated_at_utc": "2026-11-23T03:43:50.267453+00:00",
+  "generated_at_utc": "2026-11-24T06:58:38.308693+00:00",
   "events": [
+    {
+      "id": "e3ba92d5515618f62ed77931",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +17.52%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:33.657126+00:00",
+      "details": {
+        "change_pct": 17.522017626148557,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
+            "published_at": "2026-11-23T15:57:07Z",
+            "url": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/"
+          },
+          {
+            "title": "3 AI Infrastructure Stocks With Up To 68% Revenue Growth",
+            "published_at": "2026-11-21T08:13:41Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-68-081341637.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5ed3d6b347a998a1fde9878",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +10.31%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:32.929446+00:00",
+      "details": {
+        "change_pct": 10.313706795521572,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
+            "published_at": "2026-11-24T00:23:19Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html"
+          },
+          {
+            "title": "Starlink’s 40x Upgrade Targets 150Mbps to Phones. AST SpaceMobile Has a Big Problem",
+            "published_at": "2026-11-23T23:35:21Z",
+            "url": "https://www.tikr.com/blog/starlinks-40x-upgrade-targets-150mbps-to-phones-ast-spacemobile-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-m4mrj3j8"
+          },
+          {
+            "title": "BCE Sees Bigger AI Infrastructure Opportunity While Targeting Debt Reduction",
+            "published_at": "2026-11-23T18:12:46Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-bce-sees-bigger-ai-infrastructure-opportunity-while-targeting-debt-reduction-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance"
+          },
+          {
+            "title": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%",
+            "published_at": "2026-11-23T15:58:23Z",
+            "url": "https://247wallst.com/investing/2026/11/23/rocket-lab-rallies-11-after-its-worst-week-ever-as-cfo-eyes-higher-electron-prices-ast-spacemobile-jumps-14-spacex-surges-9/"
+          },
+          {
+            "title": "Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound",
+            "published_at": "2026-11-23T15:02:12Z",
+            "url": "https://www.tikr.com/blog/rocket-lab-soars-10-after-its-worst-week-ever-as-space-stocks-rebound?ref=yahoofinance&tlnk=yf-261123-mr875rpx"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c86d30585a0f4e916ab1faaf",
+      "ticker": "RIVN",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +8.62%",
+      "source_url": "https://finance.yahoo.com/quote/RIVN/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:31.554710+00:00",
+      "details": {
+        "change_pct": 8.615685865401757,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Proto Labs Stock After Board Appointment What Frank Klein Could Mean",
+            "published_at": "2026-11-24T05:18:25Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/proto-labs-stock-board-appointment-051825892.html"
+          },
+          {
+            "title": "Tesla’s FSD v15 An ‘Illustration’ Of Head Start In Consumer Autonomy, Says JPMorgan – TSLA Stock Eyes Best Day In Over 19 Months",
+            "published_at": "2026-11-23T17:32:17Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/tesla-fsd-v15-an-illustration-of-head-start-in-consumer-autonomy-says-jp-morgan-tsla-stock-eyes-best-day-in-over-19-months/cNbpew3R9jk"
+          },
+          {
+            "title": "A $12 Billion Fund Just Bought These 3 Stocks",
+            "published_at": "2026-11-23T17:19:40Z",
+            "url": "https://www.tikr.com/blog/a-12-billion-fund-just-bought-these-3-stocks-3?ref=yahoofinance&tlnk=yf-261123-233qm94c"
+          },
+          {
+            "title": "Tesla Jumps 13% as Jensen Huang’s Return to NVIDIA Sparks Broad Market Rally; Rivian Rallies 9%, Lucid Surges 8%",
+            "published_at": "2026-11-23T17:03:42Z",
+            "url": "https://247wallst.com/investing/2026/11/23/tesla-jumps-13-as-jensen-huangs-return-to-nvidia-sparks-broad-market-rally-rivian-rallies-9-lucid-surges-8/"
+          },
+          {
+            "title": "A $12 Billion Fund Dumps These 2 Stocks",
+            "published_at": "2026-11-23T16:55:42Z",
+            "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261123-2pw8hgfj"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4baa51429c8d4e5dd0385f2",
+      "ticker": "ADUR",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +10.70%",
+      "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:34.207962+00:00",
+      "details": {
+        "change_pct": 10.70013110186987,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Top 3 Canadian Founder Led Stocks To Watch In November 2026",
+            "published_at": "2026-11-22T15:09:53Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-founder-led-150953636.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9e29555e93ca05a589604aed",
+      "ticker": "FIG",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +8.43%",
+      "source_url": "https://finance.yahoo.com/quote/FIG/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:30.782266+00:00",
+      "details": {
+        "change_pct": 8.433734211157162,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Docusign vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
+            "published_at": "2026-11-23T17:31:01Z",
+            "url": "https://www.fool.com/coverage/better-buy/2026/11/23/docusign-vs-figma-which-technology-stock-is-a-better-buy-for-2027/"
+          },
+          {
+            "title": "Figma vs. Fastly: Which Cloud Stock Is a Better Buy for 2027?",
+            "published_at": "2026-11-22T20:03:02Z",
+            "url": "https://www.fool.com/coverage/better-buy/2026/11/22/figma-vs-fastly-which-cloud-stock-is-a-better-buy-for-2027/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "85690ec1aa0c6ee62844ac89",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +16.62%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:26.156741+00:00",
+      "details": {
+        "change_pct": 16.6243584634177,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
+            "published_at": "2026-11-21T21:10:24Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "83bac392f04f36d3cff2f892",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +6.67%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:29.584310+00:00",
+      "details": {
+        "change_pct": 6.666669021418015,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "58cac34a396840297b204767",
+      "ticker": "BIDU",
+      "category": "movement",
+      "date": "2026-11-23",
+      "title": "Variação diária +5.54%",
+      "source_url": "https://finance.yahoo.com/quote/BIDU/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-24T06:58:32.250712+00:00",
+      "details": {
+        "change_pct": 5.541195832994905,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Is It Worth Investing in Baidu Inc. (BIDU) Based on Wall Street's Bullish Views?",
+            "published_at": "2026-11-23T13:30:03Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-baidu-inc-bidu-133003869.html"
+          },
+          {
+            "title": "ETFs to Benefit as U.S. Approves AI Chip Exports to China",
+            "published_at": "2026-11-23T12:42:00Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/etfs-benefit-u-approves-ai-124200544.html"
+          }
+        ]
+      }
+    },
     {
       "id": "d0455ce39854b44cd000c665",
       "ticker": "BIDU",

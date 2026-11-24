@@ -1,0 +1,467 @@
+{
+  "generated_at_utc": "2026-11-24T06:58:38.306971+00:00",
+  "stocks": {
+    "NFLX": {
+      "asof": "2026-11-23",
+      "close": 58.099998474121094,
+      "change_pct": 2.41494613597657,
+      "volume": 50671000,
+      "relative_volume_20d": 1.233749229530655,
+      "ma20": 61.99449977874756,
+      "ma50": 66.95980033874511,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SE": {
+      "asof": "2026-11-23",
+      "close": 65.52999877929688,
+      "change_pct": 4.630365099351752,
+      "volume": 7151400,
+      "relative_volume_20d": 0.8922136227448725,
+      "ma20": 73.34500026702881,
+      "ma50": 85.94180030822754,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "NKE": {
+      "asof": "2026-11-23",
+      "close": 33.7599983215332,
+      "change_pct": 2.551640945655631,
+      "volume": 31131900,
+      "relative_volume_20d": 1.2763759204013143,
+      "ma20": 37.60449981689453,
+      "ma50": 36.62759986877441,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AEVA": {
+      "asof": "2026-11-23",
+      "close": 9.1899995803833,
+      "change_pct": 16.6243584634177,
+      "volume": 1801300,
+      "relative_volume_20d": 0.9393880131940914,
+      "ma20": 10.19749994277954,
+      "ma50": 11.968299980163573,
+      "alerts": [
+        {
+          "id": "85690ec1aa0c6ee62844ac89",
+          "ticker": "AEVA",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +16.62%",
+          "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:26.156741+00:00",
+          "details": {
+            "change_pct": 16.6243584634177,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
+                "published_at": "2026-11-21T21:10:24Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "KULR": {
+      "asof": "2026-11-23",
+      "close": 1.440000057220459,
+      "change_pct": 6.666669021418015,
+      "volume": 621300,
+      "relative_volume_20d": 0.6883409686407675,
+      "ma20": 1.64200000166893,
+      "ma50": 1.9968000030517579,
+      "alerts": [
+        {
+          "id": "83bac392f04f36d3cff2f892",
+          "ticker": "KULR",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +6.67%",
+          "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:29.584310+00:00",
+          "details": {
+            "change_pct": 6.666669021418015,
+            "context": "Sem notícia próxima disponível; causa não confirmada.",
+            "related_news": []
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "OKLO": {
+      "asof": "2026-11-23",
+      "close": 20.770000457763672,
+      "change_pct": 4.634761000572962,
+      "volume": 9098100,
+      "relative_volume_20d": 0.8548407479633394,
+      "ma20": 23.660500240325927,
+      "ma50": 29.89720016479492,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "FIG": {
+      "asof": "2026-11-23",
+      "close": 17.100000381469727,
+      "change_pct": 8.433734211157162,
+      "volume": 17577100,
+      "relative_volume_20d": 1.4794081727641302,
+      "ma20": 19.60949993133545,
+      "ma50": 21.159399948120118,
+      "alerts": [
+        {
+          "id": "9e29555e93ca05a589604aed",
+          "ticker": "FIG",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +8.43%",
+          "source_url": "https://finance.yahoo.com/quote/FIG/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:30.782266+00:00",
+          "details": {
+            "change_pct": 8.433734211157162,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Docusign vs. Figma: Which Technology Stock Is a Better Buy for 2027?",
+                "published_at": "2026-11-23T17:31:01Z",
+                "url": "https://www.fool.com/coverage/better-buy/2026/11/23/docusign-vs-figma-which-technology-stock-is-a-better-buy-for-2027/"
+              },
+              {
+                "title": "Figma vs. Fastly: Which Cloud Stock Is a Better Buy for 2027?",
+                "published_at": "2026-11-22T20:03:02Z",
+                "url": "https://www.fool.com/coverage/better-buy/2026/11/22/figma-vs-fastly-which-cloud-stock-is-a-better-buy-for-2027/"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "RIVN": {
+      "asof": "2026-11-23",
+      "close": 11.220000267028809,
+      "change_pct": 8.615685865401757,
+      "volume": 32702700,
+      "relative_volume_20d": 0.9643865526071453,
+      "ma20": 12.469500017166137,
+      "ma50": 13.403600044250489,
+      "alerts": [
+        {
+          "id": "c86d30585a0f4e916ab1faaf",
+          "ticker": "RIVN",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +8.62%",
+          "source_url": "https://finance.yahoo.com/quote/RIVN/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:31.554710+00:00",
+          "details": {
+            "change_pct": 8.615685865401757,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Proto Labs Stock After Board Appointment What Frank Klein Could Mean",
+                "published_at": "2026-11-24T05:18:25Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/proto-labs-stock-board-appointment-051825892.html"
+              },
+              {
+                "title": "Tesla’s FSD v15 An ‘Illustration’ Of Head Start In Consumer Autonomy, Says JPMorgan – TSLA Stock Eyes Best Day In Over 19 Months",
+                "published_at": "2026-11-23T17:32:17Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/tesla-fsd-v15-an-illustration-of-head-start-in-consumer-autonomy-says-jp-morgan-tsla-stock-eyes-best-day-in-over-19-months/cNbpew3R9jk"
+              },
+              {
+                "title": "A $12 Billion Fund Just Bought These 3 Stocks",
+                "published_at": "2026-11-23T17:19:40Z",
+                "url": "https://www.tikr.com/blog/a-12-billion-fund-just-bought-these-3-stocks-3?ref=yahoofinance&tlnk=yf-261123-233qm94c"
+              },
+              {
+                "title": "Tesla Jumps 13% as Jensen Huang’s Return to NVIDIA Sparks Broad Market Rally; Rivian Rallies 9%, Lucid Surges 8%",
+                "published_at": "2026-11-23T17:03:42Z",
+                "url": "https://247wallst.com/investing/2026/11/23/tesla-jumps-13-as-jensen-huangs-return-to-nvidia-sparks-broad-market-rally-rivian-rallies-9-lucid-surges-8/"
+              },
+              {
+                "title": "A $12 Billion Fund Dumps These 2 Stocks",
+                "published_at": "2026-11-23T16:55:42Z",
+                "url": "https://www.tikr.com/blog/a-12-billion-fund-dumps-these-2-stocks?ref=yahoofinance&tlnk=yf-261123-2pw8hgfj"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "BIDU": {
+      "asof": "2026-11-23",
+      "close": 65.33000183105469,
+      "change_pct": 5.541195832994905,
+      "volume": 3501600,
+      "relative_volume_20d": 1.2126186308172604,
+      "ma20": 75.63250045776367,
+      "ma50": 81.30320022583008,
+      "alerts": [
+        {
+          "id": "58cac34a396840297b204767",
+          "ticker": "BIDU",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +5.54%",
+          "source_url": "https://finance.yahoo.com/quote/BIDU/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:32.250712+00:00",
+          "details": {
+            "change_pct": 5.541195832994905,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Is It Worth Investing in Baidu Inc. (BIDU) Based on Wall Street's Bullish Views?",
+                "published_at": "2026-11-23T13:30:03Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-baidu-inc-bidu-133003869.html"
+              },
+              {
+                "title": "ETFs to Benefit as U.S. Approves AI Chip Exports to China",
+                "published_at": "2026-11-23T12:42:00Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/etfs-benefit-u-approves-ai-124200544.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ASTS": {
+      "asof": "2026-11-23",
+      "close": 25.670000076293945,
+      "change_pct": 10.313706795521572,
+      "volume": 19262500,
+      "relative_volume_20d": 1.0237371494746588,
+      "ma20": 33.51899995803833,
+      "ma50": 45.41260005950928,
+      "alerts": [
+        {
+          "id": "d5ed3d6b347a998a1fde9878",
+          "ticker": "ASTS",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +10.31%",
+          "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:32.929446+00:00",
+          "details": {
+            "change_pct": 10.313706795521572,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
+                "published_at": "2026-11-24T00:23:19Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html"
+              },
+              {
+                "title": "Starlink’s 40x Upgrade Targets 150Mbps to Phones. AST SpaceMobile Has a Big Problem",
+                "published_at": "2026-11-23T23:35:21Z",
+                "url": "https://www.tikr.com/blog/starlinks-40x-upgrade-targets-150mbps-to-phones-ast-spacemobile-has-a-big-problem?ref=yahoofinance&tlnk=yf-261123-m4mrj3j8"
+              },
+              {
+                "title": "BCE Sees Bigger AI Infrastructure Opportunity While Targeting Debt Reduction",
+                "published_at": "2026-11-23T18:12:46Z",
+                "url": "https://www.marketbeat.com/instant-alerts/event-bce-sees-bigger-ai-infrastructure-opportunity-while-targeting-debt-reduction-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance"
+              },
+              {
+                "title": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%",
+                "published_at": "2026-11-23T15:58:23Z",
+                "url": "https://247wallst.com/investing/2026/11/23/rocket-lab-rallies-11-after-its-worst-week-ever-as-cfo-eyes-higher-electron-prices-ast-spacemobile-jumps-14-spacex-surges-9/"
+              },
+              {
+                "title": "Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound",
+                "published_at": "2026-11-23T15:02:12Z",
+                "url": "https://www.tikr.com/blog/rocket-lab-soars-10-after-its-worst-week-ever-as-space-stocks-rebound?ref=yahoofinance&tlnk=yf-261123-mr875rpx"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AAOI": {
+      "asof": "2026-11-23",
+      "close": 38.70000076293945,
+      "change_pct": 17.522017626148557,
+      "volume": 14140900,
+      "relative_volume_20d": 0.9473913056586278,
+      "ma20": 54.572500228881836,
+      "ma50": 79.98199996948242,
+      "alerts": [
+        {
+          "id": "e3ba92d5515618f62ed77931",
+          "ticker": "AAOI",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +17.52%",
+          "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:33.657126+00:00",
+          "details": {
+            "change_pct": 17.522017626148557,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang’s Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
+                "published_at": "2026-11-23T15:57:07Z",
+                "url": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/"
+              },
+              {
+                "title": "3 AI Infrastructure Stocks With Up To 68% Revenue Growth",
+                "published_at": "2026-11-21T08:13:41Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-68-081341637.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ADUR": {
+      "asof": "2026-11-23",
+      "close": 8.380000114440918,
+      "change_pct": 10.70013110186987,
+      "volume": 303900,
+      "relative_volume_20d": 0.9187236422449627,
+      "ma20": 9.551500010490418,
+      "ma50": 10.681000032424926,
+      "alerts": [
+        {
+          "id": "a4baa51429c8d4e5dd0385f2",
+          "ticker": "ADUR",
+          "category": "movement",
+          "date": "2026-11-23",
+          "title": "Variação diária +10.70%",
+          "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-24T06:58:34.207962+00:00",
+          "details": {
+            "change_pct": 10.70013110186987,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Top 3 Canadian Founder Led Stocks To Watch In November 2026",
+                "published_at": "2026-11-22T15:09:53Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-founder-led-150953636.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "LULU": {
+      "asof": "2026-11-23",
+      "close": 104.62999725341797,
+      "change_pct": 1.9586771126868685,
+      "volume": 2565400,
+      "relative_volume_20d": 0.8528718016060746,
+      "ma20": 107.49449920654297,
+      "ma50": 101.62399993896484,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SOFI": {
+      "asof": "2026-11-23",
+      "close": 13.09000015258789,
+      "change_pct": 4.887825582742411,
+      "volume": 52528800,
+      "relative_volume_20d": 0.8827728068505944,
+      "ma20": 15.684500026702882,
+      "ma50": 15.70649995803833,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "UBER": {
+      "asof": "2026-11-23",
+      "close": 64.06999969482422,
+      "change_pct": 0.9453260793784057,
+      "volume": 19642200,
+      "relative_volume_20d": 0.9820704716635156,
+      "ma20": 67.69999961853027,
+      "ma50": 68.79379989624023,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SYF": {
+      "asof": "2026-11-23",
+      "close": 67.95999908447266,
+      "change_pct": 0.295154872988479,
+      "volume": 5365700,
+      "relative_volume_20d": 1.092896286165005,
+      "ma20": 72.65098838806152,
+      "ma50": 72.76385162353516,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "CROX": {
+      "asof": "2026-11-23",
+      "close": 157.77999877929688,
+      "change_pct": 2.0107329457355494,
+      "volume": 1103000,
+      "relative_volume_20d": 0.7542550790839527,
+      "ma20": 153.15649871826173,
+      "ma50": 133.23539947509767,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "PYPL": {
+      "asof": "2026-11-23",
+      "close": 55.2400016784668,
+      "change_pct": 3.6592244875928825,
+      "volume": 10078100,
+      "relative_volume_20d": 0.9301117221247277,
+      "ma20": 57.880499839782715,
+      "ma50": 55.97589973449707,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "DECK": {
+      "asof": "2026-11-23",
+      "close": 81.54000091552734,
+      "change_pct": 4.618935541896474,
+      "volume": 4044900,
+      "relative_volume_20d": 1.200723123322805,
+      "ma20": 84.27999954223633,
+      "ma50": 82.52039962768555,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    }
+  },
+  "errors": {}
+}
