@@ -1,6 +1,186 @@
 {
-  "generated_at_utc": "2026-11-24T06:58:38.308693+00:00",
+  "generated_at_utc": "2026-11-25T05:26:41.510540+00:00",
   "events": [
+    {
+      "id": "f3b15181e29f5d4fb92ebaf7",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária -8.06%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:38.245340+00:00",
+      "details": {
+        "change_pct": -8.06388659396946,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback",
+            "published_at": "2026-11-25T03:41:46Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-bulls-director-dip-buy-bet-on-launch-fueled-comeback/cNbHb6dR9lO"
+          },
+          {
+            "title": "Anduril’s Palmer Luckey: Elon Shouldn’t “Sacrifice the Existence of the Entire Starlink Network.” Here’s What’s at Stake for SpaceX",
+            "published_at": "2026-11-24T20:05:00Z",
+            "url": "https://www.tikr.com/blog/andurils-palmer-luckey-elon-shouldnt-sacrifice-the-existence-of-the-entire-starlink-network-heres-whats-at-stake-for-spacex?ref=yahoofinance&tlnk=yf-261124-2hmq638p"
+          },
+          {
+            "title": "5 Best Affordable Growth Stocks to Buy for 2027",
+            "published_at": "2026-11-24T19:12:07Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-affordable-growth-stocks-191207351.html"
+          },
+          {
+            "title": "Three Reasons To Rethink AST SpaceMobile Stock Now",
+            "published_at": "2026-11-24T11:03:10Z",
+            "url": "https://www.trefis.com/stock/asts/articles/628365/three-reasons-to-rethink-ast-spacemobile-stock-now/2026-11-24"
+          },
+          {
+            "title": "Rocket Lab Sinks 13% in a Week. Its CFO Still Sees a “Very Strong Uplift” in Electron Prices",
+            "published_at": "2026-11-24T05:58:53Z",
+            "url": "https://www.tikr.com/blog/rocket-lab-sinks-13-in-a-week-its-cfo-still-sees-a-very-strong-uplift-in-electron-prices?ref=yahoofinance&tlnk=yf-261124-qmjfxw7f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd03fa5142d1cc1bd6945d93",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária -9.72%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:36.486231+00:00",
+      "details": {
+        "change_pct": -9.722229120907688,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "b0859c8ad6c49e1b707fcde2",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária -10.12%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:35.890387+00:00",
+      "details": {
+        "change_pct": -10.119688726500197,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "9368a1ad9d758c38007a15fc",
+      "ticker": "NKE",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária +5.89%",
+      "source_url": "https://finance.yahoo.com/quote/NKE/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:35.200940+00:00",
+      "details": {
+        "change_pct": 5.89455502785825,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+            "published_at": "2026-11-24T21:51:27Z",
+            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo"
+          },
+          {
+            "title": "Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points: Stock Market Today",
+            "published_at": "2026-11-24T21:13:00Z",
+            "url": "https://www.kiplinger.com/investing/stocks/dow-brushes-off-tech-rout-tariff-worries-stock-market-today"
+          },
+          {
+            "title": "Dick’s Chairman Says Nike ‘Made the Right Decision’ on Jordan Even Though It Will Be ‘Painful’ in the Near-term",
+            "published_at": "2026-11-24T21:00:57Z",
+            "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/"
+          },
+          {
+            "title": "Why Is Nike (NKE) Stock Up Today? Dick's Strong Earnings Lift Retailers",
+            "published_at": "2026-11-24T20:45:40Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-nke-stock-today-204540602.html"
+          },
+          {
+            "title": "Foot Locker Turnaround Sparks 17% Surge in Dick’s Sporting Goods Stock",
+            "published_at": "2026-11-24T19:32:00Z",
+            "url": "https://www.barrons.com/articles/dicks-sporting-goods-earnings-stock-price-899cbda2?siteid=yhoof2&yptr=yahoo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "62ee8e1f1dde2d509353ade7",
+      "ticker": "ADUR",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária -5.37%",
+      "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:39.012326+00:00",
+      "details": {
+        "change_pct": -5.3699317417290615,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Top 3 Canadian Founder Led Stocks To Watch In November 2026",
+            "published_at": "2026-11-22T15:09:53Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-founder-led-150953636.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "38d227aa14f59e055c209ab0",
+      "ticker": "OKLO",
+      "category": "movement",
+      "date": "2026-11-24",
+      "title": "Variação diária -7.56%",
+      "source_url": "https://finance.yahoo.com/quote/OKLO/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-25T05:26:36.972169+00:00",
+      "details": {
+        "change_pct": -7.558977661155342,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will",
+            "published_at": "2026-11-25T02:20:02Z",
+            "url": "https://www.fool.com/investing/2026/11/24/1-reason-i-haven-t-bought-oklo-stock-and-probably-never-will/"
+          },
+          {
+            "title": "Groves 1 Approval Could Open NASA Opportunity For Oklo Stock",
+            "published_at": "2026-11-24T18:12:25Z",
+            "url": "https://finance.yahoo.com/energy/articles/groves-1-approval-could-open-181225173.html"
+          },
+          {
+            "title": "Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%",
+            "published_at": "2026-11-24T16:52:23Z",
+            "url": "https://247wallst.com/investing/2026/11/24/oklo-slides-7-as-mondays-nuclear-rebound-fades-nuscale-power-and-energy-fuels-drop-6/"
+          },
+          {
+            "title": "Can NuScale's Doosan Deal Shorten Reactor Delivery Times?",
+            "published_at": "2026-11-24T16:39:00Z",
+            "url": "https://finance.yahoo.com/energy/articles/nuscales-doosan-deal-shorten-reactor-163900039.html"
+          },
+          {
+            "title": "This Space ETF Breaks Past Its Seven-Day Decline Amid NASA’s Partnership Call For Moon Nuclear Reactor",
+            "published_at": "2026-11-23T22:31:45Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/this-space-etf-breaks-past-its-seven-day-decline-amid-nasa-s-partnership-call-for-moon-nuclear-reactor/cNbpLviR9j8"
+          }
+        ]
+      }
+    },
     {
       "id": "e3ba92d5515618f62ed77931",
       "ticker": "AAOI",
