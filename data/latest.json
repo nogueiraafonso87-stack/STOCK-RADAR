@@ -1,281 +1,166 @@
 {
-  "generated_at_utc": "2026-11-25T05:26:41.507798+00:00",
+  "generated_at_utc": "2026-11-26T05:02:41.866423+00:00",
   "stocks": {
     "NFLX": {
-      "asof": "2026-11-24",
-      "close": 58.869998931884766,
-      "change_pct": 1.3253020275149296,
-      "volume": 36014400,
-      "relative_volume_20d": 0.88084294270769,
-      "ma20": 61.81199970245361,
-      "ma50": 66.57920028686523,
+      "asof": "2026-11-25",
+      "close": 59.40999984741211,
+      "change_pct": 0.9172769242821843,
+      "volume": 45693600,
+      "relative_volume_20d": 1.1352954914753952,
+      "ma20": 61.68299961090088,
+      "ma50": 66.23920021057128,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "SE": {
-      "asof": "2026-11-24",
-      "close": 64.97000122070312,
-      "change_pct": -0.8545667160468118,
-      "volume": 4997700,
-      "relative_volume_20d": 0.6305895950256389,
-      "ma20": 72.85700016021728,
-      "ma50": 85.18820030212402,
+      "asof": "2026-11-25",
+      "close": 66.87999725341797,
+      "change_pct": 2.9398122161435447,
+      "volume": 5461900,
+      "relative_volume_20d": 0.70002415909372,
+      "ma20": 72.44200000762939,
+      "ma50": 84.45580024719239,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "NKE": {
-      "asof": "2026-11-24",
-      "close": 35.75,
-      "change_pct": 5.89455502785825,
-      "volume": 30750300,
-      "relative_volume_20d": 1.2436551456791292,
-      "ma20": 37.51399974822998,
-      "ma50": 36.618199844360355,
-      "alerts": [
+      "asof": "2026-11-25",
+      "close": 36.65999984741211,
+      "change_pct": 2.545454118635271,
+      "volume": 27945300,
+      "relative_volume_20d": 1.0946166356440483,
+      "ma20": 37.48949966430664,
+      "ma50": 36.63579986572265,
+      "alerts": [],
+      "technical_alerts": [
         {
-          "id": "9368a1ad9d758c38007a15fc",
-          "ticker": "NKE",
-          "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária +5.89%",
-          "source_url": "https://finance.yahoo.com/quote/NKE/history/",
-          "relevance": "média",
-          "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:35.200940+00:00",
-          "details": {
-            "change_pct": 5.89455502785825,
-            "context": "Notícias próximas da sessão; relação causal não confirmada.",
-            "related_news": [
-              {
-                "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
-                "published_at": "2026-11-24T21:51:27Z",
-                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-amd-anthropic-nvidia/?src=A00220&yptr=yahoo"
-              },
-              {
-                "title": "Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points: Stock Market Today",
-                "published_at": "2026-11-24T21:13:00Z",
-                "url": "https://www.kiplinger.com/investing/stocks/dow-brushes-off-tech-rout-tariff-worries-stock-market-today"
-              },
-              {
-                "title": "Dick’s Chairman Says Nike ‘Made the Right Decision’ on Jordan Even Though It Will Be ‘Painful’ in the Near-term",
-                "published_at": "2026-11-24T21:00:57Z",
-                "url": "https://wwd.com/footwear-news/shoe-industry-news/dicks-foot-locker-jordan-brand-nike-earnings-takeaways-q3-1239464926/"
-              },
-              {
-                "title": "Why Is Nike (NKE) Stock Up Today? Dick's Strong Earnings Lift Retailers",
-                "published_at": "2026-11-24T20:45:40Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/why-nike-nke-stock-today-204540602.html"
-              },
-              {
-                "title": "Foot Locker Turnaround Sparks 17% Surge in Dick’s Sporting Goods Stock",
-                "published_at": "2026-11-24T19:32:00Z",
-                "url": "https://www.barrons.com/articles/dicks-sporting-goods-earnings-stock-price-899cbda2?siteid=yhoof2&yptr=yahoo"
-              }
-            ]
-          }
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para cima"
         }
       ],
-      "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "AEVA": {
-      "asof": "2026-11-24",
-      "close": 8.260000228881836,
-      "change_pct": -10.119688726500197,
-      "volume": 2151800,
-      "relative_volume_20d": 1.1058889434232808,
-      "ma20": 10.088499975204467,
-      "ma50": 11.849699993133544,
-      "alerts": [
-        {
-          "id": "b0859c8ad6c49e1b707fcde2",
-          "ticker": "AEVA",
-          "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária -10.12%",
-          "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
-          "relevance": "alta",
-          "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:35.890387+00:00",
-          "details": {
-            "change_pct": -10.119688726500197,
-            "context": "Sem notícia próxima disponível; causa não confirmada.",
-            "related_news": []
-          }
-        }
-      ],
+      "asof": "2026-11-25",
+      "close": 8.399999618530273,
+      "change_pct": 1.6949078180278576,
+      "volume": 1949600,
+      "relative_volume_20d": 1.0011888347108924,
+      "ma20": 9.973999977111816,
+      "ma50": 11.729699993133545,
+      "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "KULR": {
-      "asof": "2026-11-24",
-      "close": 1.2999999523162842,
-      "change_pct": -9.722229120907688,
-      "volume": 530700,
-      "relative_volume_20d": 0.5845260844902882,
-      "ma20": 1.6240000009536744,
-      "ma50": 1.9768000030517578,
-      "alerts": [
-        {
-          "id": "dd03fa5142d1cc1bd6945d93",
-          "ticker": "KULR",
-          "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária -9.72%",
-          "source_url": "https://finance.yahoo.com/quote/KULR/history/",
-          "relevance": "média",
-          "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:36.486231+00:00",
-          "details": {
-            "change_pct": -9.722229120907688,
-            "context": "Sem notícia próxima disponível; causa não confirmada.",
-            "related_news": []
-          }
-        }
-      ],
+      "asof": "2026-11-25",
+      "close": 1.3300000429153442,
+      "change_pct": 2.3076993614966845,
+      "volume": 616300,
+      "relative_volume_20d": 0.688653365886908,
+      "ma20": 1.6060000002384185,
+      "ma50": 1.9578000044822692,
+      "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "OKLO": {
-      "asof": "2026-11-24",
-      "close": 19.200000762939453,
-      "change_pct": -7.558977661155342,
-      "volume": 9018100,
-      "relative_volume_20d": 0.8389952636088677,
-      "ma20": 23.2540002822876,
-      "ma50": 29.561600189208985,
-      "alerts": [
-        {
-          "id": "38d227aa14f59e055c209ab0",
-          "ticker": "OKLO",
-          "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária -7.56%",
-          "source_url": "https://finance.yahoo.com/quote/OKLO/history/",
-          "relevance": "média",
-          "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:36.972169+00:00",
-          "details": {
-            "change_pct": -7.558977661155342,
-            "context": "Notícias próximas da sessão; relação causal não confirmada.",
-            "related_news": [
-              {
-                "title": "1 Reason I Haven’t Bought Oklo Stock -- and Probably Never Will",
-                "published_at": "2026-11-25T02:20:02Z",
-                "url": "https://www.fool.com/investing/2026/11/24/1-reason-i-haven-t-bought-oklo-stock-and-probably-never-will/"
-              },
-              {
-                "title": "Groves 1 Approval Could Open NASA Opportunity For Oklo Stock",
-                "published_at": "2026-11-24T18:12:25Z",
-                "url": "https://finance.yahoo.com/energy/articles/groves-1-approval-could-open-181225173.html"
-              },
-              {
-                "title": "Oklo Slides 7% as Monday’s Nuclear Rebound Fades; NuScale Power and Energy Fuels Drop 6%",
-                "published_at": "2026-11-24T16:52:23Z",
-                "url": "https://247wallst.com/investing/2026/11/24/oklo-slides-7-as-mondays-nuclear-rebound-fades-nuscale-power-and-energy-fuels-drop-6/"
-              },
-              {
-                "title": "Can NuScale's Doosan Deal Shorten Reactor Delivery Times?",
-                "published_at": "2026-11-24T16:39:00Z",
-                "url": "https://finance.yahoo.com/energy/articles/nuscales-doosan-deal-shorten-reactor-163900039.html"
-              },
-              {
-                "title": "This Space ETF Breaks Past Its Seven-Day Decline Amid NASA’s Partnership Call For Moon Nuclear Reactor",
-                "published_at": "2026-11-23T22:31:45Z",
-                "url": "https://stocktwits.com/news-articles/markets/equity/this-space-etf-breaks-past-its-seven-day-decline-amid-nasa-s-partnership-call-for-moon-nuclear-reactor/cNbpLviR9j8"
-              }
-            ]
-          }
-        }
-      ],
+      "asof": "2026-11-25",
+      "close": 19.469999313354492,
+      "change_pct": 1.4062423941992863,
+      "volume": 11814700,
+      "relative_volume_20d": 1.0945263031122763,
+      "ma20": 22.87150020599365,
+      "ma50": 29.23860019683838,
+      "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "FIG": {
-      "asof": "2026-11-24",
-      "close": 16.950000762939453,
-      "change_pct": -0.8771907320705097,
-      "volume": 9132000,
-      "relative_volume_20d": 0.7403825066390793,
-      "ma20": 19.307999992370604,
-      "ma50": 21.020799980163574,
+      "asof": "2026-11-25",
+      "close": 17.110000610351562,
+      "change_pct": 0.9439518596479513,
+      "volume": 12282600,
+      "relative_volume_20d": 0.9977393153610393,
+      "ma20": 19.00300006866455,
+      "ma50": 20.901800003051758,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "RIVN": {
-      "asof": "2026-11-24",
-      "close": 11.350000381469727,
-      "change_pct": 1.1586462686898225,
-      "volume": 26595200,
-      "relative_volume_20d": 0.7754511986965403,
-      "ma20": 12.446000051498412,
-      "ma50": 13.319800052642822,
+      "asof": "2026-11-25",
+      "close": 11.710000038146973,
+      "change_pct": 3.1718030359275673,
+      "volume": 29290300,
+      "relative_volume_20d": 0.8647080791366588,
+      "ma20": 12.448000049591064,
+      "ma50": 13.249400062561035,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "BIDU": {
-      "asof": "2026-11-24",
-      "close": 63.5099983215332,
-      "change_pct": -2.7858617151551135,
-      "volume": 2401100,
-      "relative_volume_20d": 0.8161538017043002,
-      "ma20": 74.89450054168701,
-      "ma50": 80.76560020446777,
+      "asof": "2026-11-25",
+      "close": 63.4900016784668,
+      "change_pct": -0.03148581891809776,
+      "volume": 2950700,
+      "relative_volume_20d": 0.9919069509458699,
+      "ma20": 74.09400062561035,
+      "ma50": 80.26440017700196,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "ASTS": {
-      "asof": "2026-11-24",
-      "close": 23.600000381469727,
-      "change_pct": -8.06388659396946,
-      "volume": 15434800,
-      "relative_volume_20d": 0.8030417649562288,
-      "ma20": 32.601000022888186,
-      "ma50": 44.709200057983395,
+      "asof": "2026-11-25",
+      "close": 26.020000457763672,
+      "change_pct": 10.254237445665826,
+      "volume": 26439000,
+      "relative_volume_20d": 1.3754813261202805,
+      "ma20": 31.78700008392334,
+      "ma50": 44.044200057983396,
       "alerts": [
         {
-          "id": "f3b15181e29f5d4fb92ebaf7",
+          "id": "b3413567a2ff0c6a08436328",
           "ticker": "ASTS",
           "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária -8.06%",
+          "date": "2026-11-25",
+          "title": "Variação diária +10.25%",
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
-          "relevance": "média",
+          "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:38.245340+00:00",
+          "detected_at": "2026-11-26T05:02:38.964420+00:00",
           "details": {
-            "change_pct": -8.06388659396946,
+            "change_pct": 10.254237445665826,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
               {
-                "title": "ASTS Stock Eyes Worst Month Since 2024: Bulls Cheer Director’s Dip Buy And Bet On A Launch-Fueled Comeback",
-                "published_at": "2026-11-25T03:41:46Z",
-                "url": "https://stocktwits.com/news-articles/markets/equity/asts-stock-bulls-director-dip-buy-bet-on-launch-fueled-comeback/cNbHb6dR9lO"
+                "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
+                "published_at": "2026-11-26T00:22:41Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6"
               },
               {
-                "title": "Anduril’s Palmer Luckey: Elon Shouldn’t “Sacrifice the Existence of the Entire Starlink Network.” Here’s What’s at Stake for SpaceX",
-                "published_at": "2026-11-24T20:05:00Z",
-                "url": "https://www.tikr.com/blog/andurils-palmer-luckey-elon-shouldnt-sacrifice-the-existence-of-the-entire-starlink-network-heres-whats-at-stake-for-spacex?ref=yahoofinance&tlnk=yf-261124-2hmq638p"
+                "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
+                "published_at": "2026-11-25T19:02:30Z",
+                "url": "https://247wallst.com/investing/2026/11/25/ast-spacemobile-surges-9-erasing-early-losses-as-space-stocks-diverge-spacex-eases-rocket-lab-holds-steady/"
               },
               {
-                "title": "5 Best Affordable Growth Stocks to Buy for 2027",
-                "published_at": "2026-11-24T19:12:07Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-affordable-growth-stocks-191207351.html"
+                "title": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
+                "published_at": "2026-11-25T18:56:18Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-issued-10-million-185618601.html"
               },
               {
-                "title": "Three Reasons To Rethink AST SpaceMobile Stock Now",
-                "published_at": "2026-11-24T11:03:10Z",
-                "url": "https://www.trefis.com/stock/asts/articles/628365/three-reasons-to-rethink-ast-spacemobile-stock-now/2026-11-24"
+                "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
+                "published_at": "2026-11-25T15:12:28Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk"
               },
               {
-                "title": "Rocket Lab Sinks 13% in a Week. Its CFO Still Sees a “Very Strong Uplift” in Electron Prices",
-                "published_at": "2026-11-24T05:58:53Z",
-                "url": "https://www.tikr.com/blog/rocket-lab-sinks-13-in-a-week-its-cfo-still-sees-a-very-strong-uplift-in-electron-prices?ref=yahoofinance&tlnk=yf-261124-qmjfxw7f"
+                "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+                "published_at": "2026-11-25T14:17:18Z",
+                "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/"
               }
             ]
           }
@@ -285,144 +170,111 @@
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "AAOI": {
-      "asof": "2026-11-24",
-      "close": 38.400001525878906,
-      "change_pct": -0.7751918117475554,
-      "volume": 17357900,
-      "relative_volume_20d": 1.1516894096446415,
-      "ma20": 52.64500045776367,
-      "ma50": 78.84419998168946,
+      "asof": "2026-11-25",
+      "close": 37.02000045776367,
+      "change_pct": -3.593752638747194,
+      "volume": 12644600,
+      "relative_volume_20d": 0.8173208995791423,
+      "ma20": 50.3850004196167,
+      "ma50": 77.64980003356933,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "ADUR": {
-      "asof": "2026-11-24",
-      "close": 7.929999828338623,
-      "change_pct": -5.3699317417290615,
-      "volume": 188400,
-      "relative_volume_20d": 0.5654007172546254,
-      "ma20": 9.452500009536744,
-      "ma50": 10.589800033569336,
-      "alerts": [
-        {
-          "id": "62ee8e1f1dde2d509353ade7",
-          "ticker": "ADUR",
-          "category": "movement",
-          "date": "2026-11-24",
-          "title": "Variação diária -5.37%",
-          "source_url": "https://finance.yahoo.com/quote/ADUR/history/",
-          "relevance": "média",
-          "status": "confirmado",
-          "detected_at": "2026-11-25T05:26:39.012326+00:00",
-          "details": {
-            "change_pct": -5.3699317417290615,
-            "context": "Notícias próximas da sessão; relação causal não confirmada.",
-            "related_news": [
-              {
-                "title": "Top 3 Canadian Founder Led Stocks To Watch In November 2026",
-                "published_at": "2026-11-22T15:09:53Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-canadian-founder-led-150953636.html"
-              }
-            ]
-          }
-        }
-      ],
+      "asof": "2026-11-25",
+      "close": 8.109999656677246,
+      "change_pct": 2.2698591706821425,
+      "volume": 286500,
+      "relative_volume_20d": 0.859972985141828,
+      "ma20": 9.360500001907349,
+      "ma50": 10.506600017547607,
+      "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "LULU": {
-      "asof": "2026-11-24",
-      "close": 106.05000305175781,
-      "change_pct": 1.357168914857687,
-      "volume": 3087500,
-      "relative_volume_20d": 1.0440019341509517,
-      "ma20": 107.56749954223633,
-      "ma50": 101.77759994506836,
+      "asof": "2026-11-25",
+      "close": 107.44000244140625,
+      "change_pct": 1.3107018855718966,
+      "volume": 2253600,
+      "relative_volume_20d": 0.7676886732196357,
+      "ma20": 107.67849960327149,
+      "ma50": 102.00679992675781,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "SOFI": {
-      "asof": "2026-11-24",
-      "close": 12.859999656677246,
-      "change_pct": -1.7570702309363528,
-      "volume": 45053700,
-      "relative_volume_20d": 0.7511619754854538,
-      "ma20": 15.50750002861023,
-      "ma50": 15.622299957275391,
+      "asof": "2026-11-25",
+      "close": 13.069999694824219,
+      "change_pct": 1.6329707912389857,
+      "volume": 55078200,
+      "relative_volume_20d": 1.0164008876636401,
+      "ma20": 15.304000043869019,
+      "ma50": 15.546899948120117,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "UBER": {
-      "asof": "2026-11-24",
-      "close": 64.69999694824219,
-      "change_pct": 0.9832952339921208,
-      "volume": 16237000,
-      "relative_volume_20d": 0.8166734777278299,
-      "ma20": 67.64599952697753,
-      "ma50": 68.65919982910157,
+      "asof": "2026-11-25",
+      "close": 66.3499984741211,
+      "change_pct": 2.550234317937994,
+      "volume": 19832100,
+      "relative_volume_20d": 1.0089008393135623,
+      "ma20": 67.69999961853027,
+      "ma50": 68.56679977416992,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "SYF": {
-      "asof": "2026-11-24",
-      "close": 67.91000366210938,
-      "change_pct": -0.07356595502765462,
-      "volume": 2908000,
-      "relative_volume_20d": 0.57869610295537,
-      "ma20": 72.31497497558594,
-      "ma50": 72.60774505615234,
+      "asof": "2026-11-25",
+      "close": 68.7300033569336,
+      "change_pct": 1.207479974385195,
+      "volume": 2630700,
+      "relative_volume_20d": 0.5236510863864055,
+      "ma20": 72.00054969787598,
+      "ma50": 72.4915315246582,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "CROX": {
-      "asof": "2026-11-24",
-      "close": 159.24000549316406,
-      "change_pct": 0.925343342098417,
-      "volume": 771100,
-      "relative_volume_20d": 0.5281922891186634,
-      "ma20": 155.14349899291992,
-      "ma50": 134.19059951782228,
+      "asof": "2026-11-25",
+      "close": 159.92999267578125,
+      "change_pct": 0.433300149971938,
+      "volume": 702400,
+      "relative_volume_20d": 0.48585292296837873,
+      "ma20": 157.15549850463867,
+      "ma50": 135.08119934082032,
       "alerts": [],
       "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "PYPL": {
-      "asof": "2026-11-24",
-      "close": 56.16999816894531,
-      "change_pct": 1.6835562313913588,
-      "volume": 8978600,
-      "relative_volume_20d": 0.8367309471910626,
-      "ma20": 57.88449974060059,
-      "ma50": 56.023099670410154,
+      "asof": "2026-11-25",
+      "close": 57.810001373291016,
+      "change_pct": 2.9197138291031877,
+      "volume": 9450800,
+      "relative_volume_20d": 0.9251775799011661,
+      "ma20": 57.94749984741211,
+      "ma50": 56.125099716186526,
       "alerts": [],
-      "technical_alerts": [
-        {
-          "type": "ma50_cross",
-          "message": "Cruzou a média móvel de 50 sessões para cima"
-        }
-      ],
+      "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     },
     "DECK": {
-      "asof": "2026-11-24",
-      "close": 84.29000091552734,
-      "change_pct": 3.372577838021984,
-      "volume": 3083400,
-      "relative_volume_20d": 0.9145307891142541,
-      "ma20": 84.46749954223633,
-      "ma50": 82.65599960327148,
+      "asof": "2026-11-25",
+      "close": 85.55999755859375,
+      "change_pct": 1.506699050032223,
+      "volume": 2962900,
+      "relative_volume_20d": 0.8861234603346926,
+      "ma20": 84.70849952697753,
+      "ma50": 82.8079995727539,
       "alerts": [],
-      "technical_alerts": [
-        {
-          "type": "ma50_cross",
-          "message": "Cruzou a média móvel de 50 sessões para cima"
-        }
-      ],
+      "technical_alerts": [],
       "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
     }
   },

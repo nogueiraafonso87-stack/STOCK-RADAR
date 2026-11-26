@@ -1,6 +1,48 @@
 {
-  "generated_at_utc": "2026-11-25T05:26:41.510540+00:00",
+  "generated_at_utc": "2026-11-26T05:02:41.868895+00:00",
   "events": [
+    {
+      "id": "b3413567a2ff0c6a08436328",
+      "ticker": "ASTS",
+      "category": "movement",
+      "date": "2026-11-25",
+      "title": "Variação diária +10.25%",
+      "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-26T05:02:38.964420+00:00",
+      "details": {
+        "change_pct": 10.254237445665826,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
+            "published_at": "2026-11-26T00:22:41Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6"
+          },
+          {
+            "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
+            "published_at": "2026-11-25T19:02:30Z",
+            "url": "https://247wallst.com/investing/2026/11/25/ast-spacemobile-surges-9-erasing-early-losses-as-space-stocks-diverge-spacex-eases-rocket-lab-holds-steady/"
+          },
+          {
+            "title": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
+            "published_at": "2026-11-25T18:56:18Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-issued-10-million-185618601.html"
+          },
+          {
+            "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
+            "published_at": "2026-11-25T15:12:28Z",
+            "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk"
+          },
+          {
+            "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+            "published_at": "2026-11-25T14:17:18Z",
+            "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/"
+          }
+        ]
+      }
+    },
     {
       "id": "f3b15181e29f5d4fb92ebaf7",
       "ticker": "ASTS",

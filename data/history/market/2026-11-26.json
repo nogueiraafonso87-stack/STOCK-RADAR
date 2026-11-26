@@ -1,0 +1,282 @@
+{
+  "generated_at_utc": "2026-11-26T05:02:41.866423+00:00",
+  "stocks": {
+    "NFLX": {
+      "asof": "2026-11-25",
+      "close": 59.40999984741211,
+      "change_pct": 0.9172769242821843,
+      "volume": 45693600,
+      "relative_volume_20d": 1.1352954914753952,
+      "ma20": 61.68299961090088,
+      "ma50": 66.23920021057128,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SE": {
+      "asof": "2026-11-25",
+      "close": 66.87999725341797,
+      "change_pct": 2.9398122161435447,
+      "volume": 5461900,
+      "relative_volume_20d": 0.70002415909372,
+      "ma20": 72.44200000762939,
+      "ma50": 84.45580024719239,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "NKE": {
+      "asof": "2026-11-25",
+      "close": 36.65999984741211,
+      "change_pct": 2.545454118635271,
+      "volume": 27945300,
+      "relative_volume_20d": 1.0946166356440483,
+      "ma20": 37.48949966430664,
+      "ma50": 36.63579986572265,
+      "alerts": [],
+      "technical_alerts": [
+        {
+          "type": "ma50_cross",
+          "message": "Cruzou a média móvel de 50 sessões para cima"
+        }
+      ],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AEVA": {
+      "asof": "2026-11-25",
+      "close": 8.399999618530273,
+      "change_pct": 1.6949078180278576,
+      "volume": 1949600,
+      "relative_volume_20d": 1.0011888347108924,
+      "ma20": 9.973999977111816,
+      "ma50": 11.729699993133545,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "KULR": {
+      "asof": "2026-11-25",
+      "close": 1.3300000429153442,
+      "change_pct": 2.3076993614966845,
+      "volume": 616300,
+      "relative_volume_20d": 0.688653365886908,
+      "ma20": 1.6060000002384185,
+      "ma50": 1.9578000044822692,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "OKLO": {
+      "asof": "2026-11-25",
+      "close": 19.469999313354492,
+      "change_pct": 1.4062423941992863,
+      "volume": 11814700,
+      "relative_volume_20d": 1.0945263031122763,
+      "ma20": 22.87150020599365,
+      "ma50": 29.23860019683838,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "FIG": {
+      "asof": "2026-11-25",
+      "close": 17.110000610351562,
+      "change_pct": 0.9439518596479513,
+      "volume": 12282600,
+      "relative_volume_20d": 0.9977393153610393,
+      "ma20": 19.00300006866455,
+      "ma50": 20.901800003051758,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "RIVN": {
+      "asof": "2026-11-25",
+      "close": 11.710000038146973,
+      "change_pct": 3.1718030359275673,
+      "volume": 29290300,
+      "relative_volume_20d": 0.8647080791366588,
+      "ma20": 12.448000049591064,
+      "ma50": 13.249400062561035,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "BIDU": {
+      "asof": "2026-11-25",
+      "close": 63.4900016784668,
+      "change_pct": -0.03148581891809776,
+      "volume": 2950700,
+      "relative_volume_20d": 0.9919069509458699,
+      "ma20": 74.09400062561035,
+      "ma50": 80.26440017700196,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ASTS": {
+      "asof": "2026-11-25",
+      "close": 26.020000457763672,
+      "change_pct": 10.254237445665826,
+      "volume": 26439000,
+      "relative_volume_20d": 1.3754813261202805,
+      "ma20": 31.78700008392334,
+      "ma50": 44.044200057983396,
+      "alerts": [
+        {
+          "id": "b3413567a2ff0c6a08436328",
+          "ticker": "ASTS",
+          "category": "movement",
+          "date": "2026-11-25",
+          "title": "Variação diária +10.25%",
+          "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-26T05:02:38.964420+00:00",
+          "details": {
+            "change_pct": 10.254237445665826,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
+                "published_at": "2026-11-26T00:22:41Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6"
+              },
+              {
+                "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
+                "published_at": "2026-11-25T19:02:30Z",
+                "url": "https://247wallst.com/investing/2026/11/25/ast-spacemobile-surges-9-erasing-early-losses-as-space-stocks-diverge-spacex-eases-rocket-lab-holds-steady/"
+              },
+              {
+                "title": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
+                "published_at": "2026-11-25T18:56:18Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-issued-10-million-185618601.html"
+              },
+              {
+                "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
+                "published_at": "2026-11-25T15:12:28Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk"
+              },
+              {
+                "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
+                "published_at": "2026-11-25T14:17:18Z",
+                "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AAOI": {
+      "asof": "2026-11-25",
+      "close": 37.02000045776367,
+      "change_pct": -3.593752638747194,
+      "volume": 12644600,
+      "relative_volume_20d": 0.8173208995791423,
+      "ma20": 50.3850004196167,
+      "ma50": 77.64980003356933,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ADUR": {
+      "asof": "2026-11-25",
+      "close": 8.109999656677246,
+      "change_pct": 2.2698591706821425,
+      "volume": 286500,
+      "relative_volume_20d": 0.859972985141828,
+      "ma20": 9.360500001907349,
+      "ma50": 10.506600017547607,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "LULU": {
+      "asof": "2026-11-25",
+      "close": 107.44000244140625,
+      "change_pct": 1.3107018855718966,
+      "volume": 2253600,
+      "relative_volume_20d": 0.7676886732196357,
+      "ma20": 107.67849960327149,
+      "ma50": 102.00679992675781,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SOFI": {
+      "asof": "2026-11-25",
+      "close": 13.069999694824219,
+      "change_pct": 1.6329707912389857,
+      "volume": 55078200,
+      "relative_volume_20d": 1.0164008876636401,
+      "ma20": 15.304000043869019,
+      "ma50": 15.546899948120117,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "UBER": {
+      "asof": "2026-11-25",
+      "close": 66.3499984741211,
+      "change_pct": 2.550234317937994,
+      "volume": 19832100,
+      "relative_volume_20d": 1.0089008393135623,
+      "ma20": 67.69999961853027,
+      "ma50": 68.56679977416992,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SYF": {
+      "asof": "2026-11-25",
+      "close": 68.7300033569336,
+      "change_pct": 1.207479974385195,
+      "volume": 2630700,
+      "relative_volume_20d": 0.5236510863864055,
+      "ma20": 72.00054969787598,
+      "ma50": 72.4915315246582,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "CROX": {
+      "asof": "2026-11-25",
+      "close": 159.92999267578125,
+      "change_pct": 0.433300149971938,
+      "volume": 702400,
+      "relative_volume_20d": 0.48585292296837873,
+      "ma20": 157.15549850463867,
+      "ma50": 135.08119934082032,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "PYPL": {
+      "asof": "2026-11-25",
+      "close": 57.810001373291016,
+      "change_pct": 2.9197138291031877,
+      "volume": 9450800,
+      "relative_volume_20d": 0.9251775799011661,
+      "ma20": 57.94749984741211,
+      "ma50": 56.125099716186526,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "DECK": {
+      "asof": "2026-11-25",
+      "close": 85.55999755859375,
+      "change_pct": 1.506699050032223,
+      "volume": 2962900,
+      "relative_volume_20d": 0.8861234603346926,
+      "ma20": 84.70849952697753,
+      "ma50": 82.8079995727539,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    }
+  },
+  "errors": {}
+}
