@@ -1,6 +1,6 @@
 # STOCK-RADAR — Monitorização diária
 
-Execução UTC: 2026-11-26T05:02:41.873725+00:00
+Execução UTC: 2026-11-27T05:02:42.662860+00:00
 
 Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.
 
@@ -8,15 +8,15 @@ Dados de fecho Yahoo Finance; podem sofrer atrasos ou revisões.
 |---|---|---:|---:|---:|---|
 | NFLX | 2026-11-25 | 59.41 | +0.92% | 1.14× | Recolhido |
 | SE | 2026-11-25 | 66.88 | +2.94% | 0.70× | Recolhido |
-| NKE | 2026-11-25 | 36.66 | +2.55% | 1.09× | Recolhido |
+| NKE | 2026-11-25 | 36.66 | +2.55% | 1.10× | Recolhido |
 | AEVA | 2026-11-25 | 8.40 | +1.69% | 1.00× | Recolhido |
 | KULR | 2026-11-25 | 1.33 | +2.31% | 0.69× | Recolhido |
-| OKLO | 2026-11-25 | 19.47 | +1.41% | 1.09× | Recolhido |
+| OKLO | 2026-11-25 | 19.47 | +1.41% | 1.10× | Recolhido |
 | FIG | 2026-11-25 | 17.11 | +0.94% | 1.00× | Recolhido |
-| RIVN | 2026-11-25 | 11.71 | +3.17% | 0.86× | Recolhido |
+| RIVN | 2026-11-25 | 11.71 | +3.17% | 0.87× | Recolhido |
 | BIDU | 2026-11-25 | 63.49 | -0.03% | 0.99× | Recolhido |
-| ASTS | 2026-11-25 | 26.02 | +10.25% | 1.38× | Recolhido |
-| AAOI | 2026-11-25 | 37.02 | -3.59% | 0.82× | Recolhido |
+| ASTS | 2026-11-25 | 26.02 | +10.25% | 1.39× | Recolhido |
+| AAOI | 2026-11-25 | 37.02 | -3.59% | 0.83× | Recolhido |
 | ADUR | 2026-11-25 | 8.11 | +2.27% | 0.86× | Recolhido |
 | LULU | 2026-11-25 | 107.44 | +1.31% | 0.77× | Recolhido |
 | SOFI | 2026-11-25 | 13.07 | +1.63% | 1.02× | Recolhido |

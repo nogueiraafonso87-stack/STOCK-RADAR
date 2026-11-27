@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-26T05:02:41.866423+00:00",
+  "generated_at_utc": "2026-11-27T05:02:42.656501+00:00",
   "stocks": {
     "NFLX": {
       "asof": "2026-11-25",
       "close": 59.40999984741211,
       "change_pct": 0.9172769242821843,
-      "volume": 45693600,
-      "relative_volume_20d": 1.1352954914753952,
+      "volume": 45756500,
+      "relative_volume_20d": 1.136858294283968,
       "ma20": 61.68299961090088,
       "ma50": 66.23920021057128,
       "alerts": [],
@@ -29,8 +29,8 @@
       "asof": "2026-11-25",
       "close": 36.65999984741211,
       "change_pct": 2.545454118635271,
-      "volume": 27945300,
-      "relative_volume_20d": 1.0946166356440483,
+      "volume": 27974100,
+      "relative_volume_20d": 1.0957447308552841,
       "ma20": 37.48949966430664,
       "ma50": 36.63579986572265,
       "alerts": [],
@@ -70,8 +70,8 @@
       "asof": "2026-11-25",
       "close": 19.469999313354492,
       "change_pct": 1.4062423941992863,
-      "volume": 11814700,
-      "relative_volume_20d": 1.0945263031122763,
+      "volume": 11846000,
+      "relative_volume_20d": 1.097425968214853,
       "ma20": 22.87150020599365,
       "ma50": 29.23860019683838,
       "alerts": [],
@@ -94,8 +94,8 @@
       "asof": "2026-11-25",
       "close": 11.710000038146973,
       "change_pct": 3.1718030359275673,
-      "volume": 29290300,
-      "relative_volume_20d": 0.8647080791366588,
+      "volume": 29471100,
+      "relative_volume_20d": 0.8700456557646861,
       "ma20": 12.448000049591064,
       "ma50": 13.249400062561035,
       "alerts": [],
@@ -118,8 +118,8 @@
       "asof": "2026-11-25",
       "close": 26.020000457763672,
       "change_pct": 10.254237445665826,
-      "volume": 26439000,
-      "relative_volume_20d": 1.3754813261202805,
+      "volume": 26659000,
+      "relative_volume_20d": 1.3869267624736397,
       "ma20": 31.78700008392334,
       "ma50": 44.044200057983396,
       "alerts": [
@@ -132,35 +132,35 @@
           "source_url": "https://finance.yahoo.com/quote/ASTS/history/",
           "relevance": "alta",
           "status": "confirmado",
-          "detected_at": "2026-11-26T05:02:38.964420+00:00",
+          "detected_at": "2026-11-27T05:02:36.406880+00:00",
           "details": {
             "change_pct": 10.254237445665826,
             "context": "Notícias próximas da sessão; relação causal não confirmada.",
             "related_news": [
               {
-                "title": "SPCX Stock Rebounds From 9% Drop: SpaceX Pledges Shares To Trump Accounts And Wins FCC Starmind Nod",
-                "published_at": "2026-11-26T00:22:41Z",
-                "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-rebounds-from-9-drop-space-x-pledges-shares-to-trump-accounts-and-wins-fcc-starmind-nod/cNbx2umR9m6"
+                "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+                "published_at": "2026-11-26T15:08:35Z",
+                "url": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/"
               },
               {
-                "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
-                "published_at": "2026-11-25T19:02:30Z",
-                "url": "https://247wallst.com/investing/2026/11/25/ast-spacemobile-surges-9-erasing-early-losses-as-space-stocks-diverge-spacex-eases-rocket-lab-holds-steady/"
+                "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
+                "published_at": "2026-11-26T15:04:46Z",
+                "url": "https://247wallst.com/investing/2026/11/26/ast-spacemobile-is-still-down-64-in-2026-can-insider-buying-and-a-b-riley-upgrade-get-asts-stock-back-to-40/"
               },
               {
-                "title": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
-                "published_at": "2026-11-25T18:56:18Z",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-issued-10-million-185618601.html"
+                "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
+                "published_at": "2026-11-26T14:05:37Z",
+                "url": "https://www.tikr.com/blog/ast-spacemobile-is-down-80-from-its-may-high-jim-cramer-calls-it-a-very-hard-stock-to-own?ref=yahoofinance&tlnk=yf-261126-26mpx8wg"
               },
               {
-                "title": "Firefly Could Fill ‘Large Supply Gaps’ In Launch Market, Says Needham – Analyst Sees Over 100% Upside Potential In FLY Stock",
-                "published_at": "2026-11-25T15:12:28Z",
-                "url": "https://stocktwits.com/news-articles/markets/equity/firefly-could-fill-large-supply-gaps-in-launch-market-says-needham-analyst-sees-over-100-upside-potential-in-fly-stock/cNbHjilR9mk"
+                "title": "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving",
+                "published_at": "2026-11-26T08:25:59Z",
+                "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-million-satellite-nod-asts-leads-rklb-lunr-bksy-thanksgiving/cNbxLqbR9ZV"
               },
               {
-                "title": "SpaceX Slides 5% as Gary Black Warns a Tesla Bid Could Push It Below $100; Rocket Lab and AST SpaceMobile Drop 4%",
-                "published_at": "2026-11-25T14:17:18Z",
-                "url": "https://247wallst.com/investing/2026/11/25/spacex-slides-5-as-gary-black-warns-a-tesla-bid-could-push-it-below-100-rocket-lab-and-ast-spacemobile-drop-4/"
+                "title": "AT&T Is Up 10% in a Month. Steve Eisman Calls the Big Three Carriers “Uninvestable.” Who’s Right?",
+                "published_at": "2026-11-26T08:24:45Z",
+                "url": "https://www.tikr.com/blog/att-is-up-10-in-a-month-steve-eisman-calls-the-big-three-carriers-uninvestable-whos-right?ref=yahoofinance&tlnk=yf-261126-82p43rqx"
               }
             ]
           }
@@ -173,8 +173,8 @@
       "asof": "2026-11-25",
       "close": 37.02000045776367,
       "change_pct": -3.593752638747194,
-      "volume": 12644600,
-      "relative_volume_20d": 0.8173208995791423,
+      "volume": 12809100,
+      "relative_volume_20d": 0.8279538407540921,
       "ma20": 50.3850004196167,
       "ma50": 77.64980003356933,
       "alerts": [],
@@ -209,8 +209,8 @@
       "asof": "2026-11-25",
       "close": 13.069999694824219,
       "change_pct": 1.6329707912389857,
-      "volume": 55078200,
-      "relative_volume_20d": 1.0164008876636401,
+      "volume": 55301000,
+      "relative_volume_20d": 1.0205123894514883,
       "ma20": 15.304000043869019,
       "ma50": 15.546899948120117,
       "alerts": [],
@@ -221,8 +221,8 @@
       "asof": "2026-11-25",
       "close": 66.3499984741211,
       "change_pct": 2.550234317937994,
-      "volume": 19832100,
-      "relative_volume_20d": 1.0089008393135623,
+      "volume": 19842500,
+      "relative_volume_20d": 1.0094299092924783,
       "ma20": 67.69999961853027,
       "ma50": 68.56679977416992,
       "alerts": [],
