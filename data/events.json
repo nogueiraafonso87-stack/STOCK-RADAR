@@ -1,6 +1,122 @@
 {
-  "generated_at_utc": "2026-11-27T05:02:42.658551+00:00",
+  "generated_at_utc": "2026-11-28T04:44:46.483188+00:00",
   "events": [
+    {
+      "id": "f868089c0bf04ffe1ca525f5",
+      "ticker": "AEVA",
+      "category": "movement",
+      "date": "2026-11-27",
+      "title": "Variação diária +6.90%",
+      "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-28T04:44:41.496149+00:00",
+      "details": {
+        "change_pct": 6.904761310067009,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
+    {
+      "id": "f6654f55c1166d121aa46b0d",
+      "ticker": "OKLO",
+      "category": "movement",
+      "date": "2026-11-27",
+      "title": "Variação diária +7.09%",
+      "source_url": "https://finance.yahoo.com/quote/OKLO/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-28T04:44:42.434244+00:00",
+      "details": {
+        "change_pct": 7.087833162729962,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "NuScale Is Still Down 33% in a Month. Will SMR Stock Hit $2 or $5 First?",
+            "published_at": "2026-11-27T17:10:27Z",
+            "url": "https://247wallst.com/investing/2026/11/27/nuscale-is-still-down-33-in-a-month-will-smr-stock-hit-2-or-5-first/"
+          },
+          {
+            "title": "Should You Invest $2,000 in Oklo Right Now?",
+            "published_at": "2026-11-27T16:35:02Z",
+            "url": "https://www.fool.com/investing/2026/11/27/should-you-invest-2000-in-stock-right-now/"
+          },
+          {
+            "title": "NuScale Just Dropped 17% in a Week to a New 52-Week Low. Is It Time to Sell, or Load Up?",
+            "published_at": "2026-11-26T15:21:11Z",
+            "url": "https://www.tikr.com/blog/nuscale-just-dropped-17-in-a-week-to-a-new-52-week-low-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261126-g32xg4gv"
+          },
+          {
+            "title": "NuScale Power (SMR) Draws Fresh Investor Focus As AI Power Demand Lifts SMR Appeal",
+            "published_at": "2026-11-26T14:11:22Z",
+            "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-draws-fresh-141122724.html"
+          },
+          {
+            "title": "Energy Fuels vs. Centrus Energy: Which Uranium Stock Has The Edge Now?",
+            "published_at": "2026-11-26T13:16:00Z",
+            "url": "https://finance.yahoo.com/energy/articles/energy-fuels-vs-centrus-energy-131600993.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c17da11dd3f2c503694add66",
+      "ticker": "AAOI",
+      "category": "movement",
+      "date": "2026-11-27",
+      "title": "Variação diária +10.48%",
+      "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+      "relevance": "alta",
+      "status": "confirmado",
+      "detected_at": "2026-11-28T04:44:43.896243+00:00",
+      "details": {
+        "change_pct": 10.480823933381501,
+        "context": "Notícias próximas da sessão; relação causal não confirmada.",
+        "related_news": [
+          {
+            "title": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+            "published_at": "2026-11-27T17:06:38Z",
+            "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/"
+          },
+          {
+            "title": "Morgan Stanley’s 8 Best Networking & Optical Communications Stocks to Buy for 2027",
+            "published_at": "2026-11-27T04:02:54Z",
+            "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-8-best-networking-040254483.html"
+          },
+          {
+            "title": "Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?",
+            "published_at": "2026-11-26T16:20:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html"
+          },
+          {
+            "title": "Applied Optoelectronics (AAOI) Has the Orders. Does It Have the Parts?",
+            "published_at": "2026-11-26T14:48:05Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-orders-does-144805709.html"
+          },
+          {
+            "title": "3 AI Hardware Stocks With Up To 68% Revenue Growth",
+            "published_at": "2026-11-26T11:12:26Z",
+            "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-hardware-stocks-68-111226603.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba912cf8240bda403be38b76",
+      "ticker": "KULR",
+      "category": "movement",
+      "date": "2026-11-27",
+      "title": "Variação diária +6.02%",
+      "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+      "relevance": "média",
+      "status": "confirmado",
+      "detected_at": "2026-11-28T04:44:41.963132+00:00",
+      "details": {
+        "change_pct": 6.0150316635100065,
+        "context": "Sem notícia próxima disponível; causa não confirmada.",
+        "related_news": []
+      }
+    },
     {
       "id": "b3413567a2ff0c6a08436328",
       "ticker": "ASTS",

@@ -1,0 +1,354 @@
+{
+  "generated_at_utc": "2026-11-28T04:44:46.481272+00:00",
+  "stocks": {
+    "NFLX": {
+      "asof": "2026-11-27",
+      "close": 60.93000030517578,
+      "change_pct": 2.55849261347858,
+      "volume": 21680700,
+      "relative_volume_20d": 0.536102480296459,
+      "ma20": 61.62699966430664,
+      "ma50": 65.95160026550293,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SE": {
+      "asof": "2026-11-27",
+      "close": 69.11000061035156,
+      "change_pct": 3.334335299811375,
+      "volume": 3031400,
+      "relative_volume_20d": 0.39128268541202527,
+      "ma20": 72.06999988555908,
+      "ma50": 83.81260032653809,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "NKE": {
+      "asof": "2026-11-27",
+      "close": 37.31999969482422,
+      "change_pct": 1.800326923511153,
+      "volume": 17938800,
+      "relative_volume_20d": 0.6871789646347307,
+      "ma20": 37.434499740600586,
+      "ma50": 36.65499984741211,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AEVA": {
+      "asof": "2026-11-27",
+      "close": 8.979999542236328,
+      "change_pct": 6.904761310067009,
+      "volume": 741000,
+      "relative_volume_20d": 0.37008088339955003,
+      "ma20": 9.925999975204467,
+      "ma50": 11.604299983978272,
+      "alerts": [
+        {
+          "id": "f868089c0bf04ffe1ca525f5",
+          "ticker": "AEVA",
+          "category": "movement",
+          "date": "2026-11-27",
+          "title": "Variação diária +6.90%",
+          "source_url": "https://finance.yahoo.com/quote/AEVA/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-28T04:44:41.496149+00:00",
+          "details": {
+            "change_pct": 6.904761310067009,
+            "context": "Sem notícia próxima disponível; causa não confirmada.",
+            "related_news": []
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "KULR": {
+      "asof": "2026-11-27",
+      "close": 1.409999966621399,
+      "change_pct": 6.0150316635100065,
+      "volume": 278800,
+      "relative_volume_20d": 0.3078349969084003,
+      "ma20": 1.59099999666214,
+      "ma50": 1.9378000020980835,
+      "alerts": [
+        {
+          "id": "ba912cf8240bda403be38b76",
+          "ticker": "KULR",
+          "category": "movement",
+          "date": "2026-11-27",
+          "title": "Variação diária +6.02%",
+          "source_url": "https://finance.yahoo.com/quote/KULR/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-28T04:44:41.963132+00:00",
+          "details": {
+            "change_pct": 6.0150316635100065,
+            "context": "Sem notícia próxima disponível; causa não confirmada.",
+            "related_news": []
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "OKLO": {
+      "asof": "2026-11-27",
+      "close": 20.850000381469727,
+      "change_pct": 7.087833162729962,
+      "volume": 4450400,
+      "relative_volume_20d": 0.40339364054965376,
+      "ma20": 22.57350025177002,
+      "ma50": 28.862600173950195,
+      "alerts": [
+        {
+          "id": "f6654f55c1166d121aa46b0d",
+          "ticker": "OKLO",
+          "category": "movement",
+          "date": "2026-11-27",
+          "title": "Variação diária +7.09%",
+          "source_url": "https://finance.yahoo.com/quote/OKLO/history/",
+          "relevance": "média",
+          "status": "confirmado",
+          "detected_at": "2026-11-28T04:44:42.434244+00:00",
+          "details": {
+            "change_pct": 7.087833162729962,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "NuScale Is Still Down 33% in a Month. Will SMR Stock Hit $2 or $5 First?",
+                "published_at": "2026-11-27T17:10:27Z",
+                "url": "https://247wallst.com/investing/2026/11/27/nuscale-is-still-down-33-in-a-month-will-smr-stock-hit-2-or-5-first/"
+              },
+              {
+                "title": "Should You Invest $2,000 in Oklo Right Now?",
+                "published_at": "2026-11-27T16:35:02Z",
+                "url": "https://www.fool.com/investing/2026/11/27/should-you-invest-2000-in-stock-right-now/"
+              },
+              {
+                "title": "NuScale Just Dropped 17% in a Week to a New 52-Week Low. Is It Time to Sell, or Load Up?",
+                "published_at": "2026-11-26T15:21:11Z",
+                "url": "https://www.tikr.com/blog/nuscale-just-dropped-17-in-a-week-to-a-new-52-week-low-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261126-g32xg4gv"
+              },
+              {
+                "title": "NuScale Power (SMR) Draws Fresh Investor Focus As AI Power Demand Lifts SMR Appeal",
+                "published_at": "2026-11-26T14:11:22Z",
+                "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-draws-fresh-141122724.html"
+              },
+              {
+                "title": "Energy Fuels vs. Centrus Energy: Which Uranium Stock Has The Edge Now?",
+                "published_at": "2026-11-26T13:16:00Z",
+                "url": "https://finance.yahoo.com/energy/articles/energy-fuels-vs-centrus-energy-131600993.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "FIG": {
+      "asof": "2026-11-27",
+      "close": 17.729999542236328,
+      "change_pct": 3.6236055509528464,
+      "volume": 4385900,
+      "relative_volume_20d": 0.35077406388136434,
+      "ma20": 18.773500061035158,
+      "ma50": 20.790599975585938,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "RIVN": {
+      "asof": "2026-11-27",
+      "close": 12.180000305175781,
+      "change_pct": 4.013665802713207,
+      "volume": 15181400,
+      "relative_volume_20d": 0.4469929394583581,
+      "ma20": 12.484500074386597,
+      "ma50": 13.185000076293946,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "BIDU": {
+      "asof": "2026-11-27",
+      "close": 63.4900016784668,
+      "change_pct": 0.0,
+      "volume": 2480900,
+      "relative_volume_20d": 0.8176953640637901,
+      "ma20": 73.33600063323975,
+      "ma50": 79.73360023498535,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ASTS": {
+      "asof": "2026-11-27",
+      "close": 26.850000381469727,
+      "change_pct": 3.1898536091624186,
+      "volume": 12346700,
+      "relative_volume_20d": 0.6173777534094236,
+      "ma20": 30.976000118255616,
+      "ma50": 43.32700008392334,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "AAOI": {
+      "asof": "2026-11-27",
+      "close": 40.900001525878906,
+      "change_pct": 10.480823933381501,
+      "volume": 7221500,
+      "relative_volume_20d": 0.4656935135016618,
+      "ma20": 48.47050037384033,
+      "ma50": 76.50660011291504,
+      "alerts": [
+        {
+          "id": "c17da11dd3f2c503694add66",
+          "ticker": "AAOI",
+          "category": "movement",
+          "date": "2026-11-27",
+          "title": "Variação diária +10.48%",
+          "source_url": "https://finance.yahoo.com/quote/AAOI/history/",
+          "relevance": "alta",
+          "status": "confirmado",
+          "detected_at": "2026-11-28T04:44:43.896243+00:00",
+          "details": {
+            "change_pct": 10.480823933381501,
+            "context": "Notícias próximas da sessão; relação causal não confirmada.",
+            "related_news": [
+              {
+                "title": "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7%",
+                "published_at": "2026-11-27T17:06:38Z",
+                "url": "https://247wallst.com/investing/2026/11/27/coherent-jumps-12-as-optical-stocks-rebound-from-wednesdays-ai-selloff-applied-optoelectronics-and-lumentum-rise-7/"
+              },
+              {
+                "title": "Morgan Stanley’s 8 Best Networking & Optical Communications Stocks to Buy for 2027",
+                "published_at": "2026-11-27T04:02:54Z",
+                "url": "https://finance.yahoo.com/technology/articles/morgan-stanley-8-best-networking-040254483.html"
+              },
+              {
+                "title": "Lumentum Surges 55% in a Year: Should You Buy, Sell, or Hold the Stock?",
+                "published_at": "2026-11-26T16:20:00Z",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-surges-55-buy-sell-162000564.html"
+              },
+              {
+                "title": "Applied Optoelectronics (AAOI) Has the Orders. Does It Have the Parts?",
+                "published_at": "2026-11-26T14:48:05Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/applied-optoelectronics-aaoi-orders-does-144805709.html"
+              },
+              {
+                "title": "3 AI Hardware Stocks With Up To 68% Revenue Growth",
+                "published_at": "2026-11-26T11:12:26Z",
+                "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-hardware-stocks-68-111226603.html"
+              }
+            ]
+          }
+        }
+      ],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "ADUR": {
+      "asof": "2026-11-27",
+      "close": 8.229999542236328,
+      "change_pct": 1.479653398755465,
+      "volume": 114300,
+      "relative_volume_20d": 0.3368799552005659,
+      "ma20": 9.258499956130981,
+      "ma50": 10.418600006103516,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "LULU": {
+      "asof": "2026-11-27",
+      "close": 108.01000213623047,
+      "change_pct": 0.5305283710646647,
+      "volume": 1382000,
+      "relative_volume_20d": 0.480405737754781,
+      "ma20": 107.5879997253418,
+      "ma50": 102.17919998168945,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SOFI": {
+      "asof": "2026-11-27",
+      "close": 13.369999885559082,
+      "change_pct": 2.2953343361872047,
+      "volume": 22876300,
+      "relative_volume_20d": 0.4329471159837736,
+      "ma20": 15.092000007629395,
+      "ma50": 15.479699954986572,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "UBER": {
+      "asof": "2026-11-27",
+      "close": 66.62999725341797,
+      "change_pct": 0.42200269138827906,
+      "volume": 7942100,
+      "relative_volume_20d": 0.4024777764573736,
+      "ma20": 67.7444995880127,
+      "ma50": 68.48199966430664,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "SYF": {
+      "asof": "2026-11-27",
+      "close": 69.7699966430664,
+      "change_pct": 1.5131576245265732,
+      "volume": 1096800,
+      "relative_volume_20d": 0.21914392409084643,
+      "ma20": 71.65798912048339,
+      "ma50": 72.4054751586914,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "CROX": {
+      "asof": "2026-11-27",
+      "close": 162.02000427246094,
+      "change_pct": 1.306829045454072,
+      "volume": 436700,
+      "relative_volume_20d": 0.31208795920773824,
+      "ma20": 157.7434989929199,
+      "ma50": 135.86159942626952,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "PYPL": {
+      "asof": "2026-11-27",
+      "close": 59.13999938964844,
+      "change_pct": 2.3006365417107544,
+      "volume": 5571500,
+      "relative_volume_20d": 0.5504433976431162,
+      "ma20": 58.05699977874756,
+      "ma50": 56.24909973144531,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    },
+    "DECK": {
+      "asof": "2026-11-27",
+      "close": 86.94000244140625,
+      "change_pct": 1.612908978716887,
+      "volume": 1901200,
+      "relative_volume_20d": 0.5730061423654437,
+      "ma20": 84.91749954223633,
+      "ma50": 82.95259963989258,
+      "alerts": [],
+      "technical_alerts": [],
+      "data_source": "Yahoo Finance / yfinance; fecho ajustado; dados secundários"
+    }
+  },
+  "errors": {}
+}
